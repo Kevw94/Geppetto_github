@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 185f92ef8e54342d2904dde1c63c1869
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170222
+  packageName: XR Interaction ToolKit Starter Kit
+  packageVersion: 1.6.250208
+  assetPath: Assets/XRI Starter Kit/Assets/Official Unity Assets/XR Toolkit/Prefabs/Teleport/Blocking
+    Teleport Reticle.prefab
+  uploadId: 731461

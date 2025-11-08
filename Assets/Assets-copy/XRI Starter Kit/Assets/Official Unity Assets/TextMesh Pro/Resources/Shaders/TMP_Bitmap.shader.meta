@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 291f9b5c9699b458f91c5e797eda495d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170222
+  packageName: XR Interaction ToolKit Starter Kit
+  packageVersion: 1.6.250208
+  assetPath: Assets/XRI Starter Kit/Assets/Official Unity Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+  uploadId: 731461

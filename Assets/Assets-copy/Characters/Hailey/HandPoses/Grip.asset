@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce59126d74e508a4fa34e8fbdf0cf2fd, type: 3}
+  m_Name: Grip
+  m_EditorClassIdentifier: Assembly-CSharp::HandPoseSO
+  joints:
+  - name: Finger_01_1
+    rotation: {x: 0.01263693, y: -0.0040027956, z: 0.34557256, w: 0.93829846}
+  - name: Finger_02_1
+    rotation: {x: 0.052603308, y: 0.08794325, z: 0.60693425, w: 0.7881179}
+  - name: Finger_03_1
+    rotation: {x: 0.033935074, y: -0.034029122, z: 0.42126745, w: 0.9056623}
+  - name: Finger_04_1
+    rotation: {x: 0.056596417, y: 0.12958707, z: 0.1801022, w: 0.9734307}
+  - name: Finger_04_1_end
+    rotation: {x: 0.00000011920925, y: 0.02078107, z: 0.15670067, w: 0.9874275}
+  - name: IndexFinger_01_1
+    rotation: {x: 0.00028051925, y: 0.06579796, z: 0.004253831, w: 0.9978239}
+  - name: IndexFinger_02_1
+    rotation: {x: -0.0011544895, y: -0.010744135, z: 0.09832973, w: 0.99509525}
+  - name: IndexFinger_03_1
+    rotation: {x: -0.0069121756, y: -0.025718752, z: 0.057002928, w: 0.99801874}
+  - name: IndexFinger_04_1
+    rotation: {x: -0.0045197424, y: -0.028039886, z: -0.15906836, w: 0.98685896}
+  - name: IndexFinger_04_1_end
+    rotation: {x: 0, y: -0, z: -0, w: 1}
+  - name: Thumb_01_1
+    rotation: {x: 0.025480643, y: 0.2768443, z: 0.08803939, w: 0.9565339}
+  - name: Thumb_02_1
+    rotation: {x: -0.03994236, y: -0.117841795, z: 0.14163576, w: 0.9820679}
+  - name: Thumb_03_1
+    rotation: {x: -0.036403593, y: -0.1520348, z: -0.22999536, w: 0.96055317}
+  - name: Thumb_03_1_end
+    rotation: {x: 0, y: -0, z: -0, w: 1}

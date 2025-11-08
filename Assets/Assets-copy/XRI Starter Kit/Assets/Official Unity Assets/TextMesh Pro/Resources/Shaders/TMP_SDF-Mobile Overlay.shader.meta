@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a3870940a2bb9490eac0483fc66d8ab6
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170222
+  packageName: XR Interaction ToolKit Starter Kit
+  packageVersion: 1.6.250208
+  assetPath: Assets/XRI Starter Kit/Assets/Official Unity Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile
+    Overlay.shader
+  uploadId: 731461

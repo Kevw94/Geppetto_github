@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8bda63d930bd64b26b4baece1ab24312
+timeCreated: 1436653997
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170222
+  packageName: XR Interaction ToolKit Starter Kit
+  packageVersion: 1.6.250208
+  assetPath: Assets/XRI Starter Kit/Assets/Official Unity Assets/TextMesh Pro/Resources/TMP
+    Settings.asset
+  uploadId: 731461
