@@ -17,6 +17,7 @@ public class HaileyHealth : MonoBehaviour
     public float lowHealthThreshold = 20f;
     public float flashSpeed = 3f;
     public Color normalColor = Color.green;
+    public Color warningColor = new Color(1f, 0.65f, 0f);
     public Color flashColor = Color.red;
 
     private bool isFlashing = false;
@@ -29,6 +30,8 @@ public class HaileyHealth : MonoBehaviour
 
     void Update()
     {
+        UpdateHealthUI();
+
         if (currentHealth <= lowHealthThreshold && !isFlashing)
         {
             StartCoroutine(FlashEffect());
@@ -64,7 +67,7 @@ public class HaileyHealth : MonoBehaviour
             }
             else if (currentHealth > lowHealthThreshold)
             {
-                HP.color = new Color(1f, 0.65f, 0f);
+                HP.color = warningColor;
             }
         }
 
@@ -83,7 +86,7 @@ public class HaileyHealth : MonoBehaviour
             if (HP != null)
             {
                 float t = Mathf.Abs(Mathf.Sin(Time.time * flashSpeed));
-                HP.color = Color.Lerp(flashColor, normalColor, t);
+                HP.color = Color.Lerp(flashColor, warningColor, t);
             }
             yield return null;
         }
