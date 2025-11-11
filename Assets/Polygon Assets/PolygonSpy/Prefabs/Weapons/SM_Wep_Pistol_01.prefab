@@ -197,6 +197,7 @@ GameObject:
   - component: {fileID: 1995927795313134550}
   - component: {fileID: 5406842612579891003}
   - component: {fileID: 8234279835017633981}
+  - component: {fileID: 1463699311606728157}
   m_Layer: 0
   m_Name: SM_Wep_Pistol_01
   m_TagString: Untagged
@@ -349,7 +350,7 @@ MonoBehaviour:
   m_Colliders:
   - {fileID: 3404114628906660036}
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 33
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -608,6 +609,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1887aab64a7b4b8e9403afbd3ed8ad9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.IgnoreCharacterControllerCollider
+--- !u!114 &1463699311606728157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838375870172036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37174ab20474284ab7262a1de38e3e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FixSocketDetachPhysics
 --- !u!1 &1899432669162008
 GameObject:
   m_ObjectHideFlags: 0
