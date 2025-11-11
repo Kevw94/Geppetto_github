@@ -239,16 +239,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18ad55086cb948e4da109d5c7dd7daca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.XRHandPoser
-  leftHandPose: {fileID: 11400000, guid: 28a5fc5ba722b1b43ab3e581c64cab63, type: 2}
-  rightHandPose: {fileID: 11400000, guid: 28a5fc5ba722b1b43ab3e581c64cab63, type: 2}
-  LeftHandAnimationPose: {fileID: 11400000, guid: 808d128177ea46d46aa9c6667f10f5b4, type: 2}
-  RightHandAnimationPose: {fileID: 11400000, guid: 808d128177ea46d46aa9c6667f10f5b4, type: 2}
-  leftHandAttach: {fileID: 0}
-  rightHandAttach: {fileID: 0}
+  leftHandPose: {fileID: 11400000, guid: 117a4749de506764d8541f5b798718b3, type: 2}
+  rightHandPose: {fileID: 11400000, guid: 117a4749de506764d8541f5b798718b3, type: 2}
+  LeftHandAnimationPose: {fileID: 11400000, guid: 2d9204f6e7d08834fbc3553f9a6eddff, type: 2}
+  RightHandAnimationPose: {fileID: 11400000, guid: 2d9204f6e7d08834fbc3553f9a6eddff, type: 2}
+  leftHandAttach: {fileID: 6362164063421735971}
+  rightHandAttach: {fileID: 4538292115177883746}
   hasAnimationPose: 1
   currentLeftHand: {fileID: 0}
   currentRightHand: {fileID: 0}
-  grabAttachPoints: {fileID: 0}
+  grabAttachPoints: {fileID: 6093445418191900301}
   interactable: {fileID: 1848101052657739599}
   MaintainHandOnObject: 1
   WaitTillEaseInTimeToMaintainPosition: 1
@@ -1326,8 +1326,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582bc5533f653544db277b09b3e7688b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.XRHandPoserHoverActivate
-  leftHandPose: {fileID: 11400000, guid: 28a5fc5ba722b1b43ab3e581c64cab63, type: 2}
-  rightHandPose: {fileID: 11400000, guid: 28a5fc5ba722b1b43ab3e581c64cab63, type: 2}
+  leftHandPose: {fileID: 11400000, guid: 5d4faa71ac444bd46a263145f0ebceea, type: 2}
+  rightHandPose: {fileID: 11400000, guid: 5d4faa71ac444bd46a263145f0ebceea, type: 2}
   LeftHandAnimationPose: {fileID: 0}
   RightHandAnimationPose: {fileID: 0}
   leftHandAttach: {fileID: 1309282065832496721}
@@ -1439,7 +1439,7 @@ Transform:
   m_GameObject: {fileID: 2227918911140465260}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0329, z: 0.0491}
+  m_LocalPosition: {x: 0, y: 0.0239, z: 0.0446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1460,7 +1460,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2227918911140465260}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2538,13 +2538,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3765739299313466038}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0332, y: -0.0765, z: -0.0908}
+  m_LocalRotation: {x: 0.14997032, y: 0.14997032, z: 0.6910202, w: 0.6910202}
+  m_LocalPosition: {x: -0.0375, y: -0.0765, z: -0.0908}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7778767764524602570}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 24.49, z: 90}
 --- !u!1 &3950678683871384908
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,13 +2622,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4386971272981717249}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0332, y: -0.0765, z: -0.0908}
+  m_LocalRotation: {x: 0.14997199, y: -0.14997199, z: -0.6910199, w: 0.6910199}
+  m_LocalPosition: {x: 0.0375, y: -0.0765, z: -0.0908}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7778767764524602570}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -24.49, z: -90}
 --- !u!1 &4464482627380364172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2932,7 +2932,7 @@ Transform:
   m_GameObject: {fileID: 5426958779405726460}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0146, z: -0.0969}
+  m_LocalPosition: {x: 0, y: -0.0018, z: -0.0969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3703,7 +3703,7 @@ Transform:
   m_GameObject: {fileID: 8690571959528756690}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0253, y: -0.0408, z: -0.0969}
+  m_LocalPosition: {x: 0, y: -0.0018, z: -0.0969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
