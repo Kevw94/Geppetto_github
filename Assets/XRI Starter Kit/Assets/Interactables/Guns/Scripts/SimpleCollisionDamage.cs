@@ -1,4 +1,4 @@
-﻿// Author MikeNspired. 
+﻿// Author MikeNspired.
 
 using System;
 using UnityEngine;
@@ -12,7 +12,7 @@ namespace MikeNspired.XRIStarterKit
         [SerializeField] private GameObject fleshDecal = null;
         [SerializeField] private GameObject woodDecal = null;
         [SerializeField] private bool destroyOnCollision = true, triggerDamage = false;
-        
+
         private void OnCollisionEnter(Collision collision)
         {
             if (collision.rigidbody?.GetComponent<SimpleCollisionDamage>()) return;
@@ -20,21 +20,21 @@ namespace MikeNspired.XRIStarterKit
             var damageable = collision.transform.GetComponentInParent<IDamageable>();
             if (damageable != null)
                 Damage(damageable);
-            
+
             CheckForImpactDecalType(collision);
 
             if (destroyOnCollision)
                 Destroy(gameObject);
         }
-        
+
         private void OnTriggerEnter(Collider other)
         {
             if (!triggerDamage) return;
-            
+
             var damageable = other.transform.GetComponentInParent<IDamageable>();
             if (damageable != null)
                 Damage(damageable);
-            
+
             if (destroyOnCollision)
                 Destroy(gameObject);
         }
@@ -72,18 +72,22 @@ namespace MikeNspired.XRIStarterKit
                 SpawnDecal(collision, metalDecal, false);
         }
 
-        private static void SpawnDecal(Collision hit, GameObject decalPrefab, bool shouldReparent)
-        {
-            if (!decalPrefab) return;
-            
-            var spawnedDecal = Instantiate(decalPrefab, null, true);
-            
-            if(shouldReparent)
-                spawnedDecal.transform.SetParent(hit.transform);
-            
-            var contact = hit.contacts[0];
-            spawnedDecal.transform.position = contact.point;
-            spawnedDecal.transform.forward = contact.normal;
-        }
-    }
+		private static void SpawnDecal(Collision hit, GameObject decalPrefab, bool shouldReparent)
+		{
+			if (!decalPrefab || hit.contactCount == 0) return;
+
+			var contact = hit.contacts[0];
+
+			var spawnedDecal = GameObject.Instantiate(decalPrefab);
+
+			spawnedDecal.transform.position = contact.point - contact.normal * 0.01f;
+			spawnedDecal.transform.rotation = Quaternion.LookRotation(contact.normal);
+
+			if (shouldReparent)
+			{
+				spawnedDecal.transform.SetParent(hit.collider.transform, true);
+			}
+			GameObject.Destroy(spawnedDecal, 2f);
+		}
+	}
 }
