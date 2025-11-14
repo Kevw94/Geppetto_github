@@ -72,22 +72,18 @@ namespace MikeNspired.XRIStarterKit
                 SpawnDecal(collision, metalDecal, false);
         }
 
-		private static void SpawnDecal(Collision hit, GameObject decalPrefab, bool shouldReparent)
-		{
-			if (!decalPrefab || hit.contactCount == 0) return;
+        private static void SpawnDecal(Collision hit, GameObject decalPrefab, bool shouldReparent)
+        {
+            if (!decalPrefab) return;
 
-			var contact = hit.contacts[0];
+            var spawnedDecal = Instantiate(decalPrefab, null, true);
 
-			var spawnedDecal = GameObject.Instantiate(decalPrefab);
+            if(shouldReparent)
+                spawnedDecal.transform.SetParent(hit.transform);
 
-			spawnedDecal.transform.position = contact.point - contact.normal * 0.01f;
-			spawnedDecal.transform.rotation = Quaternion.LookRotation(contact.normal);
-
-			if (shouldReparent)
-			{
-				spawnedDecal.transform.SetParent(hit.collider.transform, true);
-			}
-			GameObject.Destroy(spawnedDecal, 2f);
-		}
-	}
+            var contact = hit.contacts[0];
+            spawnedDecal.transform.position = contact.point;
+            spawnedDecal.transform.forward = contact.normal;
+        }
+    }
 }

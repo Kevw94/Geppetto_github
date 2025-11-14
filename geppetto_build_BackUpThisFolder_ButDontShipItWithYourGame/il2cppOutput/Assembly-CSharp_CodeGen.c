@@ -53,6 +53,10 @@ extern void CopperBehaviour_StartAggression_mAB24898AD4106559E1954AE29679F0B0479
 extern void CopperBehaviour_StopAggression_m5D90081EC681BA90DFE352B5B604F1145879A313 (void);
 extern void CopperBehaviour_OnDrawGizmosSelected_m66A3FFF14E9CFB1A4ED0AFD939EA7B4B4D9BBA84 (void);
 extern void CopperBehaviour__ctor_m310A21F022BDC01C3F5863EAD7501801E0EF2174 (void);
+extern void cubeTestManager_Start_mA14DB3D51380D28373CA6DF42A5254A239D012C6 (void);
+extern void cubeTestManager_Update_mD93AF783D5FADA2B571EA635C6598A94D81FADDB (void);
+extern void cubeTestManager_OnCollisionEnter_m95EBFE17614C4FA2B3A1AD2772D62249397323A0 (void);
+extern void cubeTestManager__ctor_m38B7F9C0D55F022FD0F7A01D36E9BE66A2B82A6F (void);
 extern void HaileyHealth_Start_m864C7A2B4D1EE5EFC8C6FD37030F5C27C18EB912 (void);
 extern void HaileyHealth_Update_mC40D5C2AEA947B5CC610421A32318B7041F817AB (void);
 extern void HaileyHealth_TakeDamage_mF2D47545C56C658A95773D214501126C1A5B3E7F (void);
@@ -82,7 +86,7 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[75] = 
+static Il2CppMethodPointer s_methodPointers[79] = 
 {
 	HandPoseApplier_ApplyPose_m4818AC8EFEA337C01AA534C7AA77D876EFB03FE8,
 	HandPoseApplier_CapturePose_m8B4124CE5E05268CCA630BCA085EDBE27805D40F,
@@ -130,6 +134,10 @@ static Il2CppMethodPointer s_methodPointers[75] =
 	CopperBehaviour_StopAggression_m5D90081EC681BA90DFE352B5B604F1145879A313,
 	CopperBehaviour_OnDrawGizmosSelected_m66A3FFF14E9CFB1A4ED0AFD939EA7B4B4D9BBA84,
 	CopperBehaviour__ctor_m310A21F022BDC01C3F5863EAD7501801E0EF2174,
+	cubeTestManager_Start_mA14DB3D51380D28373CA6DF42A5254A239D012C6,
+	cubeTestManager_Update_mD93AF783D5FADA2B571EA635C6598A94D81FADDB,
+	cubeTestManager_OnCollisionEnter_m95EBFE17614C4FA2B3A1AD2772D62249397323A0,
+	cubeTestManager__ctor_m38B7F9C0D55F022FD0F7A01D36E9BE66A2B82A6F,
 	HaileyHealth_Start_m864C7A2B4D1EE5EFC8C6FD37030F5C27C18EB912,
 	HaileyHealth_Update_mC40D5C2AEA947B5CC610421A32318B7041F817AB,
 	HaileyHealth_TakeDamage_mF2D47545C56C658A95773D214501126C1A5B3E7F,
@@ -160,7 +168,7 @@ static Il2CppMethodPointer s_methodPointers[75] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[75] = 
+static const int32_t s_InvokerIndices[79] = 
 {
 	15286,
 	15286,
@@ -210,6 +218,10 @@ static const int32_t s_InvokerIndices[75] =
 	15286,
 	15286,
 	15286,
+	11430,
+	15286,
+	15286,
+	15286,
 	11522,
 	11522,
 	15286,
@@ -242,7 +254,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	75,
+	79,
 	s_methodPointers,
 	0,
 	NULL,

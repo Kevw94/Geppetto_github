@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1277569234665110449}
   - component: {fileID: 7790929883255341481}
   - component: {fileID: -3997425291790422499}
+  - component: {fileID: 9210278137833652578}
   m_Layer: 12
   m_Name: HandGun Bullet
   m_TagString: Untagged
@@ -98,6 +99,18 @@ MonoBehaviour:
   woodDecal: {fileID: 1000011190285628, guid: beb3acff7ab73944fb8f470f24d74ed3, type: 3}
   destroyOnCollision: 1
   triggerDamage: 0
+--- !u!114 &9210278137833652578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2624129111317718636}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb0355dc3e6a4fe6b8696a4bfb7a270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cubeTestManager
 --- !u!1 &2897808304556876308
 GameObject:
   m_ObjectHideFlags: 0

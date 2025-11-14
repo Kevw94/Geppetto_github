@@ -16,11 +16,11 @@ namespace MikeNspired.XRIStarterKit
         [Tooltip("Sound controller for NPCs.")] [SerializeField]
         private NPCSoundController soundController;
 
-        [Tooltip("Damage text prefab.")] [SerializeField]
-        private DamageText damageText;
+        // [Tooltip("Damage text prefab.")] [SerializeField]
+        // private DamageText damageText;
 
-        [Tooltip("Spawn point for damage text.")] [SerializeField]
-        private Transform damageTextSpawn;
+        // [Tooltip("Spawn point for damage text.")] [SerializeField]
+        // private Transform damageTextSpawn;
 
         [Header("Movement Settings")] [Tooltip("Maximum movement speed of the zombie.")] [SerializeField]
         private float maxSpeed = 1f;
@@ -245,7 +245,7 @@ namespace MikeNspired.XRIStarterKit
 
         #region Death & Damaged
 
-        
+
         public void Die()
         {
             if (isDead) return;
@@ -265,11 +265,8 @@ namespace MikeNspired.XRIStarterKit
         {
             if (isDead) return;
 
-            Instantiate(damageText, damageTextSpawn.position, Quaternion.identity, damageTextSpawn)
-                .SetText(x.ToString("f1"));
-
-
             if (UnityEngine.Random.value <= hitAnimationChance)
+				Debug.Log("Hit Animation Triggered");
                 animator.SetTrigger(Hit);
         }
 
@@ -303,7 +300,8 @@ namespace MikeNspired.XRIStarterKit
         }
 
         private IEnumerator AnimateAndDestroy()
-        {
+		{
+			// animator.SetTrigger("Hit");
             float duration = 2f;
             float elapsed = 0f;
 
