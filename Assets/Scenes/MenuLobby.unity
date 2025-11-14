@@ -142683,85 +142683,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2813094555675477715, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
+    - target: {fileID: 2514678426950311224, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+      propertyPath: hitAnimationChance
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2991506587841710153, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
       propertyPath: m_Name
       value: --ZOMBIE--
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2813094555675477715, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3344370420155960470, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6174816124031466799}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
---- !u!137 &6174816124031466790 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 3423735006992658096, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
-  m_PrefabInstance: {fileID: 6174816124031466789}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6174816124031466791 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3344370420155960470, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
-  m_PrefabInstance: {fileID: 6174816124031466789}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6174816124031466792 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4929758895890438704, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
-  m_PrefabInstance: {fileID: 6174816124031466789}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6174816124031466791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87a2b651f97114149b15e43d2c8ea6ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.NPCSoundController
---- !u!114 &6174816124031466793 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6574264277077880730, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
-  m_PrefabInstance: {fileID: 6174816124031466789}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6174816124031466791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da2853eae5655464db1654f9ef12c8a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.EnemyHealth
---- !u!95 &6174816124031466794 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3404219897205636078, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
-  m_PrefabInstance: {fileID: 6174816124031466789}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6174816124031466799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6174816124031466791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f46ec8e4824b4182bbfaf6c6b56ae328, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.Zombie
-  enemyHealth: {fileID: 6174816124031466793}
-  soundController: {fileID: 6174816124031466792}
-  maxSpeed: 0
-  timeToMaxSpeed: 2
-  emergeDuration: 1.1
-  sinkDuration: 5
-  sinkDistance: 2
-  startAnimationDelay: 0.2
-  animator: {fileID: 6174816124031466794}
-  mRenderer: {fileID: 6174816124031466790}
-  attackRange: 0.5
-  screamChance: 0.05
-  hitAnimationChance: 0.1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

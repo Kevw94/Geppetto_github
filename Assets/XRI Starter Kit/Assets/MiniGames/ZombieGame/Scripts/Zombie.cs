@@ -94,8 +94,8 @@ namespace MikeNspired.XRIStarterKit
             if (isEmerging || isSinking || isDead)
                 return;
 
-			if (isMenu)
-                return;
+			// if (isMenu)
+            //     return;
 
             if (!isAttacking)
                 ChasePlayer();

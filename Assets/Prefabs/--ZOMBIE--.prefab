@@ -1457,7 +1457,7 @@ MonoBehaviour:
   mRenderer: {fileID: 3423735006992658096}
   attackRange: 0.5
   screamChance: 0.05
-  hitAnimationChance: 0.1
+  hitAnimationChance: 1
 --- !u!1 &3345130782358008884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1797037014291906, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
