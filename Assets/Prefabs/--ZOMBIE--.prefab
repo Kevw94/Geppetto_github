@@ -865,7 +865,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6201881002539071772
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1310,7 +1310,7 @@ PrefabInstance:
       addedObject: {fileID: 4929758895890438704}
     - targetCorrespondingSourceObject: {fileID: 1055470696967520, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2813094555675477715}
+      addedObject: {fileID: 2514678426950311224}
     - targetCorrespondingSourceObject: {fileID: 1191111374297342, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5522903535280764348}
@@ -1394,7 +1394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2853eae5655464db1654f9ef12c8a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.EnemyHealth
-  maxHealth: 200
+  maxHealth: 60
   damageCooldown: 0.1
 --- !u!114 &4524444398527357146
 MonoBehaviour:
@@ -1432,7 +1432,7 @@ MonoBehaviour:
   enableRandomVocal: 1
   minTimeBetweenVocal: 5
   maxTimeBetweenVocal: 10
---- !u!114 &2813094555675477715
+--- !u!114 &2514678426950311224
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1441,21 +1441,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 3344370420155960470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fb5b6486ddf74fe3bb8ecb6cf993b62, type: 3}
+  m_Script: {fileID: 11500000, guid: f46ec8e4824b4182bbfaf6c6b56ae328, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZombieMenuStarter
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.Zombie
   enemyHealth: {fileID: 6574264277077880730}
   soundController: {fileID: 4929758895890438704}
-  maxSpeed: 1
+  isMenu: 1
+  maxSpeed: 0
   timeToMaxSpeed: 2
   emergeDuration: 1.1
   sinkDuration: 5
   sinkDistance: 2
-  startAnimationDelay: 0.4
+  startAnimationDelay: 0.2
   animator: {fileID: 3404219897205636078}
   mRenderer: {fileID: 3423735006992658096}
   attackRange: 0.5
-  screamChance: 1
+  screamChance: 0.05
   hitAnimationChance: 0.1
 --- !u!1 &3345130782358008884 stripped
 GameObject:
@@ -1802,7 +1803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed89121d39465b9f307f50edb98f6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.HitBox
-  damageMultiplier: 1
+  damageMultiplier: 3
 --- !u!135 &5798536475179635839
 SphereCollider:
   m_ObjectHideFlags: 0

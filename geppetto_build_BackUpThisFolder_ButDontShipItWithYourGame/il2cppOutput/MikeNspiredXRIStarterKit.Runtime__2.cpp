@@ -395,9 +395,9 @@ struct U3CTurnOffEngineU3Ed__13_tA0B09F52DFA343A30E0CDC9AC7DF652CD2E730F8;
 struct LogicalInputState_tC8869ADC07CFDF5E60D09DC140CC05EF0227843A;
 struct PressInfo_tA015FA1A5E0A4BF96BCD783082789298F1F08B5E;
 struct RaycastHitComparer_tFAAC0D68E449ACF3BDD05D50F8CC6BEFF2B33B33;
-struct U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474;
-struct U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067;
-struct U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE;
+struct U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF;
+struct U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D;
+struct U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B;
 struct U3CSpawnWaveU3Ed__30_tE5D1BD48763F0A271E57EC2899747057926E71AC;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var;
@@ -424,15 +424,15 @@ IL2CPP_EXTERN_C RuntimeClass* Predicate_1_t0729156EF7F8B2C367BA6C92C091D97CDEC0B
 IL2CPP_EXTERN_C RuntimeClass* PressInfo_tA015FA1A5E0A4BF96BCD783082789298F1F08B5E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CActivateAnotherTargetU3Ed__23_t02C7A1BC07E7C9418A1EC6F8B49B4B6D42116F18_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAnimatePinResetterU3Ed__23_t7B3AD4459BA1ABAE877FE4D0B6E5BDAC6E3E5990_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAnimateU3Ed__9_tC6D415023A55D7C9E25F98BA87BFD1EA6A9AE7B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CCheckGameOverU3Ed__24_t59D77D302AF29F088F752C7E7491AD693F18F172_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CMoveToPositionU3Ed__18_tAC6CA08661CEEA86F7D03AF6BFAF7DF8CEA149A8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRandomVocalRoutineU3Ed__18_tDE71A3C81D9FBAD002BBE91FEAC59C5C877FAF7F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRespawnBallU3Ed__19_t0CDB5F65B379FB3B7DC6CDC71F2AC47B70E30FAE_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CSpawnWaveU3Ed__30_tE5D1BD48763F0A271E57EC2899747057926E71AC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CTurnOffEngineU3Ed__13_tA0B09F52DFA343A30E0CDC9AC7DF652CD2E730F8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t236465FB0308A64942885E82214D7D5E7AD37F0F_il2cpp_TypeInfo_var;
@@ -553,15 +553,15 @@ IL2CPP_EXTERN_C const RuntimeMethod* TargetManager_TargetHit_m632EAE4478FCC552FE
 IL2CPP_EXTERN_C const RuntimeMethod* Target_TargetHit_m4A1A0AFF0C2B553AA2B5494C448C8E4EC91F9F95_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Target_U3CStartU3Eb__7_0_mB0D390F3BFEB8C1BD533B2D15031353009845167_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CActivateAnotherTargetU3Ed__23_System_Collections_IEnumerator_Reset_mE96BD9B94557A8FD0B264D99C2AA05552DFEE9A0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimateAndDestroyU3Ed__47_System_Collections_IEnumerator_Reset_m2023EBBDEDB35918E979FD6009865D7AEBDF1DA6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimateAndDestroyU3Ed__46_System_Collections_IEnumerator_Reset_mADEC46A2AF6E39CF69B432BD36AEBEED926A0530_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimatePinResetterU3Ed__23_System_Collections_IEnumerator_Reset_mD66FC8A6F23E6A171DF97D5B4BDF3F69A3EAAEA4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimateU3Ed__9_System_Collections_IEnumerator_Reset_m8B46DA067DC0C850D6829CCCD17810C34F6BD771_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CCheckGameOverU3Ed__24_System_Collections_IEnumerator_Reset_m10EA4BE43155DC1E611E09F2089433DC422EE43A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CEmergeRoutineU3Ed__38_System_Collections_IEnumerator_Reset_m49F1CADC82DBEBD0D038DCF221D7AF80A044F5ED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CEmergeRoutineU3Ed__37_System_Collections_IEnumerator_Reset_mA016602C38C10927F7144B0E952FDE866F9BA908_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CMoveToPositionU3Ed__18_System_Collections_IEnumerator_Reset_m5E10BFF41EFDBFC3297B4C3C5A42F90035F5F3AD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRandomVocalRoutineU3Ed__18_System_Collections_IEnumerator_Reset_m2E3CF3ACF6661DB41C7A8F73E0758923652219FF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRespawnBallU3Ed__19_System_Collections_IEnumerator_Reset_mEC23BE51A7D8E26839EDA8BD473120CAD77695C2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CSinkRoutineU3Ed__45_System_Collections_IEnumerator_Reset_m430339326458CB723321FD5A82619AC2827E89F2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CSinkRoutineU3Ed__44_System_Collections_IEnumerator_Reset_m433AB2CFE21CE7C92D8D02370793658D8BD7D1E4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CSpawnWaveU3Ed__30_System_Collections_IEnumerator_Reset_m2385826A0A32BF0286A814D0037F4D5E03942E92_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CTurnOffEngineU3Ed__13_System_Collections_IEnumerator_Reset_m0D01706ADB22F01689AC8FFE0D6C01A8DD825F1B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3COnValidateU3Eb__8_0_m47E6BABA491D6A5EA88ABEFD18E02C9F70185009_RuntimeMethod_var;
@@ -591,7 +591,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* XRPushButton_StartHover_mAB688BA7E3FC5184F7
 IL2CPP_EXTERN_C const RuntimeMethod* ZombieGame_GameOver_mDE5F35A0D6A4A10DC16116657FF618FA73254EAC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ZombieGame_HandleZombieDeath_m8924BC2D2CA0B7647FD1E392095933C5B245FCDF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Zombie_OnEnemyTakeDamage_mBA08AA4FCDFDACAFAA34CB3AB41219A0AF1621D6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Zombie_U3CStartU3Eb__35_0_m6018C6D184D64AB246EADFFA4C7A2F0F2AA7D247_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Zombie_U3CStartU3Eb__34_0_m7B1B27F0F7C536FBC16052AE08917793C3FC2F62_RuntimeMethod_var;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
@@ -861,7 +861,7 @@ struct PressInfo_tA015FA1A5E0A4BF96BCD783082789298F1F08B5E  : public RuntimeObje
 	bool ___m_InPressRegion;
 	bool ___m_WrongSide;
 };
-struct U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474  : public RuntimeObject
+struct U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -1773,7 +1773,7 @@ struct RotateMode_t044D456D90A580128488E248B4988660C2B17998
 {
 	int32_t ___value__;
 };
-struct U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067  : public RuntimeObject
+struct U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -1784,7 +1784,7 @@ struct U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067  : pub
 	float ___U3CtU3E5__4;
 	float ___U3CeaseOutTU3E5__5;
 };
-struct U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE  : public RuntimeObject
+struct U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -2813,7 +2813,6 @@ struct Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927  : public MonoBehaviour_
 	float ___sinkDuration;
 	float ___sinkDistance;
 	float ___startAnimationDelay;
-	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___spawnParticles;
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator;
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___mRenderer;
 	float ___attackRange;
@@ -4389,7 +4388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnemyHealth_add_OnTakeDamage_m9DD405BEA4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_ChasePlayer_mCDD899A73EFDD62CAF596F126B646E126ABE1A68 (Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Zombie_EmergeRoutine_m32D86F1755FB76FA23718E6048848A6DCA253D6C (Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__38__ctor_m1B959AC862CD2BB27E3B719D85FDDEFEF96F14BC (U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__37__ctor_m2EA89211BD3C24B2D8EEE0A32E66FF24983BEC96 (U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetTrigger_m2D9CACEFDE11FF9DB99207B5CBD251C1EC047939 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_id, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float EnemyHealth_get_MaxHealth_m4FFFCB516AD8097FDF54521A46FAEF3D907D351B_inline (EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* __this, const RuntimeMethod* method) ;
@@ -4409,9 +4408,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NPCSoundController_PlayDeath_mEE2CB887B7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NPCSoundController_SetRandomVocalEnabled_m91BCDA0C81F375F5AE6829E705F2E2A5D88241DE (NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* __this, bool ___0_enable, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Zombie_SinkRoutine_m23FBB0EA719DB6E8C15E86FD053A08148F15CC78 (Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__45__ctor_mD69BE8C082BEC7BCB42D1C0CBE948281B5BC792D (U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__44__ctor_m3DAF8A0D5D7316053E89794B449E23D1B82CE01F (U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Zombie_AnimateAndDestroy_mF0A5B897F7878C1E8D01FDA1F98AFCBD38EBD62B (Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__47__ctor_m62118A76A405768BF1585A33C247DC59A98F9B83 (U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__46__ctor_m7DD541FAB0A614588FA577B39E719AC6B8F29BB5 (U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A (String_t* ___0_name, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA (String_t* ___0_name, const RuntimeMethod* method) ;
@@ -13713,12 +13712,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_Start_m542662FCA13F07082AB1B92957
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindFirstObjectByType_TisXROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_m5DF86C6F6E4EA017A319E7149E3E5B6A1CF6B917_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Zombie_OnEnemyTakeDamage_mBA08AA4FCDFDACAFAA34CB3AB41219A0AF1621D6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Zombie_U3CStartU3Eb__35_0_m6018C6D184D64AB246EADFFA4C7A2F0F2AA7D247_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Zombie_U3CStartU3Eb__34_0_m7B1B27F0F7C536FBC16052AE08917793C3FC2F62_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:89>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:86>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_0;
 		L_0 = Object_FindFirstObjectByType_TisXROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_m5DF86C6F6E4EA017A319E7149E3E5B6A1CF6B917(Object_FindFirstObjectByType_TisXROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_m5DF86C6F6E4EA017A319E7149E3E5B6A1CF6B917_RuntimeMethod_var);
@@ -13727,7 +13726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_Start_m542662FCA13F07082AB1B92957
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		__this->___player = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)L_1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:91>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:88>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_2 = __this->___enemyHealth;
 		bool L_3;
 		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -13739,13 +13738,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_Start_m542662FCA13F07082AB1B92957
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:93>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:90>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_5 = __this->___enemyHealth;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_6 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
-		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_6, __this, (intptr_t)((void*)Zombie_U3CStartU3Eb__35_0_m6018C6D184D64AB246EADFFA4C7A2F0F2AA7D247_RuntimeMethod_var), NULL);
+		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_6, __this, (intptr_t)((void*)Zombie_U3CStartU3Eb__34_0_m7B1B27F0F7C536FBC16052AE08917793C3FC2F62_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		EnemyHealth_add_OnTakeDamage_m9DD405BEA4E12DDA56FF17606D8E41F3714ABF22(L_5, L_6, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:94>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:91>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_7 = __this->___enemyHealth;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_8 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_8, __this, (intptr_t)((void*)Zombie_OnEnemyTakeDamage_mBA08AA4FCDFDACAFAA34CB3AB41219A0AF1621D6_RuntimeMethod_var), NULL);
@@ -13755,7 +13754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_Start_m542662FCA13F07082AB1B92957
 
 IL_0053:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:96>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:93>
 		return;
 	}
 }
@@ -13766,7 +13765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_Update_m0FDEE0C0FACFE9B1EDC0B46C6
 	bool V_1 = false;
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:100>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:97>
 		bool L_0 = __this->___isEmerging;
 		if (L_0)
 		{
@@ -13801,13 +13800,13 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:101>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:98>
 		goto IL_0034;
 	}
 
 IL_0020:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:103>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:100>
 		bool L_4 = __this->___isAttacking;
 		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		bool L_5 = V_1;
@@ -13817,13 +13816,13 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:104>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:101>
 		Zombie_ChasePlayer_mCDD899A73EFDD62CAF596F126B646E126ABE1A68(__this, NULL);
 	}
 
 IL_0034:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:105>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:102>
 		return;
 	}
 }
@@ -13833,46 +13832,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_Initialize_m740D7433531FA9A015C27
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:116>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:113>
 		float L_0 = ___0_speed;
 		__this->___maxSpeed = L_0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:117>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:114>
 		float L_1 = ___1_timeToSpeed;
 		__this->___timeToMaxSpeed = L_1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:119>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:116>
 		float L_2;
 		L_2 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
 		float L_3 = __this->___screamChance;
 		__this->___willScream = (bool)((((int32_t)((!(((float)L_2) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:120>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:117>
 		__this->___hasScreamed = (bool)0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:121>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:118>
 		__this->___isAttacking = (bool)0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:123>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:120>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:124>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:121>
 		float* L_6 = (float*)(&(&V_0)->___y);
 		float* L_7 = L_6;
 		float L_8 = *((float*)L_7);
 		float L_9 = __this->___sinkDistance;
 		*((float*)L_7) = (float)((float)il2cpp_codegen_subtract(L_8, L_9));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:125>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:122>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
 		NullCheck(L_10);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_11, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:127>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:124>
 		RuntimeObject* L_12;
 		L_12 = Zombie_EmergeRoutine_m32D86F1755FB76FA23718E6048848A6DCA253D6C(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_13;
 		L_13 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_12, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:128>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:125>
 		return;
 	}
 }
@@ -13882,13 +13881,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Zombie_EmergeRoutine_m32D86F17
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067* L_0 = (U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067*)il2cpp_codegen_object_new(U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067_il2cpp_TypeInfo_var);
-		U3CEmergeRoutineU3Ed__38__ctor_m1B959AC862CD2BB27E3B719D85FDDEFEF96F14BC(L_0, 0, NULL);
-		U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067* L_1 = L_0;
+		U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D* L_0 = (U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D*)il2cpp_codegen_object_new(U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D_il2cpp_TypeInfo_var);
+		U3CEmergeRoutineU3Ed__37__ctor_m2EA89211BD3C24B2D8EEE0A32E66FF24983BEC96(L_0, 0, NULL);
+		U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
@@ -13919,7 +13918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_ChasePlayer_mCDD899A73EFDD62CAF59
 	bool V_9 = false;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:175>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:169>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13932,25 +13931,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_ChasePlayer_mCDD899A73EFDD62CAF59
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:175>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:169>
 		goto IL_01a7;
 	}
 
 IL_001a:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:177>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:171>
 		float L_3 = __this->___accelerateTimer;
 		float L_4;
 		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___accelerateTimer = ((float)il2cpp_codegen_add(L_3, L_4));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:178>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:172>
 		float L_5 = __this->___accelerateTimer;
 		float L_6 = __this->___timeToMaxSpeed;
 		float L_7 = __this->___maxSpeed;
 		float L_8;
 		L_8 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)(L_5/L_6)), (0.0f), L_7, NULL);
 		V_0 = L_8;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:180>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:174>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___player;
 		NullCheck(L_9);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
@@ -13963,17 +13962,17 @@ IL_001a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_10, L_12, NULL);
 		V_1 = L_13;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:181>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:175>
 		float L_14;
 		L_14 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_1), NULL);
 		V_2 = L_14;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:183>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:177>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_1;
 		float L_16 = L_15.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
 		float L_18 = L_17.___z;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_3), L_16, (0.0f), L_18, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:185>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:179>
 		bool L_19 = __this->___willScream;
 		if (!L_19)
 		{
@@ -14016,18 +14015,18 @@ IL_00b8:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:187>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:181>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_25 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var);
 		int32_t L_26 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Scream;
 		NullCheck(L_25);
 		Animator_SetTrigger_m2D9CACEFDE11FF9DB99207B5CBD251C1EC047939(L_25, L_26, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:188>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:182>
 		__this->___hasScreamed = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:189>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:183>
 		float L_27 = __this->___maxSpeed;
 		__this->___maxSpeed = ((float)il2cpp_codegen_add(L_27, (0.400000006f)));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:190>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:184>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_28 = __this->___enemyHealth;
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_29 = __this->___enemyHealth;
 		NullCheck(L_29);
@@ -14035,7 +14034,7 @@ IL_00b8:
 		L_30 = EnemyHealth_get_MaxHealth_m4FFFCB516AD8097FDF54521A46FAEF3D907D351B_inline(L_29, NULL);
 		NullCheck(L_28);
 		EnemyHealth_SetMaxHealth_m891FF16F569DA41B9AE60AC7FF6E0AEA6688762D(L_28, ((float)il2cpp_codegen_multiply(L_30, (2.0f))), NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:191>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:185>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_31 = __this->___enemyHealth;
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_32 = __this->___enemyHealth;
 		NullCheck(L_32);
@@ -14047,7 +14046,7 @@ IL_00b8:
 
 IL_0124:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:194>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:188>
 		float L_34 = V_2;
 		float L_35 = __this->___attackRange;
 		V_6 = (bool)((((int32_t)((!(((float)L_34) <= ((float)L_35)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -14058,9 +14057,9 @@ IL_0124:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:196>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:190>
 		V_0 = (0.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:197>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:191>
 		bool L_37 = __this->___isAttacking;
 		V_7 = (bool)((((int32_t)L_37) == ((int32_t)0))? 1 : 0);
 		bool L_38 = V_7;
@@ -14070,7 +14069,7 @@ IL_0124:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:198>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:192>
 		Zombie_AttemptAttack_mD3A507A5D3649F7B351AAAFDF7DE6AD1830FD23B(__this, NULL);
 	}
 
@@ -14080,7 +14079,7 @@ IL_0153:
 
 IL_0154:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:201>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:195>
 		float L_39;
 		L_39 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_3), NULL);
 		bool L_40 = __this->___isAttacking;
@@ -14092,7 +14091,7 @@ IL_0154:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:202>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:196>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
 		L_42 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_3;
@@ -14104,7 +14103,7 @@ IL_0154:
 
 IL_0184:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:204>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:198>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_45 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_46;
@@ -14117,7 +14116,7 @@ IL_0184:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:205>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:199>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_48 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var);
 		int32_t L_49 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Speed;
@@ -14128,7 +14127,7 @@ IL_0184:
 
 IL_01a7:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:206>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:200>
 		return;
 	}
 }
@@ -14146,7 +14145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_FacePlayerInstantly_m282223512F1E
 	bool V_1 = false;
 	bool V_2 = false;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:210>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:204>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14159,13 +14158,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_FacePlayerInstantly_m282223512F1E
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:210>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:204>
 		goto IL_0061;
 	}
 
 IL_0015:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:212>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:206>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___player;
 		NullCheck(L_3);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
@@ -14178,9 +14177,9 @@ IL_0015:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_4, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:213>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:207>
 		(&V_0)->___y = (0.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:215>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:209>
 		float L_8;
 		L_8 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_0), NULL);
 		V_2 = (bool)((((float)L_8) > ((float)(0.00100000005f)))? 1 : 0);
@@ -14191,7 +14190,7 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:216>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:210>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
@@ -14203,7 +14202,7 @@ IL_0015:
 
 IL_0061:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:217>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:211>
 		return;
 	}
 }
@@ -14218,7 +14217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_AttemptAttack_mD3A507A5D3649F7B35
 	}
 	bool V_0 = false;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:225>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:219>
 		bool L_0 = __this->___isDead;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -14228,15 +14227,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_AttemptAttack_mD3A507A5D3649F7B35
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:225>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:219>
 		goto IL_0025;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:227>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:221>
 		__this->___isAttacking = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:228>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:222>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_2 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var);
 		int32_t L_3 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Attack;
@@ -14246,7 +14245,7 @@ IL_000d:
 
 IL_0025:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:229>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:223>
 		return;
 	}
 }
@@ -14265,7 +14264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_AttackCompleted_mA3AB5A0DE9305DB7
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B6_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B5_0 = NULL;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:237>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:231>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14307,7 +14306,7 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:238>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:232>
 		il2cpp_codegen_runtime_class_init_inline(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___OnZombieAttacked;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = L_9;
@@ -14330,11 +14329,11 @@ IL_004c:
 
 IL_0052:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:240>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:234>
 		__this->___isAttacking = (bool)0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:241>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:235>
 		__this->___accelerateTimer = (0.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:242>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:236>
 		return;
 	}
 }
@@ -14359,7 +14358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_Die_mA643F90D491302886D2B3A93B976
 	String_t* G_B9_0 = NULL;
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* G_B9_1 = NULL;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:251>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:245>
 		bool L_0 = __this->___isDead;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -14369,15 +14368,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_Die_mA643F90D491302886D2B3A93B976
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:251>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:245>
 		goto IL_007c;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:253>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:247>
 		__this->___isDead = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:254>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:248>
 		il2cpp_codegen_runtime_class_init_inline(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var);
 		Action_1_t7F6A6905164FD01166D260315B023017F5D4B93F* L_2 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___OnZombieDied;
 		Action_1_t7F6A6905164FD01166D260315B023017F5D4B93F* L_3 = L_2;
@@ -14400,7 +14399,7 @@ IL_001f:
 
 IL_0026:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:256>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:250>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_4 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -14413,7 +14412,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:257>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:251>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_7 = __this->___animator;
 		int32_t L_8;
 		L_8 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, 2, NULL);
@@ -14444,15 +14443,15 @@ IL_0050:
 
 IL_0056:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:259>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:253>
 		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_9 = __this->___soundController;
 		NullCheck(L_9);
 		NPCSoundController_PlayDeath_mEE2CB887B7778D332EA75874A65C6C01D0B5A4D4(L_9, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:260>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:254>
 		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_10 = __this->___soundController;
 		NullCheck(L_10);
 		NPCSoundController_SetRandomVocalEnabled_m91BCDA0C81F375F5AE6829E705F2E2A5D88241DE(L_10, (bool)0, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:261>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:255>
 		RuntimeObject* L_11;
 		L_11 = Zombie_SinkRoutine_m23FBB0EA719DB6E8C15E86FD053A08148F15CC78(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12;
@@ -14461,7 +14460,7 @@ IL_0056:
 
 IL_007c:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:262>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:256>
 		return;
 	}
 }
@@ -14479,7 +14478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_OnEnemyTakeDamage_mBA08AA4FCDFDAC
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:266>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:260>
 		bool L_0 = __this->___isDead;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -14489,13 +14488,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_OnEnemyTakeDamage_mBA08AA4FCDFDAC
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:266>
-		goto IL_003d;
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:260>
+		goto IL_003f;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:268>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:262>
 		float L_2;
 		L_2 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
 		float L_3 = __this->___hitAnimationChance;
@@ -14503,18 +14502,14 @@ IL_000d:
 		bool L_4 = V_1;
 		if (!L_4)
 		{
-			goto IL_002c;
+			goto IL_003f;
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:269>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:264>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral215AC917155D7392287D3D3BB716C0770DF76369, NULL);
-	}
-
-IL_002c:
-	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:270>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:265>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var);
 		int32_t L_6 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Hit;
@@ -14522,9 +14517,9 @@ IL_002c:
 		Animator_SetTrigger_m2D9CACEFDE11FF9DB99207B5CBD251C1EC047939(L_5, L_6, NULL);
 	}
 
-IL_003d:
+IL_003f:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:271>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:267>
 		return;
 	}
 }
@@ -14534,13 +14529,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Zombie_SinkRoutine_m23FBB0EA71
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE* L_0 = (U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE*)il2cpp_codegen_object_new(U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE_il2cpp_TypeInfo_var);
-		U3CSinkRoutineU3Ed__45__ctor_mD69BE8C082BEC7BCB42D1C0CBE948281B5BC792D(L_0, 0, NULL);
-		U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE* L_1 = L_0;
+		U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B* L_0 = (U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B*)il2cpp_codegen_object_new(U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B_il2cpp_TypeInfo_var);
+		U3CSinkRoutineU3Ed__44__ctor_m3DAF8A0D5D7316053E89794B449E23D1B82CE01F(L_0, 0, NULL);
+		U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
@@ -14551,14 +14546,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Zombie_SinkRoutine_m23FBB0EA71
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_FadeAndDestroy_mC49D7DE24AAB26437F27DFC94DD9834C019FAAAA (Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:298>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:294>
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:299>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:295>
 		RuntimeObject* L_0;
 		L_0 = Zombie_AnimateAndDestroy_mF0A5B897F7878C1E8D01FDA1F98AFCBD38EBD62B(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:300>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:296>
 		return;
 	}
 }
@@ -14568,13 +14563,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Zombie_AnimateAndDestroy_mF0A5
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474* L_0 = (U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474*)il2cpp_codegen_object_new(U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474_il2cpp_TypeInfo_var);
-		U3CAnimateAndDestroyU3Ed__47__ctor_m62118A76A405768BF1585A33C247DC59A98F9B83(L_0, 0, NULL);
-		U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474* L_1 = L_0;
+		U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF* L_0 = (U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF*)il2cpp_codegen_object_new(U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF_il2cpp_TypeInfo_var);
+		U3CAnimateAndDestroyU3Ed__46__ctor_m7DD541FAB0A614588FA577B39E719AC6B8F29BB5(L_0, 0, NULL);
+		U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
@@ -14591,21 +14586,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_DestroyZombie_m6D684301EB88ADC4B0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:321>
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = __this->___spawnParticles;
-		NullCheck(L_0);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
-		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
-		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_1);
-		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_1, L_2, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:322>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:317>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_3, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:323>
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:318>
 		return;
 	}
 }
@@ -14625,11 +14611,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie__ctor_m55F34D339BCCDDF7082C6F7D54
 		__this->___sinkDistance = (2.0f);
 		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:41>
 		__this->___startAnimationDelay = (1.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:53>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:50>
 		__this->___attackRange = (0.5f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:56>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:53>
 		__this->___screamChance = (0.0500000007f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:59>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:56>
 		__this->___hitAnimationChance = (0.100000001f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -14651,27 +14637,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie__cctor_m077E495EFB240BE0AD8A27B6B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:73>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:70>
 		int32_t L_0;
 		L_0 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral5D2E3D85D1C3D4F42FAE33FB35C01C48241E0B32, NULL);
 		((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Speed = L_0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:74>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:71>
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral8D2138AC607E38D06393E6A1BBFA0894446405C4, NULL);
 		((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Scream = L_1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:75>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:72>
 		int32_t L_2;
 		L_2 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral8964425D5AFA567D9602F7E19CD9E3B473DEBE0C, NULL);
 		((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Hit = L_2;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:76>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:73>
 		int32_t L_3;
 		L_3 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral508450355DF2A5BB172C6D21A5C54D7806587D91, NULL);
 		((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Attack = L_3;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:77>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:74>
 		int32_t L_4;
 		L_4 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE, NULL);
 		((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Start1 = L_4;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:78>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:75>
 		int32_t L_5;
 		L_5 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral4C5BB76374066548CBB93FADE3D077FC26D27E83, NULL);
 		((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___DissolveAmountHash = L_5;
@@ -14679,10 +14665,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie__cctor_m077E495EFB240BE0AD8A27B6B
 	}
 }
 // Method Definition Index: 70177
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_U3CStartU3Eb__35_0_m6018C6D184D64AB246EADFFA4C7A2F0F2AA7D247 (Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* __this, float ___0__, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_U3CStartU3Eb__34_0_m7B1B27F0F7C536FBC16052AE08917793C3FC2F62 (Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* __this, float ___0__, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:93>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:90>
 		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_0 = __this->___soundController;
 		NullCheck(L_0);
 		NPCSoundController_PlayImpact_m09B23734781F0A87326278DF2FC837252301B236(L_0, NULL);
@@ -14698,7 +14684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Zombie_U3CStartU3Eb__35_0_m6018C6D184D64
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 70178
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__47__ctor_m62118A76A405768BF1585A33C247DC59A98F9B83 (U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__46__ctor_m7DD541FAB0A614588FA577B39E719AC6B8F29BB5 (U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -14708,14 +14694,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__47__ctor_m6211
 	}
 }
 // Method Definition Index: 70179
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__47_System_IDisposable_Dispose_m1E5D1EF7C8480FC3E6421FC799F233FEBC79218F (U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__46_System_IDisposable_Dispose_m83D5BA0DDE6D79D9598F85B77BEEBACE430513DA (U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
 // Method Definition Index: 70180
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateAndDestroyU3Ed__47_MoveNext_m033B2580090BE64114314FDD355B161085EF5674 (U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateAndDestroyU3Ed__46_MoveNext_mAC408AA9B0F2AF33D01AAC90FE93FB1155CB7673 (U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14768,20 +14754,20 @@ IL_0019:
 IL_001b:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:304>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:300>
 		__this->___U3CdurationU3E5__1 = (2.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:305>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:301>
 		__this->___U3CelapsedU3E5__2 = (0.0f);
 		goto IL_00a9;
 	}
 
 IL_003b:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:309>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:305>
 		float L_3 = __this->___U3CelapsedU3E5__2;
 		float L_4 = __this->___U3CdurationU3E5__1;
 		__this->___U3CtU3E5__3 = ((float)(L_3/L_4));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:310>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:306>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_5 = __this->___U3CU3E4__this;
 		NullCheck(L_5);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_6 = L_5->___mRenderer;
@@ -14795,12 +14781,12 @@ IL_003b:
 		L_10 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.0f), (1.0f), L_9, NULL);
 		NullCheck(L_7);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_7, L_8, L_10, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:311>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:307>
 		float L_11 = __this->___U3CelapsedU3E5__2;
 		float L_12;
 		L_12 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedU3E5__2 = ((float)il2cpp_codegen_add(L_11, L_12));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:312>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:308>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -14814,7 +14800,7 @@ IL_00a1:
 
 IL_00a9:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:307>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:303>
 		float L_13 = __this->___U3CelapsedU3E5__2;
 		float L_14 = __this->___U3CdurationU3E5__1;
 		V_1 = (bool)((((float)L_13) < ((float)L_14))? 1 : 0);
@@ -14825,7 +14811,7 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:315>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:311>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_16 = __this->___U3CU3E4__this;
 		NullCheck(L_16);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_17 = L_16->___mRenderer;
@@ -14836,16 +14822,16 @@ IL_00a9:
 		int32_t L_19 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___DissolveAmountHash;
 		NullCheck(L_18);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_18, L_19, (1.0f), NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:316>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:312>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_20 = __this->___U3CU3E4__this;
 		NullCheck(L_20);
 		Zombie_DestroyZombie_m6D684301EB88ADC4B0D942D7EE461922E2380F16(L_20, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:317>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:313>
 		return (bool)0;
 	}
 }
 // Method Definition Index: 70181
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__47_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m601E274D060EAB287BF6ECBDB0DFF249D3C9C018 (U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__46_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9005ACCDCCF4E80C1B492E1F7E07591B8A8F1241 (U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -14853,16 +14839,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__47_S
 	}
 }
 // Method Definition Index: 70182
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__47_System_Collections_IEnumerator_Reset_m2023EBBDEDB35918E979FD6009865D7AEBDF1DA6 (U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__46_System_Collections_IEnumerator_Reset_mADEC46A2AF6E39CF69B432BD36AEBEED926A0530 (U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAnimateAndDestroyU3Ed__47_System_Collections_IEnumerator_Reset_m2023EBBDEDB35918E979FD6009865D7AEBDF1DA6_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAnimateAndDestroyU3Ed__46_System_Collections_IEnumerator_Reset_mADEC46A2AF6E39CF69B432BD36AEBEED926A0530_RuntimeMethod_var)));
 	}
 }
 // Method Definition Index: 70183
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__47_System_Collections_IEnumerator_get_Current_mE41A051AA2E0378A5A60ED12414ED86298F1751F (U3CAnimateAndDestroyU3Ed__47_t700ABA5F70C888B77D9BF87220E48DC4784C4474* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__46_System_Collections_IEnumerator_get_Current_m65E5BB095447FEE5CDB44A18BADBECA83916F9FC (U3CAnimateAndDestroyU3Ed__46_t4992FFFF031E550F92095FA2BFA8CEF81718C7EF* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -14878,7 +14864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__47_S
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 70184
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__38__ctor_m1B959AC862CD2BB27E3B719D85FDDEFEF96F14BC (U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__37__ctor_m2EA89211BD3C24B2D8EEE0A32E66FF24983BEC96 (U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -14888,14 +14874,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__38__ctor_m1B959AC8
 	}
 }
 // Method Definition Index: 70185
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__38_System_IDisposable_Dispose_m1402667C2118B340960D4558DDC2A3F67646CE0E (U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__37_System_IDisposable_Dispose_m74EB9DD759865EFA6F76DA2D72DE856747308980 (U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
 // Method Definition Index: 70186
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEmergeRoutineU3Ed__38_MoveNext_m9379DD978FCE92C20F4C14ECCC90F687B67BEBB9 (U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEmergeRoutineU3Ed__37_MoveNext_mB727C8450BD91F972975FEA5B3A2ACC2B8C178FC (U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14941,7 +14927,7 @@ IL_0012:
 
 IL_0014:
 	{
-		goto IL_0187;
+		goto IL_0154;
 	}
 
 IL_0019:
@@ -14952,15 +14938,15 @@ IL_0019:
 IL_001b:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:132>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:129>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_3 = __this->___U3CU3E4__this;
 		NullCheck(L_3);
 		L_3->___isEmerging = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:133>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:130>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		Zombie_FacePlayerInstantly_m282223512F1E399A4FE75111A511C267D83147F6(L_4, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:135>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:132>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_5 = __this->___U3CU3E4__this;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -14969,7 +14955,7 @@ IL_001b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
 		__this->___U3CstartPosU3E5__1 = L_7;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:136>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:133>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_8 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
 		float L_9 = L_8->___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
@@ -14983,204 +14969,185 @@ IL_001b:
 		memset((&L_16), 0, sizeof(L_16));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_16), L_9, ((float)il2cpp_codegen_add(L_11, L_13)), L_15, NULL);
 		__this->___U3CendPosU3E5__2 = L_16;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:138>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:134>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_17 = __this->___U3CU3E4__this;
 		NullCheck(L_17);
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_18 = L_17->___spawnParticles;
+		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_18 = L_17->___soundController;
 		NullCheck(L_18);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
-		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_18, NULL);
-		NullCheck(L_19);
-		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_19, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:139>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_20 = __this->___U3CU3E4__this;
-		NullCheck(L_20);
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_21 = L_20->___spawnParticles;
-		NullCheck(L_21);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
-		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_21, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = __this->___U3CendPosU3E5__2;
-		NullCheck(L_22);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_22, L_23, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:140>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_24 = __this->___U3CU3E4__this;
-		NullCheck(L_24);
-		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_25 = L_24->___soundController;
-		NullCheck(L_25);
-		NPCSoundController_PlaySpawn_m66050F81E00ACE8BBAA115208E673FBB254F5946(L_25, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:142>
+		NPCSoundController_PlaySpawn_m66050F81E00ACE8BBAA115208E673FBB254F5946(L_18, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:136>
 		__this->___U3CelapsedU3E5__3 = (0.0f);
-		goto IL_018f;
+		goto IL_015c;
 	}
 
-IL_00dd:
+IL_00aa:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:146>
-		float L_26 = __this->___U3CelapsedU3E5__3;
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_27 = __this->___U3CU3E4__this;
-		NullCheck(L_27);
-		float L_28 = L_27->___emergeDuration;
-		__this->___U3CtU3E5__4 = ((float)(L_26/L_28));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:147>
-		float L_29 = __this->___U3CtU3E5__4;
-		float L_30 = __this->___U3CtU3E5__4;
-		__this->___U3CeaseOutTU3E5__5 = ((float)il2cpp_codegen_multiply(L_29, ((float)il2cpp_codegen_subtract((2.0f), L_30))));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:148>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:140>
+		float L_19 = __this->___U3CelapsedU3E5__3;
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_20 = __this->___U3CU3E4__this;
+		NullCheck(L_20);
+		float L_21 = L_20->___emergeDuration;
+		__this->___U3CtU3E5__4 = ((float)(L_19/L_21));
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:141>
+		float L_22 = __this->___U3CtU3E5__4;
+		float L_23 = __this->___U3CtU3E5__4;
+		__this->___U3CeaseOutTU3E5__5 = ((float)il2cpp_codegen_multiply(L_22, ((float)il2cpp_codegen_subtract((2.0f), L_23))));
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:142>
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_24 = __this->___U3CU3E4__this;
+		NullCheck(L_24);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
+		L_25 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_24, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = __this->___U3CstartPosU3E5__1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = __this->___U3CendPosU3E5__2;
+		float L_28 = __this->___U3CeaseOutTU3E5__5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_26, L_27, L_28, NULL);
+		NullCheck(L_25);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_25, L_29, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:144>
+		float L_30 = __this->___U3CelapsedU3E5__3;
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_31 = __this->___U3CU3E4__this;
 		NullCheck(L_31);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
-		L_32 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_31, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___U3CstartPosU3E5__1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = __this->___U3CendPosU3E5__2;
-		float L_35 = __this->___U3CeaseOutTU3E5__5;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
-		L_36 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_33, L_34, L_35, NULL);
-		NullCheck(L_32);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_32, L_36, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:150>
-		float L_37 = __this->___U3CelapsedU3E5__3;
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_38 = __this->___U3CU3E4__this;
-		NullCheck(L_38);
-		float L_39 = L_38->___startAnimationDelay;
-		V_1 = (bool)((((float)L_37) > ((float)L_39))? 1 : 0);
-		bool L_40 = V_1;
-		if (!L_40)
+		float L_32 = L_31->___startAnimationDelay;
+		V_1 = (bool)((((float)L_30) > ((float)L_32))? 1 : 0);
+		bool L_33 = V_1;
+		if (!L_33)
 		{
-			goto IL_0165;
+			goto IL_0132;
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:151>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_41 = __this->___U3CU3E4__this;
-		NullCheck(L_41);
-		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_42 = L_41->___animator;
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:145>
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_34 = __this->___U3CU3E4__this;
+		NullCheck(L_34);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_35 = L_34->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var);
-		int32_t L_43 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Start1;
-		NullCheck(L_42);
-		Animator_SetBool_m1DD34A313E6882B6FBF379A53DD8D52E4023F1D8(L_42, L_43, (bool)1, NULL);
+		int32_t L_36 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Start1;
+		NullCheck(L_35);
+		Animator_SetBool_m1DD34A313E6882B6FBF379A53DD8D52E4023F1D8(L_35, L_36, (bool)1, NULL);
 	}
 
-IL_0165:
+IL_0132:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:153>
-		float L_44 = __this->___U3CelapsedU3E5__3;
-		float L_45;
-		L_45 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		__this->___U3CelapsedU3E5__3 = ((float)il2cpp_codegen_add(L_44, L_45));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:154>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:147>
+		float L_37 = __this->___U3CelapsedU3E5__3;
+		float L_38;
+		L_38 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CelapsedU3E5__3 = ((float)il2cpp_codegen_add(L_37, L_38));
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:148>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
 		return (bool)1;
 	}
 
-IL_0187:
+IL_0154:
 	{
 		__this->___U3CU3E1__state = (-1);
 	}
 
-IL_018f:
+IL_015c:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:144>
-		float L_46 = __this->___U3CelapsedU3E5__3;
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_47 = __this->___U3CU3E4__this;
-		NullCheck(L_47);
-		float L_48 = L_47->___emergeDuration;
-		V_2 = (bool)((((float)L_46) < ((float)L_48))? 1 : 0);
-		bool L_49 = V_2;
-		if (L_49)
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:138>
+		float L_39 = __this->___U3CelapsedU3E5__3;
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_40 = __this->___U3CU3E4__this;
+		NullCheck(L_40);
+		float L_41 = L_40->___emergeDuration;
+		V_2 = (bool)((((float)L_39) < ((float)L_41))? 1 : 0);
+		bool L_42 = V_2;
+		if (L_42)
 		{
-			goto IL_00dd;
+			goto IL_00aa;
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:157>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_50 = __this->___U3CU3E4__this;
-		NullCheck(L_50);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51;
-		L_51 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_50, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = __this->___U3CendPosU3E5__2;
-		NullCheck(L_51);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_51, L_52, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:159>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_53 = __this->___U3CU3E4__this;
-		NullCheck(L_53);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_54 = L_53->___player;
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:151>
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_43 = __this->___U3CU3E4__this;
+		NullCheck(L_43);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44;
+		L_44 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_43, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = __this->___U3CendPosU3E5__2;
+		NullCheck(L_44);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_44, L_45, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:153>
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_46 = __this->___U3CU3E4__this;
+		NullCheck(L_46);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47 = L_46->___player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_55;
-		L_55 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_54, NULL);
-		V_3 = L_55;
-		bool L_56 = V_3;
-		if (!L_56)
+		bool L_48;
+		L_48 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_47, NULL);
+		V_3 = L_48;
+		bool L_49 = V_3;
+		if (!L_49)
 		{
-			goto IL_0204;
+			goto IL_01d1;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:154>
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_50 = __this->___U3CU3E4__this;
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_51 = __this->___U3CU3E4__this;
+		NullCheck(L_51);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_52;
+		L_52 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_51, NULL);
+		NullCheck(L_52);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53;
+		L_53 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_52, NULL);
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_54 = __this->___U3CU3E4__this;
+		NullCheck(L_54);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_55 = L_54->___player;
+		NullCheck(L_55);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
+		L_56 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_55, NULL);
+		float L_57;
+		L_57 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_53, L_56, NULL);
+		NullCheck(L_50);
+		L_50->___initialDistanceToPlayer = L_57;
+	}
+
+IL_01d1:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:156>
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_58 = __this->___U3CU3E4__this;
+		NullCheck(L_58);
+		L_58->___isEmerging = (bool)0;
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:157>
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_59 = __this->___U3CU3E4__this;
+		NullCheck(L_59);
+		L_59->___accelerateTimer = (0.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:159>
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_60 = __this->___U3CU3E4__this;
+		NullCheck(L_60);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_61 = L_60->___animator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_62;
+		L_62 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_61, NULL);
+		V_4 = L_62;
+		bool L_63 = V_4;
+		if (!L_63)
+		{
+			goto IL_021e;
 		}
 	}
 	{
 		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:160>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_57 = __this->___U3CU3E4__this;
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_58 = __this->___U3CU3E4__this;
-		NullCheck(L_58);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_59;
-		L_59 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_58, NULL);
-		NullCheck(L_59);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60;
-		L_60 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_59, NULL);
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_61 = __this->___U3CU3E4__this;
-		NullCheck(L_61);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_62 = L_61->___player;
-		NullCheck(L_62);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
-		L_63 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_62, NULL);
-		float L_64;
-		L_64 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_60, L_63, NULL);
-		NullCheck(L_57);
-		L_57->___initialDistanceToPlayer = L_64;
-	}
-
-IL_0204:
-	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:162>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_65 = __this->___U3CU3E4__this;
-		NullCheck(L_65);
-		L_65->___isEmerging = (bool)0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:163>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_66 = __this->___U3CU3E4__this;
-		NullCheck(L_66);
-		L_66->___accelerateTimer = (0.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:165>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_67 = __this->___U3CU3E4__this;
-		NullCheck(L_67);
-		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_68 = L_67->___animator;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_69;
-		L_69 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_68, NULL);
-		V_4 = L_69;
-		bool L_70 = V_4;
-		if (!L_70)
-		{
-			goto IL_0251;
-		}
-	}
-	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:166>
-		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_71 = __this->___U3CU3E4__this;
-		NullCheck(L_71);
-		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_72 = L_71->___animator;
+		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_64 = __this->___U3CU3E4__this;
+		NullCheck(L_64);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_65 = L_64->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var);
-		int32_t L_73 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Speed;
-		NullCheck(L_72);
-		Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_72, L_73, (0.0f), NULL);
+		int32_t L_66 = ((Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_StaticFields*)il2cpp_codegen_static_fields_for(Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927_il2cpp_TypeInfo_var))->___Speed;
+		NullCheck(L_65);
+		Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_65, L_66, (0.0f), NULL);
 	}
 
-IL_0251:
+IL_021e:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:167>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:161>
 		return (bool)0;
 	}
 }
 // Method Definition Index: 70187
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m47C8B54574B40ED95F5FC688C63E4C50D6DA1C57 (U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m661E0F6F1C97DB8DF687DCE5F4B6C4458B2D80FD (U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -15188,16 +15155,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__38_Syste
 	}
 }
 // Method Definition Index: 70188
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__38_System_Collections_IEnumerator_Reset_m49F1CADC82DBEBD0D038DCF221D7AF80A044F5ED (U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__37_System_Collections_IEnumerator_Reset_mA016602C38C10927F7144B0E952FDE866F9BA908 (U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CEmergeRoutineU3Ed__38_System_Collections_IEnumerator_Reset_m49F1CADC82DBEBD0D038DCF221D7AF80A044F5ED_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CEmergeRoutineU3Ed__37_System_Collections_IEnumerator_Reset_mA016602C38C10927F7144B0E952FDE866F9BA908_RuntimeMethod_var)));
 	}
 }
 // Method Definition Index: 70189
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__38_System_Collections_IEnumerator_get_Current_mCD1159846847B692B853E563A2AFF6707C82AD60 (U3CEmergeRoutineU3Ed__38_tFA8E18E07C841603BF46F394E9C21596DC7AB067* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__37_System_Collections_IEnumerator_get_Current_m3F0C8F21E9099359CB888B258407D0B1080DE77E (U3CEmergeRoutineU3Ed__37_t19623151C3610FDE77CFA7E84078554F6AA1265D* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -15213,7 +15180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__38_Syste
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 70190
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__45__ctor_mD69BE8C082BEC7BCB42D1C0CBE948281B5BC792D (U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__44__ctor_m3DAF8A0D5D7316053E89794B449E23D1B82CE01F (U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -15223,14 +15190,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__45__ctor_mD69BE8C082
 	}
 }
 // Method Definition Index: 70191
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__45_System_IDisposable_Dispose_mD5D740E8CF78195F793C2D06D4EF92AB01935297 (U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__44_System_IDisposable_Dispose_mF615C0115DD8E3FC17B5C50E520AEBA729F1B33B (U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
 // Method Definition Index: 70192
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSinkRoutineU3Ed__45_MoveNext_m45341EC7C4DBF76F80E93C62F42183DFCC6F7D00 (U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSinkRoutineU3Ed__44_MoveNext_mD2F279D560B1EE978EDB553FB0B7B1A5D5F44383 (U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15287,7 +15254,7 @@ IL_0024:
 IL_0026:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:275>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:271>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_2 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_2, (3.0f), NULL);
 		__this->___U3CU3E2__current = L_2;
@@ -15299,11 +15266,11 @@ IL_0026:
 IL_0047:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:277>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:273>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_3 = __this->___U3CU3E4__this;
 		NullCheck(L_3);
 		L_3->___isSinking = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:279>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:275>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -15312,7 +15279,7 @@ IL_0047:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
 		__this->___U3CstartPosU3E5__1 = L_6;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:280>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:276>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
 		float L_8 = L_7->___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
@@ -15326,20 +15293,20 @@ IL_0047:
 		memset((&L_15), 0, sizeof(L_15));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_15), L_8, ((float)il2cpp_codegen_subtract(L_10, L_12)), L_14, NULL);
 		__this->___U3CendPosU3E5__2 = L_15;
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:282>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:278>
 		__this->___U3CelapsedU3E5__3 = (0.0f);
 		goto IL_0120;
 	}
 
 IL_00b5:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:286>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:282>
 		float L_16 = __this->___U3CelapsedU3E5__3;
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_17 = __this->___U3CU3E4__this;
 		NullCheck(L_17);
 		float L_18 = L_17->___sinkDuration;
 		__this->___U3CtU3E5__4 = ((float)(L_16/L_18));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:287>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:283>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_19 = __this->___U3CU3E4__this;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
@@ -15351,12 +15318,12 @@ IL_00b5:
 		L_24 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_21, L_22, L_23, NULL);
 		NullCheck(L_20);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_20, L_24, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:288>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:284>
 		float L_25 = __this->___U3CelapsedU3E5__3;
 		float L_26;
 		L_26 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedU3E5__3 = ((float)il2cpp_codegen_add(L_25, L_26));
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:289>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:285>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 2;
@@ -15370,7 +15337,7 @@ IL_0118:
 
 IL_0120:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:284>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:280>
 		float L_27 = __this->___U3CelapsedU3E5__3;
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_28 = __this->___U3CU3E4__this;
 		NullCheck(L_28);
@@ -15383,7 +15350,7 @@ IL_0120:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:292>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:288>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_31 = __this->___U3CU3E4__this;
 		NullCheck(L_31);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
@@ -15391,16 +15358,16 @@ IL_0120:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___U3CendPosU3E5__2;
 		NullCheck(L_32);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_32, L_33, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:293>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:289>
 		Zombie_tF4186B2F7DF8F6277A849CA4381D404E55870927* L_34 = __this->___U3CU3E4__this;
 		NullCheck(L_34);
 		Zombie_DestroyZombie_m6D684301EB88ADC4B0D942D7EE461922E2380F16(L_34, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:294>
+		//<source_info:/Users/kev/Gepetto_github/Assets/XRI Starter Kit/Assets/MiniGames/ZombieGame/Scripts/Zombie.cs:290>
 		return (bool)0;
 	}
 }
 // Method Definition Index: 70193
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__45_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m07D5A06DF0F8465C9C0659C6B7D67188B1083148 (U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2EEE5DBA338AA9F42F3B724E9A2DE85A83F6AEC7 (U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -15408,16 +15375,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__45_System_
 	}
 }
 // Method Definition Index: 70194
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__45_System_Collections_IEnumerator_Reset_m430339326458CB723321FD5A82619AC2827E89F2 (U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__44_System_Collections_IEnumerator_Reset_m433AB2CFE21CE7C92D8D02370793658D8BD7D1E4 (U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSinkRoutineU3Ed__45_System_Collections_IEnumerator_Reset_m430339326458CB723321FD5A82619AC2827E89F2_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSinkRoutineU3Ed__44_System_Collections_IEnumerator_Reset_m433AB2CFE21CE7C92D8D02370793658D8BD7D1E4_RuntimeMethod_var)));
 	}
 }
 // Method Definition Index: 70195
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__45_System_Collections_IEnumerator_get_Current_mA3B251B791B4E6417F43336E87A0026BE13A87B7 (U3CSinkRoutineU3Ed__45_t242A0A51C3C2C0DC202AB535003519B6EFDFBDDE* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__44_System_Collections_IEnumerator_get_Current_m37997A5C5683ABD6911E12C445A4FA5D98BF9FE6 (U3CSinkRoutineU3Ed__44_tC100B5D76F22B5EE4F2A1879405A35180AE5226B* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
