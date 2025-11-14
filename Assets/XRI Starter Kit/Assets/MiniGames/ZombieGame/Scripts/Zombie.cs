@@ -301,7 +301,6 @@ namespace MikeNspired.XRIStarterKit
 
         private IEnumerator AnimateAndDestroy()
 		{
-			// animator.SetTrigger("Hit");
             float duration = 2f;
             float elapsed = 0f;
 
