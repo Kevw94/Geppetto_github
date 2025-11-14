@@ -35,6 +35,7 @@ struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
 struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A;
 struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
 struct Action_1_tF9F76DB73411395756021F35C1E0B77327B889BF;
+struct Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A;
 struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E;
 struct BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C;
 struct Dictionary_2_t2FB52A1C9A5EF3BE7F06D41CF41259B9A0296ABC;
@@ -221,6 +222,7 @@ struct XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE;
 struct XRSimpleInteractable_t7EDF3C91BAEEC571F7C2A2572035B362EE41C8F2;
 struct ZombieHealth_t0FAC7823EDC864534C5F0E3059599FB503172F3C;
 struct ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54;
+struct ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992;
 struct ZombieTarget_t71D10E05F390DAB5FF7E916D3EA2555394857C00;
 struct U3CFlashEffectU3Ed__15_tDD33302C64EC650CC65A72818AD8ABC9D23F84F5;
 struct Joint_t06A8BD122CF0873DBE35379E425C10CD378B2557;
@@ -231,7 +233,11 @@ struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
 struct U3CAnimateAndDestroyU3Ed__46_tC69237915A5FA851C67F8FBA7496BFC4300D2718;
 struct U3CEmergeRoutineU3Ed__37_t9E7E1F28C18E65BE1209DC77AD3E9A79171FEA4E;
 struct U3CSinkRoutineU3Ed__44_tE481AFA66CF3844266934A063672CB596DBAFBDA;
+struct U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374;
+struct U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1;
+struct U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6;
 
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tF9F76DB73411395756021F35C1E0B77327B889BF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
@@ -255,17 +261,21 @@ IL2CPP_EXTERN_C RuntimeClass* POLYGON_DogPrefabs_t2A7ACD128EC2510BE8EE9F8B32912A
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAnimateAndDestroyU3Ed__46_tC69237915A5FA851C67F8FBA7496BFC4300D2718_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CDogActionsU3Ed__58_tF2F9C8B3F95EF9284A191E807FCDF82FDD3C16E9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CEmergeRoutineU3Ed__37_t9E7E1F28C18E65BE1209DC77AD3E9A79171FEA4E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CFlashEffectU3Ed__15_tDD33302C64EC650CC65A72818AD8ABC9D23F84F5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CSinkRoutineU3Ed__44_tE481AFA66CF3844266934A063672CB596DBAFBDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____DFA619A1B4E1BE09EC36F75CB3E771E739C2028F86284721D493E2296628D5BD_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F0F5495E8B544FFFC9413F2BA4B60456DA2CFBC23454D5EB58AE9B28C3050E5E_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____07FEFD45C79492621A6B5CC53F79B515E52CA436ADDD2296BE7D30818B881518_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F63282478871D78EB4A67422D9C7CE68E515D39CD22445BE44FCDEC6AAC5BAC9_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral00A54061B8C1E87A9F61D221413F84E5ABC74FE1;
 IL2CPP_EXTERN_C String_t* _stringLiteral00D1F92F5498525F85468BDCC3C573A25F3BB2C2;
 IL2CPP_EXTERN_C String_t* _stringLiteral034283865E30C0CE8971200466E3585778482E78;
@@ -380,16 +390,21 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m85A56CFC0EB7B264F79645E1DC
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindFirstObjectByType_TisXROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_m5DF86C6F6E4EA017A319E7149E3E5B6A1CF6B917_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_m4D124F2FEF37B79E055EECB4988220B0F2F98CE2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimateAndDestroyU3Ed__46_System_Collections_IEnumerator_Reset_mAA3DF452B9590FC0B300617D5F05B808B6ECA9B1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimateAndDestroyU3Ed__47_System_Collections_IEnumerator_Reset_mC28EFC07BFFEF2385D79D54C9AB0DB0097DC8882_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDogActionsU3Ed__58_System_Collections_IEnumerator_Reset_mBB79F788E22C53315CE91FFA7109963F07BE3645_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CEmergeRoutineU3Ed__37_System_Collections_IEnumerator_Reset_mBD7C7CEF6C211AA14888E52EB6760B314C9D8FD5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CEmergeRoutineU3Ed__38_System_Collections_IEnumerator_Reset_mA3A8C2E6516268856CCFE2EC33E3B8F0502B36AE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CFlashEffectU3Ed__15_System_Collections_IEnumerator_Reset_m50935AA2C887C1A677F3AD807ECAF0E97DF1F6A7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CSinkRoutineU3Ed__44_System_Collections_IEnumerator_Reset_m6469392B9377303401F612119DD9862C8BD51B99_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CSinkRoutineU3Ed__45_System_Collections_IEnumerator_Reset_mD81E827CE19AA18DCAFF9E46D58133535D2517C6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ZombieMenuStarter_OnEnemyTakeDamage_mDAF77713DF5DEA92DB0D58EF8A96E62390A15AD3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ZombieMenuStarter_U3CStartU3Eb__34_0_m497D3B3D744F3906ABF170D2B850E9519A237A51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ZombieMenueTest_OnEnemyTakeDamage_mC23CA0E79E0EE787D56B64C6356D3CC3083E763D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ZombieMenueTest_U3CStartU3Eb__35_0_m237380EDFE73AC37D2C0374F315FB469A558C636_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -509,6 +524,15 @@ struct U3CAnimateAndDestroyU3Ed__46_tC69237915A5FA851C67F8FBA7496BFC4300D2718  :
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* ___U3CU3E4__this;
+	float ___U3CdurationU3E5__1;
+	float ___U3CelapsedU3E5__2;
+	float ___U3CtU3E5__3;
+};
+struct U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* ___U3CU3E4__this;
 	float ___U3CdurationU3E5__1;
 	float ___U3CelapsedU3E5__2;
 	float ___U3CtU3E5__3;
@@ -964,7 +988,7 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 	float ___m_Seconds;
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D469_t4B19AD1DFACE0DE8B4843F5FD5165FD9CE530079 
+struct __StaticArrayInitTypeSizeU3D1000_t02F97319B59C4E59DB95591D95156DD39BF5A99A 
 {
 	union
 	{
@@ -974,12 +998,12 @@ struct __StaticArrayInitTypeSizeU3D469_t4B19AD1DFACE0DE8B4843F5FD5165FD9CE530079
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D469_t4B19AD1DFACE0DE8B4843F5FD5165FD9CE530079__padding[469];
+		uint8_t __StaticArrayInitTypeSizeU3D1000_t02F97319B59C4E59DB95591D95156DD39BF5A99A__padding[1000];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D928_t419A7854195E857517BE440560B18B65A216AA56 
+struct __StaticArrayInitTypeSizeU3D515_t23B990686D60358D74AFF4AD7E8ABC49536E3B76 
 {
 	union
 	{
@@ -989,7 +1013,7 @@ struct __StaticArrayInitTypeSizeU3D928_t419A7854195E857517BE440560B18B65A216AA56
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D928_t419A7854195E857517BE440560B18B65A216AA56__padding[928];
+		uint8_t __StaticArrayInitTypeSizeU3D515_t23B990686D60358D74AFF4AD7E8ABC49536E3B76__padding[515];
 	};
 };
 #pragma pack(pop, tp)
@@ -1447,6 +1471,27 @@ struct U3CSinkRoutineU3Ed__44_tE481AFA66CF3844266934A063672CB596DBAFBDA  : publi
 	float ___U3CelapsedU3E5__3;
 	float ___U3CtU3E5__4;
 };
+struct U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* ___U3CU3E4__this;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CstartPosU3E5__1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CendPosU3E5__2;
+	float ___U3CelapsedU3E5__3;
+	float ___U3CtU3E5__4;
+	float ___U3CeaseOutTU3E5__5;
+};
+struct U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* ___U3CU3E4__this;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CstartPosU3E5__1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CendPosU3E5__2;
+	float ___U3CelapsedU3E5__3;
+	float ___U3CtU3E5__4;
+};
 struct TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 
 {
 	FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA* ___itemStack;
@@ -1650,6 +1695,9 @@ struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A  : public MulticastDel
 {
 };
 struct Action_1_tF9F76DB73411395756021F35C1E0B77327B889BF  : public MulticastDelegate_t
+{
+};
+struct Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A  : public MulticastDelegate_t
 {
 };
 struct Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 
@@ -2290,6 +2338,32 @@ struct ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54  : public Mon
 	bool ___isEmerging;
 	bool ___isSinking;
 };
+struct ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* ___enemyHealth;
+	NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* ___soundController;
+	float ___maxSpeed;
+	float ___timeToMaxSpeed;
+	float ___emergeDuration;
+	float ___sinkDuration;
+	float ___sinkDistance;
+	float ___startAnimationDelay;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___spawnParticles;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___mRenderer;
+	float ___attackRange;
+	float ___screamChance;
+	float ___hitAnimationChance;
+	bool ___willScream;
+	bool ___hasScreamed;
+	float ___initialDistanceToPlayer;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___player;
+	float ___accelerateTimer;
+	bool ___isDead;
+	bool ___isAttacking;
+	bool ___isEmerging;
+	bool ___isSinking;
+};
 struct ZombieTarget_t71D10E05F390DAB5FF7E916D3EA2555394857C00  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 };
@@ -2696,8 +2770,8 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D928_t419A7854195E857517BE440560B18B65A216AA56 ___DFA619A1B4E1BE09EC36F75CB3E771E739C2028F86284721D493E2296628D5BD;
-	__StaticArrayInitTypeSizeU3D469_t4B19AD1DFACE0DE8B4843F5FD5165FD9CE530079 ___F0F5495E8B544FFFC9413F2BA4B60456DA2CFBC23454D5EB58AE9B28C3050E5E;
+	__StaticArrayInitTypeSizeU3D1000_t02F97319B59C4E59DB95591D95156DD39BF5A99A ___07FEFD45C79492621A6B5CC53F79B515E52CA436ADDD2296BE7D30818B881518;
+	__StaticArrayInitTypeSizeU3D515_t23B990686D60358D74AFF4AD7E8ABC49536E3B76 ___F63282478871D78EB4A67422D9C7CE68E515D39CD22445BE44FCDEC6AAC5BAC9;
 };
 struct CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields
 {
@@ -2862,6 +2936,17 @@ struct ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields
 	int32_t ___Start1;
 	int32_t ___DissolveAmountHash;
 	Action_1_tF9F76DB73411395756021F35C1E0B77327B889BF* ___OnZombieDied;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnZombieAttacked;
+};
+struct ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields
+{
+	int32_t ___Speed;
+	int32_t ___Scream;
+	int32_t ___Hit;
+	int32_t ___Attack;
+	int32_t ___Start1;
+	int32_t ___DissolveAmountHash;
+	Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* ___OnZombieDied;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnZombieAttacked;
 };
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
@@ -3439,6 +3524,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_DestroyZombie_m01A2A70
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_FacePlayerInstantly_mC9A4B11AAFE5111EE037D6CE5F6D4561CAC85EC5 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NPCSoundController_PlaySpawn_m66050F81E00ACE8BBAA115208E673FBB254F5946 (NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetBool_m1DD34A313E6882B6FBF379A53DD8D52E4023F1D8 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_id, bool ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_ChasePlayer_m5AB9995D7EA77D6FAD31593CC5BEA60446814448 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenueTest_EmergeRoutine_mF9F8FD14C06232A12148C5327B075B88C28B2DF4 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__38__ctor_m752788A1994BE2A377009A38D00F896917BB0710 (U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_AttemptAttack_m5729B7C6F3D57BA35DCE03A41741C01B21CAED30 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) ;
+inline void Action_1_Invoke_m6B92EEAA7766D500DEB988FA65936198037A2EFC_inline (Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* __this, ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* ___0_obj, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A*, ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenueTest_SinkRoutine_mB772E3FEFF1DBB3AB9C67E902FD3667A9F72AF45 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__45__ctor_mB12C5E510B5715F0258D1F230BCFEA545858AC3C (U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenueTest_AnimateAndDestroy_m9F936A5FD22A82FB83EA3ABB7A0F5C16BE47D90C (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__47__ctor_mB7A216DE6FE6190282ACBCA75843EF878E29569A (U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_DestroyZombie_m5E30854AF5FD0CF6A533F40CE6F3C35DD299DF77 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_FacePlayerInstantly_mECFB24084D29B4C01173BF12A762238223556E20 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_Internal_ToEulerRad_m5BD0EEC543120C320DC77FCCDFD2CE2E6BD3F1A8 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_Internal_MakePositive_m73E2D01920CB0DFE661A55022C129E8617F0C9A8 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
@@ -3461,7 +3560,7 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78533
+// Method Definition Index: 78094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseApplier_ApplyPose_m4818AC8EFEA337C01AA534C7AA77D876EFB03FE8 (HandPoseApplier_tB464E15E0ABF4C68375835E6461105E6172851FC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3604,7 +3703,7 @@ IL_009e:
 		return;
 	}
 }
-// Method Definition Index: 78534
+// Method Definition Index: 78095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseApplier_CapturePose_m8B4124CE5E05268CCA630BCA085EDBE27805D40F (HandPoseApplier_tB464E15E0ABF4C68375835E6461105E6172851FC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3827,7 +3926,7 @@ IL_010d:
 		return;
 	}
 }
-// Method Definition Index: 78535
+// Method Definition Index: 78096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseApplier__ctor_mBB421BF9F01839DFD781B290F9AB2A75D610A216 (HandPoseApplier_tB464E15E0ABF4C68375835E6461105E6172851FC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3843,7 +3942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseApplier__ctor_mBB421BF9F01839DFD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78536
+// Method Definition Index: 78097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseSO__ctor_m85B9185A6B9885424AF77C164F836D251E686983 (HandPoseSO_t4845E1639D372DAD22B844A501DA678AF3941A7D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3859,7 +3958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseSO__ctor_m85B9185A6B9885424AF77C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78537
+// Method Definition Index: 78098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joint__ctor_m2FF1E4FE1C799156892BC2F30DC4399D84FA6EC0 (Joint_t06A8BD122CF0873DBE35379E425C10CD378B2557* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3875,7 +3974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joint__ctor_m2FF1E4FE1C799156892BC2F30DC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78538
+// Method Definition Index: 78099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseVRController_Update_m48C5BA1A56B3AE1943A984032AFDDDFFA22BFF98 (HandPoseVRController_tDC3B4C6598B64648D85E38E29AF6BEF0B6073476* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4014,7 +4113,7 @@ IL_00b7:
 		return;
 	}
 }
-// Method Definition Index: 78539
+// Method Definition Index: 78100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseVRController__ctor_mEC79082E76F5E2E4980287665A99C1F9BF74AD92 (HandPoseVRController_tDC3B4C6598B64648D85E38E29AF6BEF0B6073476* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4032,7 +4131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseVRController__ctor_mEC79082E76F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78540
+// Method Definition Index: 78101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteJoystickController_OnEnable_m17763A2794BF485601BC7B9C419B6DC866356B2E (VignetteJoystickController_t14310C6317B490D3A1C97E9C2AF2749987435F61* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4047,7 +4146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteJoystickController_OnEnable_m177
 		return;
 	}
 }
-// Method Definition Index: 78541
+// Method Definition Index: 78102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteJoystickController_OnDisable_m59836B8BB6FD5F13E86B4E36F98D991F37987718 (VignetteJoystickController_t14310C6317B490D3A1C97E9C2AF2749987435F61* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4062,7 +4161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteJoystickController_OnDisable_m59
 		return;
 	}
 }
-// Method Definition Index: 78542
+// Method Definition Index: 78103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteJoystickController_Update_m7CA74F5C8CE9A371872415888ADE59E0B25844E4 (VignetteJoystickController_t14310C6317B490D3A1C97E9C2AF2749987435F61* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4226,7 +4325,7 @@ IL_009f:
 		return;
 	}
 }
-// Method Definition Index: 78543
+// Method Definition Index: 78104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteJoystickController__ctor_m2B49CB06F394A01CDB5133D8BCF89ABCB6186F60 (VignetteJoystickController_t14310C6317B490D3A1C97E9C2AF2749987435F61* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4246,7 +4345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteJoystickController__ctor_m2B49CB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78544
+// Method Definition Index: 78105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixSocketDetachPhysics_Awake_m169CED485F6ACD2C0DF0D8694E6C826C2C7C75FE (FixSocketDetachPhysics_t74E67756E72E5E432101A7E756D39FB27A2C02EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4283,7 +4382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixSocketDetachPhysics_Awake_m169CED485F
 		return;
 	}
 }
-// Method Definition Index: 78545
+// Method Definition Index: 78106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixSocketDetachPhysics_OnSelectExited_m5F9F47F496C8A5317C06026090C465B257D62023 (FixSocketDetachPhysics_t74E67756E72E5E432101A7E756D39FB27A2C02EC* __this, SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A* ___0_args, const RuntimeMethod* method) 
 {
 	{
@@ -4299,7 +4398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixSocketDetachPhysics_OnSelectExited_m5
 		return;
 	}
 }
-// Method Definition Index: 78546
+// Method Definition Index: 78107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixSocketDetachPhysics_OnDestroy_m71F1CBFD0F96DA0E39413529AB6A1C379EA02DBC (FixSocketDetachPhysics_t74E67756E72E5E432101A7E756D39FB27A2C02EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4324,7 +4423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixSocketDetachPhysics_OnDestroy_m71F1CB
 		return;
 	}
 }
-// Method Definition Index: 78547
+// Method Definition Index: 78108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixSocketDetachPhysics__ctor_mFCE8C6AFA51F071A5F07A593999C998C1EA9E54D (FixSocketDetachPhysics_t74E67756E72E5E432101A7E756D39FB27A2C02EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4340,7 +4439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixSocketDetachPhysics__ctor_mFCE8C6AFA5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78548
+// Method Definition Index: 78109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlashlightColorButton_Awake_mE3F13651D3B820662FCA7513DBA24C09FF2ECC47 (FlashlightColorButton_t4D85E9AB5454F4E7E96598F11D6638E8D2C915DB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4383,7 +4482,7 @@ IL_0028:
 		return;
 	}
 }
-// Method Definition Index: 78549
+// Method Definition Index: 78110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlashlightColorButton_OnEnable_mF38ADEA3AB8C0F6CB943B66D4D0BCBB312268802 (FlashlightColorButton_t4D85E9AB5454F4E7E96598F11D6638E8D2C915DB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4427,7 +4526,7 @@ IL_002e:
 		return;
 	}
 }
-// Method Definition Index: 78550
+// Method Definition Index: 78111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlashlightColorButton_OnDisable_m6161502943DF82B0718547E79520F134B09B9E42 (FlashlightColorButton_t4D85E9AB5454F4E7E96598F11D6638E8D2C915DB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4471,7 +4570,7 @@ IL_002e:
 		return;
 	}
 }
-// Method Definition Index: 78551
+// Method Definition Index: 78112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlashlightColorButton_OnPoke_mCE97BF655EFB794E894E7D63393045D6B8C06CC7 (FlashlightColorButton_t4D85E9AB5454F4E7E96598F11D6638E8D2C915DB* __this, SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* ___0_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4551,7 +4650,7 @@ IL_0057:
 		return;
 	}
 }
-// Method Definition Index: 78552
+// Method Definition Index: 78113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlashlightColorButton__ctor_m67666FA226E8260EEB862A2838306942806651D2 (FlashlightColorButton_t4D85E9AB5454F4E7E96598F11D6638E8D2C915DB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4567,7 +4666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlashlightColorButton__ctor_m67666FA226E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78553
+// Method Definition Index: 78114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_CameraController_Start_mA1D5D28A706E0D50ED9852E1090D495ED84B94BC (POLYGON_CameraController_tC1DBC6266BBABE8A979B83A95DA3C79A1F46720B* __this, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -4653,7 +4752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_CameraController_Start_mA1D5D28A
 		return;
 	}
 }
-// Method Definition Index: 78554
+// Method Definition Index: 78115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_CameraController_Update_mB4BF629C0D455E550E7C3552DB5765905C9B9A25 (POLYGON_CameraController_tC1DBC6266BBABE8A979B83A95DA3C79A1F46720B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4672,7 +4771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_CameraController_Update_mB4BF629
 		return;
 	}
 }
-// Method Definition Index: 78555
+// Method Definition Index: 78116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_CameraController_LateUpdate_mCF1726C09FB51A9CE9B6EB6CBA9BFE3302255BC6 (POLYGON_CameraController_tC1DBC6266BBABE8A979B83A95DA3C79A1F46720B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4765,7 +4864,7 @@ IL_00de:
 		return;
 	}
 }
-// Method Definition Index: 78556
+// Method Definition Index: 78117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_CameraController__ctor_m5AE81421343C36E91C8EED51D8BC8F312F95B17C (POLYGON_CameraController_tC1DBC6266BBABE8A979B83A95DA3C79A1F46720B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4791,7 +4890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_CameraController__ctor_m5AE81421
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78557
+// Method Definition Index: 78118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogAnimationController_Start_mEA4B286E44D065925823EF52EDEEA9E15DFDC2DF (POLYGON_DogAnimationController_t82CD3D255B11B13765F1B61AD0CD5104578CAB07* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5347,7 +5446,7 @@ IL_0383:
 		return;
 	}
 }
-// Method Definition Index: 78558
+// Method Definition Index: 78119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* POLYGON_DogAnimationController_DogActions_mBEB053ED95A6BAC60631C41E7508DBA3C67BD394 (POLYGON_DogAnimationController_t82CD3D255B11B13765F1B61AD0CD5104578CAB07* __this, int32_t ___0_actionType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5370,7 +5469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* POLYGON_DogAnimationController
 		return L_2;
 	}
 }
-// Method Definition Index: 78559
+// Method Definition Index: 78120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogAnimationController_OnGUI_mCCBE0ABF4D995D584BFD0D0BCF86B5232B1466AA (POLYGON_DogAnimationController_t82CD3D255B11B13765F1B61AD0CD5104578CAB07* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5456,7 +5555,7 @@ IL_007f:
 		return;
 	}
 }
-// Method Definition Index: 78560
+// Method Definition Index: 78121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogAnimationController_Update_m072A2CF3C6FBB7412361B30101ACC20E119FD362 (POLYGON_DogAnimationController_t82CD3D255B11B13765F1B61AD0CD5104578CAB07* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7398,7 +7497,7 @@ IL_0bcc:
 		return;
 	}
 }
-// Method Definition Index: 78561
+// Method Definition Index: 78122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogAnimationController__ctor_m9CB8917726072E46765D6532506A03CF13B72E86 (POLYGON_DogAnimationController_t82CD3D255B11B13765F1B61AD0CD5104578CAB07* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7512,7 +7611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogAnimationController__ctor_m9C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78562
+// Method Definition Index: 78123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDogActionsU3Ed__58__ctor_mB038EE0E655C75AFB1F8CAA0A1940EB8EE102571 (U3CDogActionsU3Ed__58_tF2F9C8B3F95EF9284A191E807FCDF82FDD3C16E9* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -7522,14 +7621,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDogActionsU3Ed__58__ctor_mB038EE0E655
 		return;
 	}
 }
-// Method Definition Index: 78563
+// Method Definition Index: 78124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDogActionsU3Ed__58_System_IDisposable_Dispose_mEC1FD1ED7F2BFC35F0DC589A635BD8E7C09585AD (U3CDogActionsU3Ed__58_tF2F9C8B3F95EF9284A191E807FCDF82FDD3C16E9* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 78564
+// Method Definition Index: 78125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDogActionsU3Ed__58_MoveNext_m62AACED66C17E59B6E365E6EEFDB23984F6C2A72 (U3CDogActionsU3Ed__58_tF2F9C8B3F95EF9284A191E807FCDF82FDD3C16E9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7623,7 +7722,7 @@ IL_0068:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 78565
+// Method Definition Index: 78126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDogActionsU3Ed__58_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCAD75AB7D978D56E287ADEC737CDAFB8C988758D (U3CDogActionsU3Ed__58_tF2F9C8B3F95EF9284A191E807FCDF82FDD3C16E9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7631,7 +7730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDogActionsU3Ed__58_System_C
 		return L_0;
 	}
 }
-// Method Definition Index: 78566
+// Method Definition Index: 78127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDogActionsU3Ed__58_System_Collections_IEnumerator_Reset_mBB79F788E22C53315CE91FFA7109963F07BE3645 (U3CDogActionsU3Ed__58_tF2F9C8B3F95EF9284A191E807FCDF82FDD3C16E9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7640,7 +7739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDogActionsU3Ed__58_System_Collections
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDogActionsU3Ed__58_System_Collections_IEnumerator_Reset_mBB79F788E22C53315CE91FFA7109963F07BE3645_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 78567
+// Method Definition Index: 78128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDogActionsU3Ed__58_System_Collections_IEnumerator_get_Current_mB5618072AF2F4120FABCC2480D0D54D469F4061E (U3CDogActionsU3Ed__58_tF2F9C8B3F95EF9284A191E807FCDF82FDD3C16E9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7656,7 +7755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDogActionsU3Ed__58_System_C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78568
+// Method Definition Index: 78129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogPrefabs_Start_mD6123DD3F1CE3D5CAE8394048810151D6EB96C10 (POLYGON_DogPrefabs_t2A7ACD128EC2510BE8EE9F8B32912A0256E3E76C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8060,7 +8159,7 @@ IL_0349:
 		return;
 	}
 }
-// Method Definition Index: 78569
+// Method Definition Index: 78130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogPrefabs_OnGUI_mFA5BCAB8DB584BB8AE874D1D7BA5034DD14123AB (POLYGON_DogPrefabs_t2A7ACD128EC2510BE8EE9F8B32912A0256E3E76C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8181,7 +8280,7 @@ IL_018c:
 		return;
 	}
 }
-// Method Definition Index: 78570
+// Method Definition Index: 78131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogPrefabs_Update_m75D4D08921435615985835D7EE692B2587C3F56C (POLYGON_DogPrefabs_t2A7ACD128EC2510BE8EE9F8B32912A0256E3E76C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9030,7 +9129,7 @@ IL_057f:
 		return;
 	}
 }
-// Method Definition Index: 78571
+// Method Definition Index: 78132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool POLYGON_DogPrefabs_CheckValid_m3095435B73B591F2EA3FD23A5D876FEB6B27E6C9 (POLYGON_DogPrefabs_t2A7ACD128EC2510BE8EE9F8B32912A0256E3E76C* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_Dog, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_DogAttach, int32_t ___2_checkMarker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9133,7 +9232,7 @@ IL_0034:
 		return L_8;
 	}
 }
-// Method Definition Index: 78572
+// Method Definition Index: 78133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogPrefabs_setInvisible_mC897386972C42442955836D5A58E96994758152F (POLYGON_DogPrefabs_t2A7ACD128EC2510BE8EE9F8B32912A0256E3E76C* __this, int32_t ___0_visibleMarker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9405,7 +9504,7 @@ IL_0118:
 		return;
 	}
 }
-// Method Definition Index: 78573
+// Method Definition Index: 78134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogPrefabs__ctor_m0DAC47CD5B0BC61313760D5E0BCF5E87F2E24B24 (POLYGON_DogPrefabs_t2A7ACD128EC2510BE8EE9F8B32912A0256E3E76C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9456,7 +9555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void POLYGON_DogPrefabs__ctor_m0DAC47CD5B0BC6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78574
+// Method Definition Index: 78135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopperBehaviour_Update_m55889859661F9999B7FCDC67CBED0482DC2365AE (CopperBehaviour_t1E6E98A7C3068791EE6E279BF49580E7EBFF8EF5* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -9627,7 +9726,7 @@ IL_00d9:
 		return;
 	}
 }
-// Method Definition Index: 78575
+// Method Definition Index: 78136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopperBehaviour_StartAggression_mAB24898AD4106559E1954AE29679F0B047911C89 (CopperBehaviour_t1E6E98A7C3068791EE6E279BF49580E7EBFF8EF5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9652,7 +9751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopperBehaviour_StartAggression_mAB24898
 		return;
 	}
 }
-// Method Definition Index: 78576
+// Method Definition Index: 78137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopperBehaviour_StopAggression_m5D90081EC681BA90DFE352B5B604F1145879A313 (CopperBehaviour_t1E6E98A7C3068791EE6E279BF49580E7EBFF8EF5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9677,7 +9776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopperBehaviour_StopAggression_m5D90081E
 		return;
 	}
 }
-// Method Definition Index: 78577
+// Method Definition Index: 78138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopperBehaviour_OnDrawGizmosSelected_m66A3FFF14E9CFB1A4ED0AFD939EA7B4B4D9BBA84 (CopperBehaviour_t1E6E98A7C3068791EE6E279BF49580E7EBFF8EF5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9709,7 +9808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopperBehaviour_OnDrawGizmosSelected_m66
 		return;
 	}
 }
-// Method Definition Index: 78578
+// Method Definition Index: 78139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopperBehaviour__ctor_m310A21F022BDC01C3F5863EAD7501801E0EF2174 (CopperBehaviour_t1E6E98A7C3068791EE6E279BF49580E7EBFF8EF5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9735,7 +9834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopperBehaviour__ctor_m310A21F022BDC01C3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78579
+// Method Definition Index: 78140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth_Start_m864C7A2B4D1EE5EFC8C6FD37030F5C27C18EB912 (HaileyHealth_t1BA246ED4F79C00A9CA68094D34D785AF3E7317A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9745,7 +9844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth_Start_m864C7A2B4D1EE5EFC8C6
 		return;
 	}
 }
-// Method Definition Index: 78580
+// Method Definition Index: 78141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth_Update_mC40D5C2AEA947B5CC610421A32318B7041F817AB (HaileyHealth_t1BA246ED4F79C00A9CA68094D34D785AF3E7317A* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -9795,7 +9894,7 @@ IL_0035:
 		return;
 	}
 }
-// Method Definition Index: 78581
+// Method Definition Index: 78142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth_TakeDamage_mF2D47545C56C658A95773D214501126C1A5B3E7F (HaileyHealth_t1BA246ED4F79C00A9CA68094D34D785AF3E7317A* __this, float ___0_amount, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -9832,7 +9931,7 @@ IL_004d:
 		return;
 	}
 }
-// Method Definition Index: 78582
+// Method Definition Index: 78143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth_Heal_mA40AA8A70CAF4A9043E36FB6D121B1F639DBD9A5 (HaileyHealth_t1BA246ED4F79C00A9CA68094D34D785AF3E7317A* __this, float ___0_amount, const RuntimeMethod* method) 
 {
 	{
@@ -9852,7 +9951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth_Heal_mA40AA8A70CAF4A9043E36
 		return;
 	}
 }
-// Method Definition Index: 78583
+// Method Definition Index: 78144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth_UpdateHealthUI_mC1F1779F0DFB25F1E94E7F2997F4738F4FCFDA68 (HaileyHealth_t1BA246ED4F79C00A9CA68094D34D785AF3E7317A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9962,7 +10061,7 @@ IL_00aa:
 		return;
 	}
 }
-// Method Definition Index: 78584
+// Method Definition Index: 78145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HaileyHealth_FlashEffect_m1B8DED4EE920189A4D20DC581C169EDA9C4D51F3 (HaileyHealth_t1BA246ED4F79C00A9CA68094D34D785AF3E7317A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9981,7 +10080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HaileyHealth_FlashEffect_m1B8D
 		return L_1;
 	}
 }
-// Method Definition Index: 78585
+// Method Definition Index: 78146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth_Die_mB131C194ECE6CCDBD16A46A4D8150DA986E5944C (HaileyHealth_t1BA246ED4F79C00A9CA68094D34D785AF3E7317A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9999,7 +10098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth_Die_mB131C194ECE6CCDBD16A46
 		return;
 	}
 }
-// Method Definition Index: 78586
+// Method Definition Index: 78147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth__ctor_m921B0649EFD0E277AF9385A9564357F71F8CBBE5 (HaileyHealth_t1BA246ED4F79C00A9CA68094D34D785AF3E7317A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10036,7 +10135,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HaileyHealth__ctor_m921B0649EFD0E277AF93
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78587
+// Method Definition Index: 78148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashEffectU3Ed__15__ctor_mBF9412B9C2A3A861F6A40867E84A50240F520FE5 (U3CFlashEffectU3Ed__15_tDD33302C64EC650CC65A72818AD8ABC9D23F84F5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10046,14 +10145,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashEffectU3Ed__15__ctor_mBF9412B9C2
 		return;
 	}
 }
-// Method Definition Index: 78588
+// Method Definition Index: 78149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashEffectU3Ed__15_System_IDisposable_Dispose_m4B121F8CA5324763CCAB7719834B6534B1A43506 (U3CFlashEffectU3Ed__15_tDD33302C64EC650CC65A72818AD8ABC9D23F84F5* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 78589
+// Method Definition Index: 78150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFlashEffectU3Ed__15_MoveNext_mDB6C4AB41FE96A9A31CA4E125A9E79C9143C5365 (U3CFlashEffectU3Ed__15_tDD33302C64EC650CC65A72818AD8ABC9D23F84F5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10228,7 +10327,7 @@ IL_010a:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 78590
+// Method Definition Index: 78151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashEffectU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD2DC5A3A35B73693C96D071A977C7FB4BB09665A (U3CFlashEffectU3Ed__15_tDD33302C64EC650CC65A72818AD8ABC9D23F84F5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10236,7 +10335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashEffectU3Ed__15_System_
 		return L_0;
 	}
 }
-// Method Definition Index: 78591
+// Method Definition Index: 78152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashEffectU3Ed__15_System_Collections_IEnumerator_Reset_m50935AA2C887C1A677F3AD807ECAF0E97DF1F6A7 (U3CFlashEffectU3Ed__15_tDD33302C64EC650CC65A72818AD8ABC9D23F84F5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10245,7 +10344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashEffectU3Ed__15_System_Collection
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFlashEffectU3Ed__15_System_Collections_IEnumerator_Reset_m50935AA2C887C1A677F3AD807ECAF0E97DF1F6A7_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 78592
+// Method Definition Index: 78153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashEffectU3Ed__15_System_Collections_IEnumerator_get_Current_m22CF1455E9C283585AF8D4C843A282BE58269119 (U3CFlashEffectU3Ed__15_tDD33302C64EC650CC65A72818AD8ABC9D23F84F5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10261,7 +10360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashEffectU3Ed__15_System_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78593
+// Method Definition Index: 78154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Start_m58062825AA9A256E42311B4A4833E7425589BBDF (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10269,7 +10368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Start_m58062825AA9A256E42311
 		return;
 	}
 }
-// Method Definition Index: 78594
+// Method Definition Index: 78155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Update_mE8D4FFA199E069DAFD4314D5F28EBF5B9644C8A3 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10277,7 +10376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Update_mE8D4FFA199E069DAFD43
 		return;
 	}
 }
-// Method Definition Index: 78595
+// Method Definition Index: 78156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_PlayGame_mB5DE2377271DD83EE114E69B5F5A226E3DC1190D (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10295,7 +10394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_PlayGame_mB5DE2377271DD83EE1
 		return;
 	}
 }
-// Method Definition Index: 78596
+// Method Definition Index: 78157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_QuitGame_m0D5FC887CD47175D152C439A544655208B6647DD (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10317,7 +10416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_QuitGame_m0D5FC887CD47175D15
 		return;
 	}
 }
-// Method Definition Index: 78597
+// Method Definition Index: 78158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10333,7 +10432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78598
+// Method Definition Index: 78159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieTarget_OnCollisionEnter_mF753CC5A021F8E7D3A8BF8590D541AECD20E4E25 (ZombieTarget_t71D10E05F390DAB5FF7E916D3EA2555394857C00* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_collision, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10373,7 +10472,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 78599
+// Method Definition Index: 78160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieTarget__ctor_mAC7A386D8C6EABA5D1BF4092E32839AD2BF08E49 (ZombieTarget_t71D10E05F390DAB5FF7E916D3EA2555394857C00* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10389,7 +10488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieTarget__ctor_mAC7A386D8C6EABA5D1BF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78600
+// Method Definition Index: 78161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieHealth_Start_m54D25E057F647115FD9EBA810153EAB115F3A508 (ZombieHealth_t0FAC7823EDC864534C5F0E3059599FB503172F3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10400,7 +10499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieHealth_Start_m54D25E057F647115FD9E
 		return;
 	}
 }
-// Method Definition Index: 78601
+// Method Definition Index: 78162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieHealth_TakeDamage_mD4299693EF9EBA78A720D520680BB764EDBF3AE5 (ZombieHealth_t0FAC7823EDC864534C5F0E3059599FB503172F3C* __this, float ___0_damage, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_damageSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10446,7 +10545,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 78602
+// Method Definition Index: 78163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieHealth_Die_m4403FB4FEBFBD334D0EB18A0CC5064B4503BDD9F (ZombieHealth_t0FAC7823EDC864534C5F0E3059599FB503172F3C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10469,7 +10568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieHealth_Die_m4403FB4FEBFBD334D0EB18
 		return;
 	}
 }
-// Method Definition Index: 78603
+// Method Definition Index: 78164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieHealth__ctor_mB15742F07CDC112F2D66594FAC94A26D61DCFE6A (ZombieHealth_t0FAC7823EDC864534C5F0E3059599FB503172F3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10487,7 +10586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieHealth__ctor_mB15742F07CDC112F2D66
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78604
+// Method Definition Index: 78165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10503,7 +10602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78605
+// Method Definition Index: 78166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10519,15 +10618,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78606
+// Method Definition Index: 78167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____DFA619A1B4E1BE09EC36F75CB3E771E739C2028F86284721D493E2296628D5BD_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F0F5495E8B544FFFC9413F2BA4B60456DA2CFBC23454D5EB58AE9B28C3050E5E_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____07FEFD45C79492621A6B5CC53F79B515E52CA436ADDD2296BE7D30818B881518_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F63282478871D78EB4A67422D9C7CE68E515D39CD22445BE44FCDEC6AAC5BAC9_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
@@ -10536,20 +10635,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 	memset((&V_1), 0, sizeof(V_1));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)928));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1000));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____DFA619A1B4E1BE09EC36F75CB3E771E739C2028F86284721D493E2296628D5BD_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____07FEFD45C79492621A6B5CC53F79B515E52CA436ADDD2296BE7D30818B881518_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)469));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)515));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F0F5495E8B544FFFC9413F2BA4B60456DA2CFBC23454D5EB58AE9B28C3050E5E_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F63282478871D78EB4A67422D9C7CE68E515D39CD22445BE44FCDEC6AAC5BAC9_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
-		(&V_0)->___TotalFiles = ((int32_t)16);
-		(&V_0)->___TotalTypes = ((int32_t)19);
+		(&V_0)->___TotalFiles = ((int32_t)17);
+		(&V_0)->___TotalTypes = ((int32_t)20);
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
 		V_1 = L_6;
@@ -10562,7 +10661,7 @@ IL_005f:
 		return L_7;
 	}
 }
-// Method Definition Index: 78607
+// Method Definition Index: 78168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10648,7 +10747,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78608
+// Method Definition Index: 78169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_add_OnZombieDied_m96678B5F31BDE828FC0005D4B1F585D4CE4FB389 (Action_1_tF9F76DB73411395756021F35C1E0B77327B889BF* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10693,7 +10792,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 78609
+// Method Definition Index: 78170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_remove_OnZombieDied_m1662FE4150FBE4FEC554FFDEEA03954ED72BD8EF (Action_1_tF9F76DB73411395756021F35C1E0B77327B889BF* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10738,7 +10837,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 78610
+// Method Definition Index: 78171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_add_OnZombieAttacked_m189C612C37DCEA50F4F617DFCDB5FA7B3C28D82A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10783,7 +10882,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 78611
+// Method Definition Index: 78172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_remove_OnZombieAttacked_m32CE9A4CC0FA2DB4422EA3066DBBC7CA7D6AF239 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10828,7 +10927,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 78612
+// Method Definition Index: 78173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Start_m1F3DCC337235D4EA8A7211573225A67B2AD20FBC (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10843,7 +10942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Start_m1F3DCC337235D4E
 	}
 	bool V_0 = false;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:84>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:81>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_0;
 		L_0 = Object_FindFirstObjectByType_TisXROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_m5DF86C6F6E4EA017A319E7149E3E5B6A1CF6B917(Object_FindFirstObjectByType_TisXROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_m5DF86C6F6E4EA017A319E7149E3E5B6A1CF6B917_RuntimeMethod_var);
@@ -10852,7 +10951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Start_m1F3DCC337235D4E
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		__this->___player = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)L_1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:86>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:83>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_2 = __this->___enemyHealth;
 		bool L_3;
 		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -10864,13 +10963,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Start_m1F3DCC337235D4E
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:88>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:85>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_5 = __this->___enemyHealth;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_6 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_6, __this, (intptr_t)((void*)ZombieMenuStarter_U3CStartU3Eb__34_0_m497D3B3D744F3906ABF170D2B850E9519A237A51_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		EnemyHealth_add_OnTakeDamage_m9DD405BEA4E12DDA56FF17606D8E41F3714ABF22(L_5, L_6, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:89>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:86>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_7 = __this->___enemyHealth;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_8 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_8, __this, (intptr_t)((void*)ZombieMenuStarter_OnEnemyTakeDamage_mDAF77713DF5DEA92DB0D58EF8A96E62390A15AD3_RuntimeMethod_var), NULL);
@@ -10880,18 +10979,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Start_m1F3DCC337235D4E
 
 IL_0053:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:91>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 78613
+// Method Definition Index: 78174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Update_mB97F7D65A030C030F0F445DA739DE07466E240AC (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	bool V_1 = false;
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:95>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:92>
 		bool L_0 = __this->___isEmerging;
 		if (L_0)
 		{
@@ -10926,13 +11025,13 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:96>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:93>
 		goto IL_0034;
 	}
 
 IL_0020:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:98>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:95>
 		bool L_4 = __this->___isAttacking;
 		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		bool L_5 = V_1;
@@ -10942,66 +11041,66 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:99>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:96>
 		ZombieMenuStarter_ChasePlayer_m53BB68BC30F81470B2E07C22DB915F6EC09A94E7(__this, NULL);
 	}
 
 IL_0034:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:100>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:97>
 		return;
 	}
 }
-// Method Definition Index: 78614
+// Method Definition Index: 78175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Initialize_m898AF37BFB2BBEDAD5C607D918ED9016D5B97DFA (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, float ___0_speed, float ___1_timeToSpeed, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:111>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:108>
 		float L_0 = ___0_speed;
 		__this->___maxSpeed = L_0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:112>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:109>
 		float L_1 = ___1_timeToSpeed;
 		__this->___timeToMaxSpeed = L_1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:114>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:111>
 		float L_2;
 		L_2 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
 		float L_3 = __this->___screamChance;
 		__this->___willScream = (bool)((((int32_t)((!(((float)L_2) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:115>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:112>
 		__this->___hasScreamed = (bool)0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:116>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:113>
 		__this->___isAttacking = (bool)0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:118>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:115>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:119>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:116>
 		float* L_6 = (float*)(&(&V_0)->___y);
 		float* L_7 = L_6;
 		float L_8 = *((float*)L_7);
 		float L_9 = __this->___sinkDistance;
 		*((float*)L_7) = (float)((float)il2cpp_codegen_subtract(L_8, L_9));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:120>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:117>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
 		NullCheck(L_10);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_11, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:122>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:119>
 		RuntimeObject* L_12;
 		L_12 = ZombieMenuStarter_EmergeRoutine_m0AA07385B8ADA9F6FC7F7AC9F3A6778C7CB9C7EF(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_13;
 		L_13 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_12, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:123>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:120>
 		return;
 	}
 }
-// Method Definition Index: 78615
+// Method Definition Index: 78176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenuStarter_EmergeRoutine_m0AA07385B8ADA9F6FC7F7AC9F3A6778C7CB9C7EF (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11020,7 +11119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenuStarter_EmergeRoutin
 		return L_1;
 	}
 }
-// Method Definition Index: 78616
+// Method Definition Index: 78177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_ChasePlayer_m53BB68BC30F81470B2E07C22DB915F6EC09A94E7 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11044,7 +11143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_ChasePlayer_m53BB68BC3
 	bool V_9 = false;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:170>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:165>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11057,25 +11156,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_ChasePlayer_m53BB68BC3
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:170>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:165>
 		goto IL_01a7;
 	}
 
 IL_001a:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:172>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:167>
 		float L_3 = __this->___accelerateTimer;
 		float L_4;
 		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___accelerateTimer = ((float)il2cpp_codegen_add(L_3, L_4));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:173>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:168>
 		float L_5 = __this->___accelerateTimer;
 		float L_6 = __this->___timeToMaxSpeed;
 		float L_7 = __this->___maxSpeed;
 		float L_8;
 		L_8 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)(L_5/L_6)), (0.0f), L_7, NULL);
 		V_0 = L_8;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:175>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:170>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___player;
 		NullCheck(L_9);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
@@ -11088,17 +11187,17 @@ IL_001a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_10, L_12, NULL);
 		V_1 = L_13;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:176>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:171>
 		float L_14;
 		L_14 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_1), NULL);
 		V_2 = L_14;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:178>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:173>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_1;
 		float L_16 = L_15.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
 		float L_18 = L_17.___z;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_3), L_16, (0.0f), L_18, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:180>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:175>
 		bool L_19 = __this->___willScream;
 		if (!L_19)
 		{
@@ -11141,18 +11240,18 @@ IL_00b8:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:182>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:177>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_25 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var);
 		int32_t L_26 = ((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___Scream;
 		NullCheck(L_25);
 		Animator_SetTrigger_m2D9CACEFDE11FF9DB99207B5CBD251C1EC047939(L_25, L_26, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:183>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:178>
 		__this->___hasScreamed = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:184>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:179>
 		float L_27 = __this->___maxSpeed;
 		__this->___maxSpeed = ((float)il2cpp_codegen_add(L_27, (0.400000006f)));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:185>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:180>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_28 = __this->___enemyHealth;
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_29 = __this->___enemyHealth;
 		NullCheck(L_29);
@@ -11160,7 +11259,7 @@ IL_00b8:
 		L_30 = EnemyHealth_get_MaxHealth_m4FFFCB516AD8097FDF54521A46FAEF3D907D351B_inline(L_29, NULL);
 		NullCheck(L_28);
 		EnemyHealth_SetMaxHealth_m891FF16F569DA41B9AE60AC7FF6E0AEA6688762D(L_28, ((float)il2cpp_codegen_multiply(L_30, (2.0f))), NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:186>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:181>
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_31 = __this->___enemyHealth;
 		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_32 = __this->___enemyHealth;
 		NullCheck(L_32);
@@ -11172,7 +11271,7 @@ IL_00b8:
 
 IL_0124:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:189>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:184>
 		float L_34 = V_2;
 		float L_35 = __this->___attackRange;
 		V_6 = (bool)((((int32_t)((!(((float)L_34) <= ((float)L_35)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -11183,9 +11282,9 @@ IL_0124:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:191>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:186>
 		V_0 = (0.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:192>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:187>
 		bool L_37 = __this->___isAttacking;
 		V_7 = (bool)((((int32_t)L_37) == ((int32_t)0))? 1 : 0);
 		bool L_38 = V_7;
@@ -11195,7 +11294,7 @@ IL_0124:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:193>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:188>
 		ZombieMenuStarter_AttemptAttack_m186926C3DB89F5279F66A9A51ABC0CCBE02DFF77(__this, NULL);
 	}
 
@@ -11205,7 +11304,7 @@ IL_0153:
 
 IL_0154:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:196>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:191>
 		float L_39;
 		L_39 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_3), NULL);
 		bool L_40 = __this->___isAttacking;
@@ -11217,7 +11316,7 @@ IL_0154:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:197>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:192>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
 		L_42 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_3;
@@ -11229,7 +11328,7 @@ IL_0154:
 
 IL_0184:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:199>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:194>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_45 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_46;
@@ -11242,7 +11341,7 @@ IL_0184:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:200>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:195>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_48 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var);
 		int32_t L_49 = ((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___Speed;
@@ -11253,11 +11352,11 @@ IL_0184:
 
 IL_01a7:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:201>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:196>
 		return;
 	}
 }
-// Method Definition Index: 78617
+// Method Definition Index: 78178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_FacePlayerInstantly_mC9A4B11AAFE5111EE037D6CE5F6D4561CAC85EC5 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11271,7 +11370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_FacePlayerInstantly_mC
 	bool V_1 = false;
 	bool V_2 = false;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:205>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:200>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11284,13 +11383,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_FacePlayerInstantly_mC
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:205>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:200>
 		goto IL_0061;
 	}
 
 IL_0015:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:207>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:202>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___player;
 		NullCheck(L_3);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
@@ -11303,9 +11402,9 @@ IL_0015:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_4, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:208>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:203>
 		(&V_0)->___y = (0.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:210>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:205>
 		float L_8;
 		L_8 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_0), NULL);
 		V_2 = (bool)((((float)L_8) > ((float)(0.00100000005f)))? 1 : 0);
@@ -11316,7 +11415,7 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:211>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:206>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
@@ -11328,11 +11427,11 @@ IL_0015:
 
 IL_0061:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:212>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:207>
 		return;
 	}
 }
-// Method Definition Index: 78618
+// Method Definition Index: 78179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_AttemptAttack_m186926C3DB89F5279F66A9A51ABC0CCBE02DFF77 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11343,7 +11442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_AttemptAttack_m186926C
 	}
 	bool V_0 = false;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:220>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:215>
 		bool L_0 = __this->___isDead;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -11353,15 +11452,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_AttemptAttack_m186926C
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:220>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:215>
 		goto IL_0025;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:222>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:217>
 		__this->___isAttacking = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:223>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:218>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_2 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var);
 		int32_t L_3 = ((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___Attack;
@@ -11371,11 +11470,11 @@ IL_000d:
 
 IL_0025:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:224>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:219>
 		return;
 	}
 }
-// Method Definition Index: 78619
+// Method Definition Index: 78180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_AttackCompleted_m0DCF906BC311BB5FF8562EA4E786E43C2158E7CF (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11390,7 +11489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_AttackCompleted_m0DCF9
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B6_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B5_0 = NULL;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:232>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:227>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11432,7 +11531,7 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:233>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:228>
 		il2cpp_codegen_runtime_class_init_inline(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = ((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___OnZombieAttacked;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = L_9;
@@ -11455,15 +11554,15 @@ IL_004c:
 
 IL_0052:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:235>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:230>
 		__this->___isAttacking = (bool)0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:236>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:231>
 		__this->___accelerateTimer = (0.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:237>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:232>
 		return;
 	}
 }
-// Method Definition Index: 78620
+// Method Definition Index: 78181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Die_mAEFCE0813A1C09ECFAF7C6C8219D1BDBE62CBA33 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11484,7 +11583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Die_mAEFCE0813A1C09ECF
 	String_t* G_B9_0 = NULL;
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* G_B9_1 = NULL;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:246>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:241>
 		bool L_0 = __this->___isDead;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -11494,15 +11593,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_Die_mAEFCE0813A1C09ECF
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:246>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:241>
 		goto IL_007c;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:248>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:243>
 		__this->___isDead = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:249>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:244>
 		il2cpp_codegen_runtime_class_init_inline(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var);
 		Action_1_tF9F76DB73411395756021F35C1E0B77327B889BF* L_2 = ((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___OnZombieDied;
 		Action_1_tF9F76DB73411395756021F35C1E0B77327B889BF* L_3 = L_2;
@@ -11525,7 +11624,7 @@ IL_001f:
 
 IL_0026:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:251>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:246>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_4 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -11538,7 +11637,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:252>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:247>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_7 = __this->___animator;
 		int32_t L_8;
 		L_8 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, 2, NULL);
@@ -11569,15 +11668,15 @@ IL_0050:
 
 IL_0056:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:254>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:249>
 		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_9 = __this->___soundController;
 		NullCheck(L_9);
 		NPCSoundController_PlayDeath_mEE2CB887B7778D332EA75874A65C6C01D0B5A4D4(L_9, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:255>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:250>
 		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_10 = __this->___soundController;
 		NullCheck(L_10);
 		NPCSoundController_SetRandomVocalEnabled_m91BCDA0C81F375F5AE6829E705F2E2A5D88241DE(L_10, (bool)0, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:256>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:251>
 		RuntimeObject* L_11;
 		L_11 = ZombieMenuStarter_SinkRoutine_m802501F6D4D9321373E66DCC659B53D8FFD668C5(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12;
@@ -11586,11 +11685,11 @@ IL_0056:
 
 IL_007c:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:257>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:252>
 		return;
 	}
 }
-// Method Definition Index: 78621
+// Method Definition Index: 78182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_OnEnemyTakeDamage_mDAF77713DF5DEA92DB0D58EF8A96E62390A15AD3 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11604,7 +11703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_OnEnemyTakeDamage_mDAF
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:261>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:256>
 		bool L_0 = __this->___isDead;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -11614,13 +11713,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_OnEnemyTakeDamage_mDAF
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:261>
-		goto IL_003d;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:256>
+		goto IL_003f;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:263>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:258>
 		float L_2;
 		L_2 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
 		float L_3 = __this->___hitAnimationChance;
@@ -11628,18 +11727,14 @@ IL_000d:
 		bool L_4 = V_1;
 		if (!L_4)
 		{
-			goto IL_002c;
+			goto IL_003f;
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:264>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:260>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral215AC917155D7392287D3D3BB716C0770DF76369, NULL);
-	}
-
-IL_002c:
-	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:265>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:261>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->___animator;
 		il2cpp_codegen_runtime_class_init_inline(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var);
 		int32_t L_6 = ((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___Hit;
@@ -11647,13 +11742,13 @@ IL_002c:
 		Animator_SetTrigger_m2D9CACEFDE11FF9DB99207B5CBD251C1EC047939(L_5, L_6, NULL);
 	}
 
-IL_003d:
+IL_003f:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:266>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:263>
 		return;
 	}
 }
-// Method Definition Index: 78622
+// Method Definition Index: 78183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenuStarter_SinkRoutine_m802501F6D4D9321373E66DCC659B53D8FFD668C5 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11672,22 +11767,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenuStarter_SinkRoutine_
 		return L_1;
 	}
 }
-// Method Definition Index: 78623
+// Method Definition Index: 78184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_FadeAndDestroy_m275A04584BA435A7682EB6BCA4BAE5316C81B3A0 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:293>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:290>
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:294>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:291>
 		RuntimeObject* L_0;
 		L_0 = ZombieMenuStarter_AnimateAndDestroy_m27DD29910B0B6A3604C3B3596ED1343615C2EB17(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:295>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:292>
 		return;
 	}
 }
-// Method Definition Index: 78624
+// Method Definition Index: 78185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenuStarter_AnimateAndDestroy_m27DD29910B0B6A3604C3B3596ED1343615C2EB17 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11706,7 +11801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenuStarter_AnimateAndDe
 		return L_1;
 	}
 }
-// Method Definition Index: 78625
+// Method Definition Index: 78186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_DestroyZombie_m01A2A7090F5DEC711E304BE5E6CEFA59AA01E5E8 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11716,16 +11811,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_DestroyZombie_m01A2A70
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:317>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:313>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:318>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:314>
 		return;
 	}
 }
-// Method Definition Index: 78626
+// Method Definition Index: 78187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter__ctor_m7A26EE0CE4D6B51748EC2762ADD92DE704BB546C (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11741,17 +11836,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter__ctor_m7A26EE0CE4D6B51
 		__this->___sinkDistance = (2.0f);
 		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:36>
 		__this->___startAnimationDelay = (1.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:48>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:45>
 		__this->___attackRange = (0.5f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:51>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:48>
 		__this->___screamChance = (0.0500000007f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:54>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:51>
 		__this->___hitAnimationChance = (0.100000001f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 78627
+// Method Definition Index: 78188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter__cctor_m57F01529F0981CBFF2487A811A3AD2606122F608 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11767,38 +11862,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter__cctor_m57F01529F0981C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:68>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:65>
 		int32_t L_0;
 		L_0 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral5D2E3D85D1C3D4F42FAE33FB35C01C48241E0B32, NULL);
 		((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___Speed = L_0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:69>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:66>
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral8D2138AC607E38D06393E6A1BBFA0894446405C4, NULL);
 		((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___Scream = L_1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:70>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:67>
 		int32_t L_2;
 		L_2 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral8964425D5AFA567D9602F7E19CD9E3B473DEBE0C, NULL);
 		((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___Hit = L_2;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:71>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:68>
 		int32_t L_3;
 		L_3 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral508450355DF2A5BB172C6D21A5C54D7806587D91, NULL);
 		((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___Attack = L_3;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:72>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:69>
 		int32_t L_4;
 		L_4 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE, NULL);
 		((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___Start1 = L_4;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:73>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:70>
 		int32_t L_5;
 		L_5 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral4C5BB76374066548CBB93FADE3D077FC26D27E83, NULL);
 		((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___DissolveAmountHash = L_5;
 		return;
 	}
 }
-// Method Definition Index: 78628
+// Method Definition Index: 78189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_U3CStartU3Eb__34_0_m497D3B3D744F3906ABF170D2B850E9519A237A51 (ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* __this, float ___0__, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:88>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:85>
 		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_0 = __this->___soundController;
 		NullCheck(L_0);
 		NPCSoundController_PlayImpact_m09B23734781F0A87326278DF2FC837252301B236(L_0, NULL);
@@ -11813,7 +11908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenuStarter_U3CStartU3Eb__34_0_m49
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78629
+// Method Definition Index: 78190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__46__ctor_mB8930EFCAE2919C6365AF2A40E09CA2B28332F15 (U3CAnimateAndDestroyU3Ed__46_tC69237915A5FA851C67F8FBA7496BFC4300D2718* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -11823,14 +11918,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__46__ctor_mB893
 		return;
 	}
 }
-// Method Definition Index: 78630
+// Method Definition Index: 78191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__46_System_IDisposable_Dispose_m94D277146AEA0A1B1ABB51DEACD42C7DF18D9A6B (U3CAnimateAndDestroyU3Ed__46_tC69237915A5FA851C67F8FBA7496BFC4300D2718* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 78631
+// Method Definition Index: 78192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateAndDestroyU3Ed__46_MoveNext_m3D3C76C813A89B947766A30FC60B17828F539495 (U3CAnimateAndDestroyU3Ed__46_tC69237915A5FA851C67F8FBA7496BFC4300D2718* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11884,20 +11979,20 @@ IL_0019:
 IL_001b:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:299>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:296>
 		__this->___U3CdurationU3E5__1 = (2.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:300>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:297>
 		__this->___U3CelapsedU3E5__2 = (0.0f);
 		goto IL_00a9;
 	}
 
 IL_003b:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:304>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:301>
 		float L_3 = __this->___U3CelapsedU3E5__2;
 		float L_4 = __this->___U3CdurationU3E5__1;
 		__this->___U3CtU3E5__3 = ((float)(L_3/L_4));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:305>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:302>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_5 = __this->___U3CU3E4__this;
 		NullCheck(L_5);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_6 = L_5->___mRenderer;
@@ -11911,12 +12006,12 @@ IL_003b:
 		L_10 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.0f), (1.0f), L_9, NULL);
 		NullCheck(L_7);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_7, L_8, L_10, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:306>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:303>
 		float L_11 = __this->___U3CelapsedU3E5__2;
 		float L_12;
 		L_12 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedU3E5__2 = ((float)il2cpp_codegen_add(L_11, L_12));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:307>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:304>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -11930,7 +12025,7 @@ IL_00a1:
 
 IL_00a9:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:302>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:299>
 		float L_13 = __this->___U3CelapsedU3E5__2;
 		float L_14 = __this->___U3CdurationU3E5__1;
 		V_1 = (bool)((((float)L_13) < ((float)L_14))? 1 : 0);
@@ -11941,7 +12036,7 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:310>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:307>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_16 = __this->___U3CU3E4__this;
 		NullCheck(L_16);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_17 = L_16->___mRenderer;
@@ -11952,15 +12047,15 @@ IL_00a9:
 		int32_t L_19 = ((ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54_il2cpp_TypeInfo_var))->___DissolveAmountHash;
 		NullCheck(L_18);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_18, L_19, (1.0f), NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:311>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:308>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_20 = __this->___U3CU3E4__this;
 		NullCheck(L_20);
 		ZombieMenuStarter_DestroyZombie_m01A2A7090F5DEC711E304BE5E6CEFA59AA01E5E8(L_20, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:312>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:309>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 78632
+// Method Definition Index: 78193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__46_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m508C6BCE5A4922F3B398B9677B406B926EF5CB2B (U3CAnimateAndDestroyU3Ed__46_tC69237915A5FA851C67F8FBA7496BFC4300D2718* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11968,7 +12063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__46_S
 		return L_0;
 	}
 }
-// Method Definition Index: 78633
+// Method Definition Index: 78194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__46_System_Collections_IEnumerator_Reset_mAA3DF452B9590FC0B300617D5F05B808B6ECA9B1 (U3CAnimateAndDestroyU3Ed__46_tC69237915A5FA851C67F8FBA7496BFC4300D2718* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11977,7 +12072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__46_System_Coll
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAnimateAndDestroyU3Ed__46_System_Collections_IEnumerator_Reset_mAA3DF452B9590FC0B300617D5F05B808B6ECA9B1_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 78634
+// Method Definition Index: 78195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__46_System_Collections_IEnumerator_get_Current_m7F345EF2C136CE54E9F46DF782CC4DDEBD5E9F48 (U3CAnimateAndDestroyU3Ed__46_tC69237915A5FA851C67F8FBA7496BFC4300D2718* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11993,7 +12088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__46_S
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78635
+// Method Definition Index: 78196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__37__ctor_m06B4A6960C1DE09F6454322BD4F4CBB9EED86D7B (U3CEmergeRoutineU3Ed__37_t9E7E1F28C18E65BE1209DC77AD3E9A79171FEA4E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12003,14 +12098,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__37__ctor_m06B4A696
 		return;
 	}
 }
-// Method Definition Index: 78636
+// Method Definition Index: 78197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__37_System_IDisposable_Dispose_m119F64925021B7D7B5120C594A418216BD9D950D (U3CEmergeRoutineU3Ed__37_t9E7E1F28C18E65BE1209DC77AD3E9A79171FEA4E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 78637
+// Method Definition Index: 78198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEmergeRoutineU3Ed__37_MoveNext_m1FB639ADBDE0E268835D3E327C9CE20CD30C6C92 (U3CEmergeRoutineU3Ed__37_t9E7E1F28C18E65BE1209DC77AD3E9A79171FEA4E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12068,15 +12163,15 @@ IL_0019:
 IL_001b:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:127>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:124>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_3 = __this->___U3CU3E4__this;
 		NullCheck(L_3);
 		L_3->___isEmerging = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:128>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:125>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		ZombieMenuStarter_FacePlayerInstantly_mC9A4B11AAFE5111EE037D6CE5F6D4561CAC85EC5(L_4, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:130>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:127>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_5 = __this->___U3CU3E4__this;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -12085,7 +12180,7 @@ IL_001b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
 		__this->___U3CstartPosU3E5__1 = L_7;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:131>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:128>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_8 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
 		float L_9 = L_8->___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
@@ -12099,30 +12194,30 @@ IL_001b:
 		memset((&L_16), 0, sizeof(L_16));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_16), L_9, ((float)il2cpp_codegen_add(L_11, L_13)), L_15, NULL);
 		__this->___U3CendPosU3E5__2 = L_16;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:135>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:130>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_17 = __this->___U3CU3E4__this;
 		NullCheck(L_17);
 		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_18 = L_17->___soundController;
 		NullCheck(L_18);
 		NPCSoundController_PlaySpawn_m66050F81E00ACE8BBAA115208E673FBB254F5946(L_18, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:137>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:132>
 		__this->___U3CelapsedU3E5__3 = (0.0f);
 		goto IL_015c;
 	}
 
 IL_00aa:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:141>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:136>
 		float L_19 = __this->___U3CelapsedU3E5__3;
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_20 = __this->___U3CU3E4__this;
 		NullCheck(L_20);
 		float L_21 = L_20->___emergeDuration;
 		__this->___U3CtU3E5__4 = ((float)(L_19/L_21));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:142>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:137>
 		float L_22 = __this->___U3CtU3E5__4;
 		float L_23 = __this->___U3CtU3E5__4;
 		__this->___U3CeaseOutTU3E5__5 = ((float)il2cpp_codegen_multiply(L_22, ((float)il2cpp_codegen_subtract((2.0f), L_23))));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:143>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:138>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_24 = __this->___U3CU3E4__this;
 		NullCheck(L_24);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
@@ -12134,7 +12229,7 @@ IL_00aa:
 		L_29 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_26, L_27, L_28, NULL);
 		NullCheck(L_25);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_25, L_29, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:145>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:140>
 		float L_30 = __this->___U3CelapsedU3E5__3;
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_31 = __this->___U3CU3E4__this;
 		NullCheck(L_31);
@@ -12147,7 +12242,7 @@ IL_00aa:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:146>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:141>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_34 = __this->___U3CU3E4__this;
 		NullCheck(L_34);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_35 = L_34->___animator;
@@ -12159,12 +12254,12 @@ IL_00aa:
 
 IL_0132:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:148>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:143>
 		float L_37 = __this->___U3CelapsedU3E5__3;
 		float L_38;
 		L_38 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedU3E5__3 = ((float)il2cpp_codegen_add(L_37, L_38));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:149>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:144>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -12178,7 +12273,7 @@ IL_0154:
 
 IL_015c:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:139>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:134>
 		float L_39 = __this->___U3CelapsedU3E5__3;
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_40 = __this->___U3CU3E4__this;
 		NullCheck(L_40);
@@ -12191,7 +12286,7 @@ IL_015c:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:152>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:147>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_43 = __this->___U3CU3E4__this;
 		NullCheck(L_43);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44;
@@ -12199,7 +12294,7 @@ IL_015c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = __this->___U3CendPosU3E5__2;
 		NullCheck(L_44);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_44, L_45, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:154>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:149>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_46 = __this->___U3CU3E4__this;
 		NullCheck(L_46);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47 = L_46->___player;
@@ -12214,7 +12309,7 @@ IL_015c:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:155>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:150>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_50 = __this->___U3CU3E4__this;
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_51 = __this->___U3CU3E4__this;
 		NullCheck(L_51);
@@ -12237,15 +12332,15 @@ IL_015c:
 
 IL_01d1:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:157>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:152>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_58 = __this->___U3CU3E4__this;
 		NullCheck(L_58);
 		L_58->___isEmerging = (bool)0;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:158>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:153>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_59 = __this->___U3CU3E4__this;
 		NullCheck(L_59);
 		L_59->___accelerateTimer = (0.0f);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:160>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:155>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_60 = __this->___U3CU3E4__this;
 		NullCheck(L_60);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_61 = L_60->___animator;
@@ -12260,7 +12355,7 @@ IL_01d1:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:161>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:156>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_64 = __this->___U3CU3E4__this;
 		NullCheck(L_64);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_65 = L_64->___animator;
@@ -12272,11 +12367,11 @@ IL_01d1:
 
 IL_021e:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:162>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:157>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 78638
+// Method Definition Index: 78199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m888161B34A2BA1C731A1A1D99F4751E7F6F4093D (U3CEmergeRoutineU3Ed__37_t9E7E1F28C18E65BE1209DC77AD3E9A79171FEA4E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12284,7 +12379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__37_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 78639
+// Method Definition Index: 78200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__37_System_Collections_IEnumerator_Reset_mBD7C7CEF6C211AA14888E52EB6760B314C9D8FD5 (U3CEmergeRoutineU3Ed__37_t9E7E1F28C18E65BE1209DC77AD3E9A79171FEA4E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12293,7 +12388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__37_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CEmergeRoutineU3Ed__37_System_Collections_IEnumerator_Reset_mBD7C7CEF6C211AA14888E52EB6760B314C9D8FD5_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 78640
+// Method Definition Index: 78201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__37_System_Collections_IEnumerator_get_Current_m3B9C7986F209051876C1E1E19704F00FD84D147C (U3CEmergeRoutineU3Ed__37_t9E7E1F28C18E65BE1209DC77AD3E9A79171FEA4E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12309,7 +12404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__37_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78641
+// Method Definition Index: 78202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__44__ctor_m86A57E817BBA0A5702AD335D75A934CA0CE9B27D (U3CSinkRoutineU3Ed__44_tE481AFA66CF3844266934A063672CB596DBAFBDA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12319,14 +12414,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__44__ctor_m86A57E817B
 		return;
 	}
 }
-// Method Definition Index: 78642
+// Method Definition Index: 78203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__44_System_IDisposable_Dispose_m6587C1B1F6248428D021FB937245AF1737D0C964 (U3CSinkRoutineU3Ed__44_tE481AFA66CF3844266934A063672CB596DBAFBDA* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 78643
+// Method Definition Index: 78204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSinkRoutineU3Ed__44_MoveNext_m303F2EFA576C9D3D3D7B2425928BECC30B6947AD (U3CSinkRoutineU3Ed__44_tE481AFA66CF3844266934A063672CB596DBAFBDA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12384,7 +12479,7 @@ IL_0024:
 IL_0026:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:270>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:267>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_2 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_2, (3.0f), NULL);
 		__this->___U3CU3E2__current = L_2;
@@ -12396,11 +12491,11 @@ IL_0026:
 IL_0047:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:272>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:269>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_3 = __this->___U3CU3E4__this;
 		NullCheck(L_3);
 		L_3->___isSinking = (bool)1;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:274>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:271>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -12409,7 +12504,7 @@ IL_0047:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
 		__this->___U3CstartPosU3E5__1 = L_6;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:275>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:272>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
 		float L_8 = L_7->___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
@@ -12423,20 +12518,20 @@ IL_0047:
 		memset((&L_15), 0, sizeof(L_15));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_15), L_8, ((float)il2cpp_codegen_subtract(L_10, L_12)), L_14, NULL);
 		__this->___U3CendPosU3E5__2 = L_15;
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:277>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:274>
 		__this->___U3CelapsedU3E5__3 = (0.0f);
 		goto IL_0120;
 	}
 
 IL_00b5:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:281>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:278>
 		float L_16 = __this->___U3CelapsedU3E5__3;
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_17 = __this->___U3CU3E4__this;
 		NullCheck(L_17);
 		float L_18 = L_17->___sinkDuration;
 		__this->___U3CtU3E5__4 = ((float)(L_16/L_18));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:282>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:279>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_19 = __this->___U3CU3E4__this;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
@@ -12448,12 +12543,12 @@ IL_00b5:
 		L_24 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_21, L_22, L_23, NULL);
 		NullCheck(L_20);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_20, L_24, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:283>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:280>
 		float L_25 = __this->___U3CelapsedU3E5__3;
 		float L_26;
 		L_26 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedU3E5__3 = ((float)il2cpp_codegen_add(L_25, L_26));
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:284>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:281>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 2;
@@ -12467,7 +12562,7 @@ IL_0118:
 
 IL_0120:
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:279>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:276>
 		float L_27 = __this->___U3CelapsedU3E5__3;
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_28 = __this->___U3CU3E4__this;
 		NullCheck(L_28);
@@ -12480,7 +12575,7 @@ IL_0120:
 		}
 	}
 	{
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:287>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:284>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_31 = __this->___U3CU3E4__this;
 		NullCheck(L_31);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
@@ -12488,15 +12583,15 @@ IL_0120:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___U3CendPosU3E5__2;
 		NullCheck(L_32);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_32, L_33, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:288>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:285>
 		ZombieMenuStarter_tD213DE9443ECC03E6587B3B30A095D42CC8A0D54* L_34 = __this->___U3CU3E4__this;
 		NullCheck(L_34);
 		ZombieMenuStarter_DestroyZombie_m01A2A7090F5DEC711E304BE5E6CEFA59AA01E5E8(L_34, NULL);
-		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:289>
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuStarter.cs:286>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 78644
+// Method Definition Index: 78205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD2C31F323B8C0595E8701AA6E6C82EDA2A49AD45 (U3CSinkRoutineU3Ed__44_tE481AFA66CF3844266934A063672CB596DBAFBDA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12504,7 +12599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__44_System_
 		return L_0;
 	}
 }
-// Method Definition Index: 78645
+// Method Definition Index: 78206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__44_System_Collections_IEnumerator_Reset_m6469392B9377303401F612119DD9862C8BD51B99 (U3CSinkRoutineU3Ed__44_tE481AFA66CF3844266934A063672CB596DBAFBDA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12513,8 +12608,1913 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__44_System_Collection
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSinkRoutineU3Ed__44_System_Collections_IEnumerator_Reset_m6469392B9377303401F612119DD9862C8BD51B99_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 78646
+// Method Definition Index: 78207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__44_System_Collections_IEnumerator_get_Current_mC66F926BB34A66829724459748A67BCE960F3FDB (U3CSinkRoutineU3Ed__44_tE481AFA66CF3844266934A063672CB596DBAFBDA* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 78209
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_add_OnZombieDied_m521C6650A8FD55548ED5B9351916269CF1B1C822 (Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* V_0 = NULL;
+	Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* V_1 = NULL;
+	Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_0 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieDied;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_2 = V_1;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A*)Castclass((RuntimeObject*)L_4, Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_5 = V_2;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_6 = V_1;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A*>((&((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieDied), L_5, L_6);
+		V_0 = L_7;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_8 = V_0;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A*)L_8) == ((RuntimeObject*)(Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 78210
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_remove_OnZombieDied_mDC2396D089305FB765D59E261C9BC762CB5886B8 (Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* V_0 = NULL;
+	Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* V_1 = NULL;
+	Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_0 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieDied;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_2 = V_1;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A*)Castclass((RuntimeObject*)L_4, Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_5 = V_2;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_6 = V_1;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A*>((&((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieDied), L_5, L_6);
+		V_0 = L_7;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_8 = V_0;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A*)L_8) == ((RuntimeObject*)(Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 78211
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_add_OnZombieAttacked_mCF0A639F988429071F63E985EAF26C1199F41E4A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieAttacked;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieAttacked), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 78212
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_remove_OnZombieAttacked_m03EE0080461893A203DFDA8667A34414BCDACE21 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieAttacked;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieAttacked), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 78213
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_Start_mF748658A31F5BE11E8456B36CBC9C961B3DFB59D (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindFirstObjectByType_TisXROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_m5DF86C6F6E4EA017A319E7149E3E5B6A1CF6B917_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_OnEnemyTakeDamage_mC23CA0E79E0EE787D56B64C6356D3CC3083E763D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_U3CStartU3Eb__35_0_m237380EDFE73AC37D2C0374F315FB469A558C636_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:90>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_0;
+		L_0 = Object_FindFirstObjectByType_TisXROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_m5DF86C6F6E4EA017A319E7149E3E5B6A1CF6B917(Object_FindFirstObjectByType_TisXROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_m5DF86C6F6E4EA017A319E7149E3E5B6A1CF6B917_RuntimeMethod_var);
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
+		__this->___player = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)L_1);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:92>
+		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_2 = __this->___enemyHealth;
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_3;
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:94>
+		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_5 = __this->___enemyHealth;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_6 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_6, __this, (intptr_t)((void*)ZombieMenueTest_U3CStartU3Eb__35_0_m237380EDFE73AC37D2C0374F315FB469A558C636_RuntimeMethod_var), NULL);
+		NullCheck(L_5);
+		EnemyHealth_add_OnTakeDamage_m9DD405BEA4E12DDA56FF17606D8E41F3714ABF22(L_5, L_6, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:95>
+		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_7 = __this->___enemyHealth;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_8 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_8, __this, (intptr_t)((void*)ZombieMenueTest_OnEnemyTakeDamage_mC23CA0E79E0EE787D56B64C6356D3CC3083E763D_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		EnemyHealth_add_OnTakeDamage_m9DD405BEA4E12DDA56FF17606D8E41F3714ABF22(L_7, L_8, NULL);
+	}
+
+IL_0053:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:97>
+		return;
+	}
+}
+// Method Definition Index: 78214
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_Update_mECB694B2E8762A441851162FE60F27ED45A3CE80 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t G_B4_0 = 0;
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:101>
+		bool L_0 = __this->___isEmerging;
+		if (L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		bool L_1 = __this->___isSinking;
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		bool L_2 = __this->___isDead;
+		G_B4_0 = ((int32_t)(L_2));
+		goto IL_001a;
+	}
+
+IL_0019:
+	{
+		G_B4_0 = 1;
+	}
+
+IL_001a:
+	{
+		V_0 = (bool)G_B4_0;
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:102>
+		goto IL_0034;
+	}
+
+IL_0020:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:104>
+		bool L_4 = __this->___isAttacking;
+		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:105>
+		ZombieMenueTest_ChasePlayer_m5AB9995D7EA77D6FAD31593CC5BEA60446814448(__this, NULL);
+	}
+
+IL_0034:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:106>
+		return;
+	}
+}
+// Method Definition Index: 78215
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_Initialize_m096B91FB424CC32BE36BD3A5EEAF90FCB7B97C54 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, float ___0_speed, float ___1_timeToSpeed, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:117>
+		float L_0 = ___0_speed;
+		__this->___maxSpeed = L_0;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:118>
+		float L_1 = ___1_timeToSpeed;
+		__this->___timeToMaxSpeed = L_1;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:120>
+		float L_2;
+		L_2 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		float L_3 = __this->___screamChance;
+		__this->___willScream = (bool)((((int32_t)((!(((float)L_2) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:121>
+		__this->___hasScreamed = (bool)0;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:122>
+		__this->___isAttacking = (bool)0;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:124>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		V_0 = L_5;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:125>
+		float* L_6 = (float*)(&(&V_0)->___y);
+		float* L_7 = L_6;
+		float L_8 = *((float*)L_7);
+		float L_9 = __this->___sinkDistance;
+		*((float*)L_7) = (float)((float)il2cpp_codegen_subtract(L_8, L_9));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:126>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
+		NullCheck(L_10);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_11, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:128>
+		RuntimeObject* L_12;
+		L_12 = ZombieMenueTest_EmergeRoutine_mF9F8FD14C06232A12148C5327B075B88C28B2DF4(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_13;
+		L_13 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_12, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:129>
+		return;
+	}
+}
+// Method Definition Index: 78216
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenueTest_EmergeRoutine_mF9F8FD14C06232A12148C5327B075B88C28B2DF4 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1* L_0 = (U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1*)il2cpp_codegen_object_new(U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1_il2cpp_TypeInfo_var);
+		U3CEmergeRoutineU3Ed__38__ctor_m752788A1994BE2A377009A38D00F896917BB0710(L_0, 0, NULL);
+		U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 78217
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_ChasePlayer_m5AB9995D7EA77D6FAD31593CC5BEA60446814448 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	int32_t G_B7_0 = 0;
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:176>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		V_4 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_4;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:176>
+		goto IL_01a7;
+	}
+
+IL_001a:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:178>
+		float L_3 = __this->___accelerateTimer;
+		float L_4;
+		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___accelerateTimer = ((float)il2cpp_codegen_add(L_3, L_4));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:179>
+		float L_5 = __this->___accelerateTimer;
+		float L_6 = __this->___timeToMaxSpeed;
+		float L_7 = __this->___maxSpeed;
+		float L_8;
+		L_8 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)(L_5/L_6)), (0.0f), L_7, NULL);
+		V_0 = L_8;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:181>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___player;
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_9, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_10, L_12, NULL);
+		V_1 = L_13;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:182>
+		float L_14;
+		L_14 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_1), NULL);
+		V_2 = L_14;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:184>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_1;
+		float L_16 = L_15.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
+		float L_18 = L_17.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_3), L_16, (0.0f), L_18, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:186>
+		bool L_19 = __this->___willScream;
+		if (!L_19)
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		bool L_20 = __this->___hasScreamed;
+		if (L_20)
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		float L_21 = __this->___initialDistanceToPlayer;
+		if ((!(((float)L_21) > ((float)(0.0f)))))
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		float L_22 = V_2;
+		float L_23 = __this->___initialDistanceToPlayer;
+		G_B7_0 = ((((int32_t)((!(((float)L_22) <= ((float)((float)il2cpp_codegen_multiply(L_23, (0.949999988f))))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_00b8;
+	}
+
+IL_00b7:
+	{
+		G_B7_0 = 0;
+	}
+
+IL_00b8:
+	{
+		V_5 = (bool)G_B7_0;
+		bool L_24 = V_5;
+		if (!L_24)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:188>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_25 = __this->___animator;
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		int32_t L_26 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Scream;
+		NullCheck(L_25);
+		Animator_SetTrigger_m2D9CACEFDE11FF9DB99207B5CBD251C1EC047939(L_25, L_26, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:189>
+		__this->___hasScreamed = (bool)1;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:190>
+		float L_27 = __this->___maxSpeed;
+		__this->___maxSpeed = ((float)il2cpp_codegen_add(L_27, (0.400000006f)));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:191>
+		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_28 = __this->___enemyHealth;
+		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_29 = __this->___enemyHealth;
+		NullCheck(L_29);
+		float L_30;
+		L_30 = EnemyHealth_get_MaxHealth_m4FFFCB516AD8097FDF54521A46FAEF3D907D351B_inline(L_29, NULL);
+		NullCheck(L_28);
+		EnemyHealth_SetMaxHealth_m891FF16F569DA41B9AE60AC7FF6E0AEA6688762D(L_28, ((float)il2cpp_codegen_multiply(L_30, (2.0f))), NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:192>
+		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_31 = __this->___enemyHealth;
+		EnemyHealth_t90FE5A633E2FAE1CF6F54F84103660A4484FF261* L_32 = __this->___enemyHealth;
+		NullCheck(L_32);
+		float L_33;
+		L_33 = EnemyHealth_get_MaxHealth_m4FFFCB516AD8097FDF54521A46FAEF3D907D351B_inline(L_32, NULL);
+		NullCheck(L_31);
+		EnemyHealth_AddHealth_m8BDC295F8445F4F3487A042622996795FB7BD3DE(L_31, ((float)(L_33/(2.0f))), NULL);
+	}
+
+IL_0124:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:195>
+		float L_34 = V_2;
+		float L_35 = __this->___attackRange;
+		V_6 = (bool)((((int32_t)((!(((float)L_34) <= ((float)L_35)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_36 = V_6;
+		if (!L_36)
+		{
+			goto IL_0154;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:197>
+		V_0 = (0.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:198>
+		bool L_37 = __this->___isAttacking;
+		V_7 = (bool)((((int32_t)L_37) == ((int32_t)0))? 1 : 0);
+		bool L_38 = V_7;
+		if (!L_38)
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:199>
+		ZombieMenueTest_AttemptAttack_m5729B7C6F3D57BA35DCE03A41741C01B21CAED30(__this, NULL);
+	}
+
+IL_0153:
+	{
+	}
+
+IL_0154:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:202>
+		float L_39;
+		L_39 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_3), NULL);
+		bool L_40 = __this->___isAttacking;
+		V_8 = (bool)((int32_t)(((((float)L_39) > ((float)(0.00100000005f)))? 1 : 0)&((((int32_t)L_40) == ((int32_t)0))? 1 : 0)));
+		bool L_41 = V_8;
+		if (!L_41)
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:203>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
+		L_42 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44;
+		L_44 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7(L_43, NULL);
+		NullCheck(L_42);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_42, L_44, NULL);
+	}
+
+IL_0184:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:205>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_45 = __this->___animator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_45, NULL);
+		V_9 = L_46;
+		bool L_47 = V_9;
+		if (!L_47)
+		{
+			goto IL_01a7;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:206>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_48 = __this->___animator;
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		int32_t L_49 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Speed;
+		float L_50 = V_0;
+		NullCheck(L_48);
+		Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_48, L_49, L_50, NULL);
+	}
+
+IL_01a7:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:207>
+		return;
+	}
+}
+// Method Definition Index: 78218
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_FacePlayerInstantly_mECFB24084D29B4C01173BF12A762238223556E20 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:211>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		V_1 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:211>
+		goto IL_0061;
+	}
+
+IL_0015:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:213>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___player;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_4, L_6, NULL);
+		V_0 = L_7;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:214>
+		(&V_0)->___y = (0.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:216>
+		float L_8;
+		L_8 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_0), NULL);
+		V_2 = (bool)((((float)L_8) > ((float)(0.00100000005f)))? 1 : 0);
+		bool L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:217>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
+		L_12 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7(L_11, NULL);
+		NullCheck(L_10);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_10, L_12, NULL);
+	}
+
+IL_0061:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:218>
+		return;
+	}
+}
+// Method Definition Index: 78219
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_AttemptAttack_m5729B7C6F3D57BA35DCE03A41741C01B21CAED30 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:226>
+		bool L_0 = __this->___isDead;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:226>
+		goto IL_0025;
+	}
+
+IL_000d:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:228>
+		__this->___isAttacking = (bool)1;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:229>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_2 = __this->___animator;
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		int32_t L_3 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Attack;
+		NullCheck(L_2);
+		Animator_SetTrigger_m2D9CACEFDE11FF9DB99207B5CBD251C1EC047939(L_2, L_3, NULL);
+	}
+
+IL_0025:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:230>
+		return;
+	}
+}
+// Method Definition Index: 78220
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_AttackCompleted_mDE7C2A40554DCE670D96825A001B3C75A9C92F17 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B6_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B5_0 = NULL;
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:238>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___player;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		float L_6;
+		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
+		float L_7 = __this->___attackRange;
+		G_B3_0 = ((((int32_t)((!(((float)L_6) <= ((float)((float)il2cpp_codegen_add(L_7, (0.0199999996f))))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_003d;
+	}
+
+IL_003c:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_003d:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_8 = V_0;
+		if (!L_8)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:239>
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieAttacked;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = L_9;
+		if (L_10)
+		{
+			G_B6_0 = L_10;
+			goto IL_004c;
+		}
+		G_B5_0 = L_10;
+	}
+	{
+		goto IL_0052;
+	}
+
+IL_004c:
+	{
+		NullCheck(G_B6_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B6_0, NULL);
+	}
+
+IL_0052:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:241>
+		__this->___isAttacking = (bool)0;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:242>
+		__this->___accelerateTimer = (0.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:243>
+		return;
+	}
+}
+// Method Definition Index: 78221
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_Die_m3CEE52DF181208C14214596061721893114842D4 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DC2D36AD3C19CCB0BF025DC0E0854DDDCCB8F65);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBFBCE7720950D370B466C53D35AF87345EE41CC2);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* G_B4_0 = NULL;
+	Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* G_B3_0 = NULL;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* G_B8_0 = NULL;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* G_B7_0 = NULL;
+	String_t* G_B9_0 = NULL;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* G_B9_1 = NULL;
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:252>
+		bool L_0 = __this->___isDead;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:252>
+		goto IL_007c;
+	}
+
+IL_000d:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:254>
+		__this->___isDead = (bool)1;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:255>
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_2 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___OnZombieDied;
+		Action_1_t2EDFB6DF394BE53D56E1E2BB31B4EA12BB30EE2A* L_3 = L_2;
+		if (L_3)
+		{
+			G_B4_0 = L_3;
+			goto IL_001f;
+		}
+		G_B3_0 = L_3;
+	}
+	{
+		goto IL_0026;
+	}
+
+IL_001f:
+	{
+		NullCheck(G_B4_0);
+		Action_1_Invoke_m6B92EEAA7766D500DEB988FA65936198037A2EFC_inline(G_B4_0, __this, NULL);
+	}
+
+IL_0026:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:257>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_4 = __this->___animator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_4, NULL);
+		V_1 = L_5;
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:258>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_7 = __this->___animator;
+		int32_t L_8;
+		L_8 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, 2, NULL);
+		if (!L_8)
+		{
+			G_B8_0 = L_7;
+			goto IL_004b;
+		}
+		G_B7_0 = L_7;
+	}
+	{
+		G_B9_0 = _stringLiteralBFBCE7720950D370B466C53D35AF87345EE41CC2;
+		G_B9_1 = G_B7_0;
+		goto IL_0050;
+	}
+
+IL_004b:
+	{
+		G_B9_0 = _stringLiteral4DC2D36AD3C19CCB0BF025DC0E0854DDDCCB8F65;
+		G_B9_1 = G_B8_0;
+	}
+
+IL_0050:
+	{
+		NullCheck(G_B9_1);
+		Animator_SetTrigger_mC9CD54D627C8843EF6E159E167449D216EF6EB30(G_B9_1, G_B9_0, NULL);
+	}
+
+IL_0056:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:260>
+		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_9 = __this->___soundController;
+		NullCheck(L_9);
+		NPCSoundController_PlayDeath_mEE2CB887B7778D332EA75874A65C6C01D0B5A4D4(L_9, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:261>
+		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_10 = __this->___soundController;
+		NullCheck(L_10);
+		NPCSoundController_SetRandomVocalEnabled_m91BCDA0C81F375F5AE6829E705F2E2A5D88241DE(L_10, (bool)0, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:262>
+		RuntimeObject* L_11;
+		L_11 = ZombieMenueTest_SinkRoutine_mB772E3FEFF1DBB3AB9C67E902FD3667A9F72AF45(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12;
+		L_12 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_11, NULL);
+	}
+
+IL_007c:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:263>
+		return;
+	}
+}
+// Method Definition Index: 78222
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_OnEnemyTakeDamage_mC23CA0E79E0EE787D56B64C6356D3CC3083E763D (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, float ___0_x, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral215AC917155D7392287D3D3BB716C0770DF76369);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:267>
+		bool L_0 = __this->___isDead;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:267>
+		goto IL_003f;
+	}
+
+IL_000d:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:269>
+		float L_2;
+		L_2 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		float L_3 = __this->___hitAnimationChance;
+		V_1 = (bool)((((int32_t)((!(((float)L_2) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:271>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral215AC917155D7392287D3D3BB716C0770DF76369, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:272>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->___animator;
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		int32_t L_6 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Hit;
+		NullCheck(L_5);
+		Animator_SetTrigger_m2D9CACEFDE11FF9DB99207B5CBD251C1EC047939(L_5, L_6, NULL);
+	}
+
+IL_003f:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:274>
+		return;
+	}
+}
+// Method Definition Index: 78223
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenueTest_SinkRoutine_mB772E3FEFF1DBB3AB9C67E902FD3667A9F72AF45 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6* L_0 = (U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6*)il2cpp_codegen_object_new(U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6_il2cpp_TypeInfo_var);
+		U3CSinkRoutineU3Ed__45__ctor_mB12C5E510B5715F0258D1F230BCFEA545858AC3C(L_0, 0, NULL);
+		U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 78224
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_FadeAndDestroy_mA76772D75C1C9D6A4F4A739B573EC9CA704C91AC (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:301>
+		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:302>
+		RuntimeObject* L_0;
+		L_0 = ZombieMenueTest_AnimateAndDestroy_m9F936A5FD22A82FB83EA3ABB7A0F5C16BE47D90C(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
+		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:303>
+		return;
+	}
+}
+// Method Definition Index: 78225
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ZombieMenueTest_AnimateAndDestroy_m9F936A5FD22A82FB83EA3ABB7A0F5C16BE47D90C (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374* L_0 = (U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374*)il2cpp_codegen_object_new(U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374_il2cpp_TypeInfo_var);
+		U3CAnimateAndDestroyU3Ed__47__ctor_mB7A216DE6FE6190282ACBCA75843EF878E29569A(L_0, 0, NULL);
+		U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 78226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_DestroyZombie_m5E30854AF5FD0CF6A533F40CE6F3C35DD299DF77 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:324>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = __this->___spawnParticles;
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_1);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_1, L_2, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:325>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_3, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:326>
+		return;
+	}
+}
+// Method Definition Index: 78227
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest__ctor_m7BAA5FCF4B52219474F87C3A4DA74E2536CCA1DF (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:27>
+		__this->___maxSpeed = (1.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:30>
+		__this->___timeToMaxSpeed = (2.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:33>
+		__this->___emergeDuration = (2.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:36>
+		__this->___sinkDuration = (2.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:39>
+		__this->___sinkDistance = (2.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:42>
+		__this->___startAnimationDelay = (1.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:54>
+		__this->___attackRange = (0.5f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:57>
+		__this->___screamChance = (0.0500000007f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:60>
+		__this->___hitAnimationChance = (0.100000001f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 78228
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest__cctor_m8B610BB24D49BA409DBA85294D3D2A46E450C791 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C5BB76374066548CBB93FADE3D077FC26D27E83);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral508450355DF2A5BB172C6D21A5C54D7806587D91);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5D2E3D85D1C3D4F42FAE33FB35C01C48241E0B32);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8964425D5AFA567D9602F7E19CD9E3B473DEBE0C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D2138AC607E38D06393E6A1BBFA0894446405C4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:74>
+		int32_t L_0;
+		L_0 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral5D2E3D85D1C3D4F42FAE33FB35C01C48241E0B32, NULL);
+		((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Speed = L_0;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:75>
+		int32_t L_1;
+		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral8D2138AC607E38D06393E6A1BBFA0894446405C4, NULL);
+		((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Scream = L_1;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:76>
+		int32_t L_2;
+		L_2 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral8964425D5AFA567D9602F7E19CD9E3B473DEBE0C, NULL);
+		((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Hit = L_2;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:77>
+		int32_t L_3;
+		L_3 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral508450355DF2A5BB172C6D21A5C54D7806587D91, NULL);
+		((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Attack = L_3;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:78>
+		int32_t L_4;
+		L_4 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE, NULL);
+		((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Start1 = L_4;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:79>
+		int32_t L_5;
+		L_5 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral4C5BB76374066548CBB93FADE3D077FC26D27E83, NULL);
+		((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___DissolveAmountHash = L_5;
+		return;
+	}
+}
+// Method Definition Index: 78229
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZombieMenueTest_U3CStartU3Eb__35_0_m237380EDFE73AC37D2C0374F315FB469A558C636 (ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* __this, float ___0__, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:94>
+		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_0 = __this->___soundController;
+		NullCheck(L_0);
+		NPCSoundController_PlayImpact_m09B23734781F0A87326278DF2FC837252301B236(L_0, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 78230
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__47__ctor_mB7A216DE6FE6190282ACBCA75843EF878E29569A (U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 78231
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__47_System_IDisposable_Dispose_m5534F463F0B4E9EA6C568179CBCD16D6BC0CDC26 (U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 78232
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateAndDestroyU3Ed__47_MoveNext_mDF2D4D8EA3E1C72ADDBE09C183D498F7692D8336 (U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		goto IL_0019;
+	}
+
+IL_0012:
+	{
+		goto IL_001b;
+	}
+
+IL_0014:
+	{
+		goto IL_00a1;
+	}
+
+IL_0019:
+	{
+		return (bool)0;
+	}
+
+IL_001b:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:307>
+		__this->___U3CdurationU3E5__1 = (2.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:308>
+		__this->___U3CelapsedU3E5__2 = (0.0f);
+		goto IL_00a9;
+	}
+
+IL_003b:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:312>
+		float L_3 = __this->___U3CelapsedU3E5__2;
+		float L_4 = __this->___U3CdurationU3E5__1;
+		__this->___U3CtU3E5__3 = ((float)(L_3/L_4));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:313>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_5 = __this->___U3CU3E4__this;
+		NullCheck(L_5);
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_6 = L_5->___mRenderer;
+		NullCheck(L_6);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7;
+		L_7 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		int32_t L_8 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___DissolveAmountHash;
+		float L_9 = __this->___U3CtU3E5__3;
+		float L_10;
+		L_10 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.0f), (1.0f), L_9, NULL);
+		NullCheck(L_7);
+		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_7, L_8, L_10, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:314>
+		float L_11 = __this->___U3CelapsedU3E5__2;
+		float L_12;
+		L_12 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CelapsedU3E5__2 = ((float)il2cpp_codegen_add(L_11, L_12));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:315>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_00a1:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_00a9:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:310>
+		float L_13 = __this->___U3CelapsedU3E5__2;
+		float L_14 = __this->___U3CdurationU3E5__1;
+		V_1 = (bool)((((float)L_13) < ((float)L_14))? 1 : 0);
+		bool L_15 = V_1;
+		if (L_15)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:318>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_16 = __this->___U3CU3E4__this;
+		NullCheck(L_16);
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_17 = L_16->___mRenderer;
+		NullCheck(L_17);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18;
+		L_18 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_17, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		int32_t L_19 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___DissolveAmountHash;
+		NullCheck(L_18);
+		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_18, L_19, (1.0f), NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:319>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_20 = __this->___U3CU3E4__this;
+		NullCheck(L_20);
+		ZombieMenueTest_DestroyZombie_m5E30854AF5FD0CF6A533F40CE6F3C35DD299DF77(L_20, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:320>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 78233
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__47_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC11768EC4790BD1F326F4E091F3D2BE4B8D07340 (U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 78234
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateAndDestroyU3Ed__47_System_Collections_IEnumerator_Reset_mC28EFC07BFFEF2385D79D54C9AB0DB0097DC8882 (U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAnimateAndDestroyU3Ed__47_System_Collections_IEnumerator_Reset_mC28EFC07BFFEF2385D79D54C9AB0DB0097DC8882_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 78235
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateAndDestroyU3Ed__47_System_Collections_IEnumerator_get_Current_m3D2A01F03DA6B361B89D9103D448769F990C02F6 (U3CAnimateAndDestroyU3Ed__47_t3631364FBE27B7A8353F0AABB948890442D1F374* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 78236
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__38__ctor_m752788A1994BE2A377009A38D00F896917BB0710 (U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 78237
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__38_System_IDisposable_Dispose_m29CA624400B13527D3D8C15CBE3039B5AC2DE9EC (U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 78238
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEmergeRoutineU3Ed__38_MoveNext_mCFE31E13FC9B9376FDEEA619F01370E6DDA2700A (U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		goto IL_0019;
+	}
+
+IL_0012:
+	{
+		goto IL_001b;
+	}
+
+IL_0014:
+	{
+		goto IL_0187;
+	}
+
+IL_0019:
+	{
+		return (bool)0;
+	}
+
+IL_001b:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:133>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_3 = __this->___U3CU3E4__this;
+		NullCheck(L_3);
+		L_3->___isEmerging = (bool)1;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:134>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_4 = __this->___U3CU3E4__this;
+		NullCheck(L_4);
+		ZombieMenueTest_FacePlayerInstantly_mECFB24084D29B4C01173BF12A762238223556E20(L_4, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:136>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_5 = __this->___U3CU3E4__this;
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_5, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		__this->___U3CstartPosU3E5__1 = L_7;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:137>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_8 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
+		float L_9 = L_8->___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
+		float L_11 = L_10->___y;
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_12 = __this->___U3CU3E4__this;
+		NullCheck(L_12);
+		float L_13 = L_12->___sinkDistance;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_14 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
+		float L_15 = L_14->___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_16), L_9, ((float)il2cpp_codegen_add(L_11, L_13)), L_15, NULL);
+		__this->___U3CendPosU3E5__2 = L_16;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:139>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_17 = __this->___U3CU3E4__this;
+		NullCheck(L_17);
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_18 = L_17->___spawnParticles;
+		NullCheck(L_18);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
+		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_18, NULL);
+		NullCheck(L_19);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_19, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:140>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_20 = __this->___U3CU3E4__this;
+		NullCheck(L_20);
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_21 = L_20->___spawnParticles;
+		NullCheck(L_21);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
+		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_21, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = __this->___U3CendPosU3E5__2;
+		NullCheck(L_22);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_22, L_23, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:141>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_24 = __this->___U3CU3E4__this;
+		NullCheck(L_24);
+		NPCSoundController_tC695F4B46D3167763CA5DA4C020B44FDB6E24E93* L_25 = L_24->___soundController;
+		NullCheck(L_25);
+		NPCSoundController_PlaySpawn_m66050F81E00ACE8BBAA115208E673FBB254F5946(L_25, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:143>
+		__this->___U3CelapsedU3E5__3 = (0.0f);
+		goto IL_018f;
+	}
+
+IL_00dd:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:147>
+		float L_26 = __this->___U3CelapsedU3E5__3;
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_27 = __this->___U3CU3E4__this;
+		NullCheck(L_27);
+		float L_28 = L_27->___emergeDuration;
+		__this->___U3CtU3E5__4 = ((float)(L_26/L_28));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:148>
+		float L_29 = __this->___U3CtU3E5__4;
+		float L_30 = __this->___U3CtU3E5__4;
+		__this->___U3CeaseOutTU3E5__5 = ((float)il2cpp_codegen_multiply(L_29, ((float)il2cpp_codegen_subtract((2.0f), L_30))));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:149>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_31 = __this->___U3CU3E4__this;
+		NullCheck(L_31);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
+		L_32 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_31, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___U3CstartPosU3E5__1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = __this->___U3CendPosU3E5__2;
+		float L_35 = __this->___U3CeaseOutTU3E5__5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
+		L_36 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_33, L_34, L_35, NULL);
+		NullCheck(L_32);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_32, L_36, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:151>
+		float L_37 = __this->___U3CelapsedU3E5__3;
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_38 = __this->___U3CU3E4__this;
+		NullCheck(L_38);
+		float L_39 = L_38->___startAnimationDelay;
+		V_1 = (bool)((((float)L_37) > ((float)L_39))? 1 : 0);
+		bool L_40 = V_1;
+		if (!L_40)
+		{
+			goto IL_0165;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:152>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_41 = __this->___U3CU3E4__this;
+		NullCheck(L_41);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_42 = L_41->___animator;
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		int32_t L_43 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Start1;
+		NullCheck(L_42);
+		Animator_SetBool_m1DD34A313E6882B6FBF379A53DD8D52E4023F1D8(L_42, L_43, (bool)1, NULL);
+	}
+
+IL_0165:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:154>
+		float L_44 = __this->___U3CelapsedU3E5__3;
+		float L_45;
+		L_45 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CelapsedU3E5__3 = ((float)il2cpp_codegen_add(L_44, L_45));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:155>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0187:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_018f:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:145>
+		float L_46 = __this->___U3CelapsedU3E5__3;
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_47 = __this->___U3CU3E4__this;
+		NullCheck(L_47);
+		float L_48 = L_47->___emergeDuration;
+		V_2 = (bool)((((float)L_46) < ((float)L_48))? 1 : 0);
+		bool L_49 = V_2;
+		if (L_49)
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:158>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_50 = __this->___U3CU3E4__this;
+		NullCheck(L_50);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51;
+		L_51 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_50, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = __this->___U3CendPosU3E5__2;
+		NullCheck(L_51);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_51, L_52, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:160>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_53 = __this->___U3CU3E4__this;
+		NullCheck(L_53);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_54 = L_53->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_54, NULL);
+		V_3 = L_55;
+		bool L_56 = V_3;
+		if (!L_56)
+		{
+			goto IL_0204;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:161>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_57 = __this->___U3CU3E4__this;
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_58 = __this->___U3CU3E4__this;
+		NullCheck(L_58);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_59;
+		L_59 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_58, NULL);
+		NullCheck(L_59);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60;
+		L_60 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_59, NULL);
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_61 = __this->___U3CU3E4__this;
+		NullCheck(L_61);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_62 = L_61->___player;
+		NullCheck(L_62);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
+		L_63 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_62, NULL);
+		float L_64;
+		L_64 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_60, L_63, NULL);
+		NullCheck(L_57);
+		L_57->___initialDistanceToPlayer = L_64;
+	}
+
+IL_0204:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:163>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_65 = __this->___U3CU3E4__this;
+		NullCheck(L_65);
+		L_65->___isEmerging = (bool)0;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:164>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_66 = __this->___U3CU3E4__this;
+		NullCheck(L_66);
+		L_66->___accelerateTimer = (0.0f);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:166>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_67 = __this->___U3CU3E4__this;
+		NullCheck(L_67);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_68 = L_67->___animator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_69;
+		L_69 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_68, NULL);
+		V_4 = L_69;
+		bool L_70 = V_4;
+		if (!L_70)
+		{
+			goto IL_0251;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:167>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_71 = __this->___U3CU3E4__this;
+		NullCheck(L_71);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_72 = L_71->___animator;
+		il2cpp_codegen_runtime_class_init_inline(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var);
+		int32_t L_73 = ((ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_StaticFields*)il2cpp_codegen_static_fields_for(ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992_il2cpp_TypeInfo_var))->___Speed;
+		NullCheck(L_72);
+		Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_72, L_73, (0.0f), NULL);
+	}
+
+IL_0251:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:168>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 78239
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mADB782C09F4D7930A4146157B5FB43B01748E807 (U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 78240
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEmergeRoutineU3Ed__38_System_Collections_IEnumerator_Reset_mA3A8C2E6516268856CCFE2EC33E3B8F0502B36AE (U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CEmergeRoutineU3Ed__38_System_Collections_IEnumerator_Reset_mA3A8C2E6516268856CCFE2EC33E3B8F0502B36AE_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 78241
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEmergeRoutineU3Ed__38_System_Collections_IEnumerator_get_Current_m79170965390C5E59CBCF3FACB73F5B742EF675DE (U3CEmergeRoutineU3Ed__38_t8ED40A368C2275124F3D8831F65A8F43DD5F3AD1* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 78242
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__45__ctor_mB12C5E510B5715F0258D1F230BCFEA545858AC3C (U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 78243
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__45_System_IDisposable_Dispose_m24CDEDFDAADA4F06E4CA754E1F58BDC1CD3A38F7 (U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 78244
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSinkRoutineU3Ed__45_MoveNext_mA3E86F5508EFCC5BF2E2D9ADB266E37D89DE40D5 (U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_001b;
+			}
+			case 1:
+			{
+				goto IL_001d;
+			}
+			case 2:
+			{
+				goto IL_001f;
+			}
+		}
+	}
+	{
+		goto IL_0024;
+	}
+
+IL_001b:
+	{
+		goto IL_0026;
+	}
+
+IL_001d:
+	{
+		goto IL_0047;
+	}
+
+IL_001f:
+	{
+		goto IL_0118;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:278>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_2 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_2, (3.0f), NULL);
+		__this->___U3CU3E2__current = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_2);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0047:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:280>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_3 = __this->___U3CU3E4__this;
+		NullCheck(L_3);
+		L_3->___isSinking = (bool)1;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:282>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_4 = __this->___U3CU3E4__this;
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_4, NULL);
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		__this->___U3CstartPosU3E5__1 = L_6;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:283>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
+		float L_8 = L_7->___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
+		float L_10 = L_9->___y;
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_11 = __this->___U3CU3E4__this;
+		NullCheck(L_11);
+		float L_12 = L_11->___sinkDistance;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_13 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CstartPosU3E5__1);
+		float L_14 = L_13->___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_15), L_8, ((float)il2cpp_codegen_subtract(L_10, L_12)), L_14, NULL);
+		__this->___U3CendPosU3E5__2 = L_15;
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:285>
+		__this->___U3CelapsedU3E5__3 = (0.0f);
+		goto IL_0120;
+	}
+
+IL_00b5:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:289>
+		float L_16 = __this->___U3CelapsedU3E5__3;
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_17 = __this->___U3CU3E4__this;
+		NullCheck(L_17);
+		float L_18 = L_17->___sinkDuration;
+		__this->___U3CtU3E5__4 = ((float)(L_16/L_18));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:290>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_19 = __this->___U3CU3E4__this;
+		NullCheck(L_19);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_19, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = __this->___U3CstartPosU3E5__1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = __this->___U3CendPosU3E5__2;
+		float L_23 = __this->___U3CtU3E5__4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_21, L_22, L_23, NULL);
+		NullCheck(L_20);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_20, L_24, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:291>
+		float L_25 = __this->___U3CelapsedU3E5__3;
+		float L_26;
+		L_26 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CelapsedU3E5__3 = ((float)il2cpp_codegen_add(L_25, L_26));
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:292>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_0118:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0120:
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:287>
+		float L_27 = __this->___U3CelapsedU3E5__3;
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_28 = __this->___U3CU3E4__this;
+		NullCheck(L_28);
+		float L_29 = L_28->___sinkDuration;
+		V_1 = (bool)((((float)L_27) < ((float)L_29))? 1 : 0);
+		bool L_30 = V_1;
+		if (L_30)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:295>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_31 = __this->___U3CU3E4__this;
+		NullCheck(L_31);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
+		L_32 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_31, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___U3CendPosU3E5__2;
+		NullCheck(L_32);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_32, L_33, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:296>
+		ZombieMenueTest_t7920DC46A27869C994E8A75E7DC5836F7BBA6992* L_34 = __this->___U3CU3E4__this;
+		NullCheck(L_34);
+		ZombieMenueTest_DestroyZombie_m5E30854AF5FD0CF6A533F40CE6F3C35DD299DF77(L_34, NULL);
+		//<source_info:/Users/kev/Gepetto_github/Assets/Scripts/MENU/ZOMBIE_MENU_INTERACTIONS`/ZombieMenuTest.cs:297>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 78245
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__45_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5156CAA2C45191A541C980DA3FD2D9148683D04C (U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 78246
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSinkRoutineU3Ed__45_System_Collections_IEnumerator_Reset_mD81E827CE19AA18DCAFF9E46D58133535D2517C6 (U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSinkRoutineU3Ed__45_System_Collections_IEnumerator_Reset_mD81E827CE19AA18DCAFF9E46D58133535D2517C6_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 78247
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSinkRoutineU3Ed__45_System_Collections_IEnumerator_get_Current_mAA82A9877D700C758022DD4F0617B3E9410C415A (U3CSinkRoutineU3Ed__45_t7B2201D4F0D74E7291647D6ADE13888E27C39EA6* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
