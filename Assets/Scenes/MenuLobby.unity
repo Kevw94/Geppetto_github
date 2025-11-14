@@ -142683,10 +142683,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2514678426950311224, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
-      propertyPath: hitAnimationChance
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2991506587841710153, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
       propertyPath: m_Name
       value: --ZOMBIE--
