@@ -427,7 +427,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -435,7 +435,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.8327751
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -471,7 +471,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.233
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1429,7 +1429,7 @@ MonoBehaviour:
   spawnAudio: {fileID: 6410860498521775274}
   screamAudio: {fileID: 8207544989716348122}
   deathAudio: {fileID: 7211366534028177841}
-  enableRandomVocal: 1
+  enableRandomVocal: 0
   minTimeBetweenVocal: 5
   maxTimeBetweenVocal: 10
 --- !u!114 &2514678426950311224
