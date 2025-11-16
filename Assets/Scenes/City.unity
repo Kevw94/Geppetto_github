@@ -70668,6 +70668,7 @@ Transform:
   - {fileID: 1863000690}
   - {fileID: 11334006}
   - {fileID: 512884369}
+  - {fileID: 1665745435}
   m_Father: {fileID: 782650812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &878298987
@@ -116835,7 +116836,6 @@ Transform:
   - {fileID: 1138179468}
   - {fileID: 2119607346}
   - {fileID: 417924565}
-  - {fileID: 1665745435}
   - {fileID: 1510013130}
   - {fileID: 1567097551}
   - {fileID: 2094913501}
@@ -123930,47 +123930,23 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1569678990}
+    m_TransformParent: {fileID: 876944122}
     m_Modifications:
-    - target: {fileID: 4469413680588736, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4469413680588736, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.754
-      objectReference: {fileID: 0}
-    - target: {fileID: 4469413680588736, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.408
-      objectReference: {fileID: 0}
-    - target: {fileID: 4469413680588736, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.018
-      objectReference: {fileID: 0}
-    - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
-      propertyPath: m_RootOrder
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
+    - target: {fileID: 1719320456822642, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
+      propertyPath: m_Name
+      value: SM_Bld_House_ExteriorWall_GarageDoor_02
       objectReference: {fileID: 0}
     - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10
+      value: -11.77642
       objectReference: {fileID: 0}
     - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.489
       objectReference: {fileID: 0}
     - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.5
+      value: -5.31415
       objectReference: {fileID: 0}
     - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
       propertyPath: m_LocalRotation.w
@@ -123978,7 +123954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
       propertyPath: m_LocalRotation.y
@@ -123986,11 +123962,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
       propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930417229338380, guid: c1af3199d60cd9a4a9c0d52e98012a00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
