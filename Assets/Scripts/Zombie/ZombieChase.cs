@@ -15,6 +15,11 @@ public class ZombieChase : MonoBehaviour
     public float lookSpeed = 5f;
     public float attackCooldown = 1.5f;
 
+    [Header("Wandering")]
+    public float wanderRadius = 6f;
+    public float wanderInterval = 3f;
+    private float nextWanderTime = 0f;
+
     private NavMeshAgent agent;
     private Animator animator;
 
@@ -38,24 +43,23 @@ public class ZombieChase : MonoBehaviour
         if (player == null) return;
 
         float distance = Vector3.Distance(transform.position, player.position);
-
+        // - CHASE & ATTACK
         if (distance <= detectionRange)
         {
             agent.SetDestination(player.position);
 
-            // Distance is within attack range, so attack, state == attacking
             if (distance <= attackRange)
             {
+                // - ATTACK
                 agent.isStopped = true;
                 FacePlayer();
-
 
                 if (!isAttacking)
                     StartCoroutine(AttackRoutine());
             }
             else
             {
-                // Outside attack range, so the zomboie chase the player, state == walking
+                // - CHASE
                 if (isAttacking)
                 {
                     StopCoroutine(nameof(AttackRoutine));
@@ -69,13 +73,21 @@ public class ZombieChase : MonoBehaviour
         }
         else
         {
-            // Player is out of detection range of zombie, state == idle
-            agent.isStopped = true;
-            animator.SetBool("isWalking", false);
+            // - WANDER
+
+            if (Time.time >= nextWanderTime)
+            {
+                Vector3 newPos = RandomNavmeshLocation(wanderRadius);
+                agent.SetDestination(newPos);
+
+                nextWanderTime = Time.time + wanderInterval + Random.Range(-1f, 1f);
+            }
+
+            agent.isStopped = false;
+            animator.SetBool("isWalking", true);
             isAttacking = false;
         }
     }
-
 
     void FacePlayer()
     {
@@ -85,7 +97,6 @@ public class ZombieChase : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * lookSpeed);
     }
 
-    // Implement the attack routine for the zombie because it needs to wait between attacks
     private IEnumerator AttackRoutine()
     {
         isAttacking = true;
@@ -103,7 +114,22 @@ public class ZombieChase : MonoBehaviour
         if (distance <= attackRange)
         {
             Debug.Log("🧟 Zombie hit the player!");
-            // Example --> player.GetComponent<PlayerHealth>()?.TakeDamage(10);
+            // player.GetComponent<PlayerHealth>()?.TakeDamage(10);
         }
+    }
+
+    Vector3 RandomNavmeshLocation(float radius)
+    {
+        Vector3 randomDirection = Random.insideUnitSphere * radius;
+
+        randomDirection += transform.forward * Random.Range(-radius, radius);
+
+        randomDirection += transform.position;
+
+        NavMeshHit hit;
+
+        NavMesh.SamplePosition(randomDirection, out hit, radius, NavMesh.AllAreas);
+
+        return hit.position;
     }
 }
