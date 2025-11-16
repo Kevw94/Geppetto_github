@@ -6,10 +6,10 @@ public class AmbientLoopController : MonoBehaviour
     public AudioSource audioSource;
 
     [Tooltip("Time (in seconds) where looping should begin")]
-    public float loopStartTime = 10.2f;
+    public float loopStartTime = 20.2f;
 
     [Tooltip("Time (in seconds) where the track ends")]
-    public float loopEndTime = 59f;
+    public float loopEndTime = 48f;
 
     void Update()
     {
