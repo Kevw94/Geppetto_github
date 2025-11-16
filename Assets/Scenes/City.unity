@@ -2863,6 +2863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Ceiling_01 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4579798467464872, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -6919,6 +6923,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -7932,7 +7944,7 @@ GameObject:
   - component: {fileID: 127401195}
   - component: {fileID: 127401194}
   - component: {fileID: 127401193}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8508,7 +8520,7 @@ GameObject:
   - component: {fileID: 135201299}
   - component: {fileID: 135201298}
   - component: {fileID: 135201297}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9675,7 +9687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 153440487}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Bed Room 3-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17559,7 +17571,7 @@ GameObject:
   - component: {fileID: 193537814}
   - component: {fileID: 193537813}
   - component: {fileID: 193537812}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18707,7 +18719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 208828200}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Stairs-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22942,6 +22954,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_InteriorWall_03 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1893922506656962, guid: 7cffb302e4cc60e4c907f318fbb5cb15, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893922506656962, guid: 7cffb302e4cc60e4c907f318fbb5cb15, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4554951595836922, guid: 7cffb302e4cc60e4c907f318fbb5cb15, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -23378,7 +23398,7 @@ GameObject:
   - component: {fileID: 274024352}
   - component: {fileID: 274024351}
   - component: {fileID: 274024350}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24121,7 +24141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 285917488}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Entrance-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29695,6 +29715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Kitchen_CounterCorner_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1910765133534656, guid: 0ce83cfee7f421047a13779e2106d3bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4718488029190884, guid: 0ce83cfee7f421047a13779e2106d3bd, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -30221,7 +30245,7 @@ GameObject:
   - component: {fileID: 390937575}
   - component: {fileID: 390937574}
   - component: {fileID: 390937573}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31849,6 +31873,14 @@ PrefabInstance:
     - target: {fileID: 1893922506656962, guid: 7cffb302e4cc60e4c907f318fbb5cb15, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_InteriorWall_03 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893922506656962, guid: 7cffb302e4cc60e4c907f318fbb5cb15, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893922506656962, guid: 7cffb302e4cc60e4c907f318fbb5cb15, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4554951595836922, guid: 7cffb302e4cc60e4c907f318fbb5cb15, type: 3}
       propertyPath: m_RootOrder
@@ -33552,7 +33584,7 @@ GameObject:
   - component: {fileID: 442190569}
   - component: {fileID: 442190568}
   - component: {fileID: 442190567}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39917,6 +39949,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Ceiling_01 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4579798467464872, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -41549,6 +41589,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 558387766}
     m_Modifications:
+    - target: {fileID: 1323494332038972, guid: 9308c0e39066ad24fa0821d3f2af1b24, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323494332038972, guid: 9308c0e39066ad24fa0821d3f2af1b24, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4000792696423116, guid: 9308c0e39066ad24fa0821d3f2af1b24, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -42825,6 +42873,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Ceiling_01 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4579798467464872, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -43501,7 +43557,7 @@ GameObject:
   - component: {fileID: 525435911}
   - component: {fileID: 525435910}
   - component: {fileID: 525435909}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44057,7 +44113,7 @@ GameObject:
   - component: {fileID: 532724120}
   - component: {fileID: 532724119}
   - component: {fileID: 532724118}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47109,7 +47165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 568187660}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Bath Room-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52031,7 +52087,7 @@ GameObject:
   - component: {fileID: 628557315}
   - component: {fileID: 628557314}
   - component: {fileID: 628557313}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53302,6 +53358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_KitchenCabinet_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1764218085219514, guid: 34ef0a476ff181d4b85cfbfadeba7cc8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4779121468303016, guid: 34ef0a476ff181d4b85cfbfadeba7cc8, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -53894,7 +53954,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 654441904}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -House_01-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55470,6 +55530,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4939143290028277376, guid: 31324bb751cdf8946ad9f5f04221b57f, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 2147500064
+      objectReference: {fileID: 0}
     - target: {fileID: 4939143290028277388, guid: 31324bb751cdf8946ad9f5f04221b57f, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -55696,6 +55760,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7310530544216758933, guid: 31324bb751cdf8946ad9f5f04221b57f, type: 3}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310530544216758937, guid: 31324bb751cdf8946ad9f5f04221b57f, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7310530544533075553, guid: 31324bb751cdf8946ad9f5f04221b57f, type: 3}
@@ -57929,7 +57997,7 @@ GameObject:
   - component: {fileID: 696434908}
   - component: {fileID: 696434907}
   - component: {fileID: 696434906}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63036,7 +63104,7 @@ GameObject:
   - component: {fileID: 767442842}
   - component: {fileID: 767442841}
   - component: {fileID: 767442840}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68253,7 +68321,7 @@ GameObject:
   - component: {fileID: 836229835}
   - component: {fileID: 836229834}
   - component: {fileID: 836229833}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70609,6 +70677,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1395402207}
   - {fileID: 1003238963}
   - {fileID: 725700656}
   - {fileID: 1403814523}
@@ -84679,7 +84748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1069657644}
   - component: {fileID: 1069657645}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Teleportation_area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85525,7 +85594,7 @@ GameObject:
   - component: {fileID: 1079862405}
   - component: {fileID: 1079862404}
   - component: {fileID: 1079862403}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86604,7 +86673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1090401638}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Terrace-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88368,6 +88437,14 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_RootOrder
@@ -93606,6 +93683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -97165,7 +97246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1262829822}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Garage-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100684,7 +100765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1319957368}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: '-Bed Room 2- '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104709,6 +104790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -104990,6 +105075,14 @@ PrefabInstance:
     - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Ceiling_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4579798467464872, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
       propertyPath: m_RootOrder
@@ -105538,7 +105631,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1569678990}
+    m_TransformParent: {fileID: 876944122}
     m_Modifications:
     - target: {fileID: 1277292084947816, guid: 123d7eee89ce3d14faecef772a63a9d0, type: 3}
       propertyPath: m_Name
@@ -105582,15 +105675,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4274370554507324, guid: 123d7eee89ce3d14faecef772a63a9d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5
+      value: -4.27642
       objectReference: {fileID: 0}
     - target: {fileID: 4274370554507324, guid: 123d7eee89ce3d14faecef772a63a9d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.492
       objectReference: {fileID: 0}
     - target: {fileID: 4274370554507324, guid: 123d7eee89ce3d14faecef772a63a9d0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.5
+      value: -10.31415
       objectReference: {fileID: 0}
     - target: {fileID: 4274370554507324, guid: 123d7eee89ce3d14faecef772a63a9d0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -106947,7 +107040,7 @@ GameObject:
   - component: {fileID: 1410457115}
   - component: {fileID: 1410457114}
   - component: {fileID: 1410457113}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107109,7 +107202,7 @@ GameObject:
   - component: {fileID: 1413177344}
   - component: {fileID: 1413177343}
   - component: {fileID: 1413177342}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109102,6 +109195,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_RootOrder
@@ -113203,7 +113300,7 @@ GameObject:
   - component: {fileID: 1509986965}
   - component: {fileID: 1509986964}
   - component: {fileID: 1509986963}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116429,7 +116526,7 @@ GameObject:
   - component: {fileID: 1565394753}
   - component: {fileID: 1565394752}
   - component: {fileID: 1565394751}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116697,7 +116794,6 @@ Transform:
   - {fileID: 2117516496}
   - {fileID: 266243513}
   - {fileID: 1677814569}
-  - {fileID: 1395402207}
   - {fileID: 1631062191}
   - {fileID: 512884369}
   - {fileID: 1094967634}
@@ -125709,6 +125805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -126397,7 +126497,7 @@ GameObject:
   - component: {fileID: 1706384452}
   - component: {fileID: 1706384451}
   - component: {fileID: 1706384450}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128944,6 +129044,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Ceiling_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736179252109108, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4579798467464872, guid: 84201fd22b3febe4b8add3e2b9a7485f, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -130102,7 +130210,7 @@ GameObject:
   - component: {fileID: 1768396212}
   - component: {fileID: 1768396211}
   - component: {fileID: 1768396210}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142137,6 +142245,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 909560931}
     m_Modifications:
+    - target: {fileID: 1626553752184294, guid: db889e970a8e879449db44f004cc97fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1626553752184294, guid: db889e970a8e879449db44f004cc97fe, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4829038731187054, guid: db889e970a8e879449db44f004cc97fe, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -142180,6 +142296,14 @@ PrefabInstance:
     - target: {fileID: 4829038731187054, guid: db889e970a8e879449db44f004cc97fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313162433503289791, guid: db889e970a8e879449db44f004cc97fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5047541592610869428, guid: db889e970a8e879449db44f004cc97fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -142780,7 +142904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1948401055}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Living Room-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143570,7 +143694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1960937527}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Kitchen-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147377,7 +147501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2021140989}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Hallway-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150654,7 +150778,7 @@ GameObject:
   - component: {fileID: 2062533602}
   - component: {fileID: 2062533601}
   - component: {fileID: 2062533600}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151308,7 +151432,7 @@ GameObject:
   - component: {fileID: 2070303514}
   - component: {fileID: 2070303513}
   - component: {fileID: 2070303512}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154522,7 +154646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2119159315}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: -Bed Room 1-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
