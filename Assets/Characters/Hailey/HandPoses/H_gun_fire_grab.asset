@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450586b6fe1e3c4409299dc6edd58dc4, type: 3}
+  m_Name: H_gun_fire_grab
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.PoseScriptableObject
+  joints:
+  - jointName: Hand_R
+    localPosition: {x: 0, y: 0, z: 0}
+    localRotation: {x: 0.5000002, y: -0.49999982, z: -0.49999982, w: -0.5000002}
+  - jointName: Finger_01
+    localPosition: {x: -0.0998, y: 0.0022, z: -0.032833416}
+    localRotation: {x: -0.0034962094, y: 0.12183296, z: -0.19903134, w: -0.9723842}
+  - jointName: Finger_02
+    localPosition: {x: -0.042488124, y: -0.00000013567507, z: -0.000000006503887}
+    localRotation: {x: 0.058934864, y: 0.007424905, z: 0.27215326, w: 0.96041876}
+  - jointName: Finger_03
+    localPosition: {x: -0.03513327, y: 0.00000023227184, z: 0.000000009343984}
+    localRotation: {x: -0.02586123, y: -0.003697345, z: 0.6200225, w: 0.784149}
+  - jointName: Finger_04
+    localPosition: {x: -0.030032333, y: 0.00000005841255, z: -0.000000022069507}
+    localRotation: {x: -0.016646432, y: -0.09652539, z: 0.16913004, w: -0.98071444}
+  - jointName: Finger_04_end
+    localPosition: {x: -0, y: 0.030032806, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+  - jointName: IndexFinger_01
+    localPosition: {x: -0.1039656, y: 0.00398712, z: 0.026726503}
+    localRotation: {x: 0.0037014587, y: -0.065690756, z: -0.0646302, w: -0.9957379}
+  - jointName: IndexFinger_02
+    localPosition: {x: -0.0444, y: 0.0005, z: -0.0005}
+    localRotation: {x: -0.005435376, y: -0.010274868, z: 0.13354857, w: 0.9909741}
+  - jointName: IndexFinger_03
+    localPosition: {x: -0.037911955, y: 0.00000025337562, z: 0.000000007693588}
+    localRotation: {x: -0.04696575, y: -0.011102559, z: 0.55606115, w: 0.82973915}
+  - jointName: IndexFinger_04
+    localPosition: {x: -0.03779796, y: 0.00000013296493, z: -7.759627e-10}
+    localRotation: {x: 0.0045197424, y: 0.028039873, z: 0.15906769, w: -0.9868591}
+  - jointName: IndexFinger_04_end
+    localPosition: {x: -0, y: 0.037797544, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+  - jointName: Thumb_01
+    localPosition: {x: -0.0249, y: -0.0808, z: 0.045055404}
+    localRotation: {x: 0.08413696, y: 0.0069906353, z: -0.1825843, w: 0.97955865}
+  - jointName: Thumb_02
+    localPosition: {x: -0.0324, y: -0.0051, z: 0.0178}
+    localRotation: {x: -0.0268995, y: 0.28504938, z: -0.09721455, w: -0.95319074}
+  - jointName: Thumb_03
+    localPosition: {x: -0.054, y: 0.0098, z: -0.0036}
+    localRotation: {x: -0.0010620505, y: 0.13618124, z: 0.18445918, w: -0.97335935}
+  - jointName: Thumb_03_end
+    localPosition: {x: -0, y: 0.056654815, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}

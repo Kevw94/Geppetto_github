@@ -92,7 +92,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7c66c1a095d218047b4977b4c0a007f2, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 7c66c1a095d218047b4977b4c0a007f2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
@@ -604,6 +604,7 @@ MonoBehaviour:
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
   m_MovementType: 2
+  m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -645,6 +646,10 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
+  m_LimitLinearVelocity: 0
+  m_LimitAngularVelocity: 0
+  m_MaxLinearVelocityDelta: 10
+  m_MaxAngularVelocityDelta: 20
 --- !u!114 &6223891697608085561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -687,7 +692,7 @@ MonoBehaviour:
   MaxAmmo: 12
   CurrentAmmo: 12
   gunType: {fileID: 11400000, guid: 5513afdb9f7c7f343847988b86430e6c, type: 2}
-  ammoModels: {fileID: 3090319506376581083}
+  ammoModels: {fileID: 2624129111317718636, guid: 9f4bf21a112af234da4451493e741800, type: 3}
   magazineCollider: {fileID: 0}
   rigidBody: {fileID: 6223891697608085564}
 --- !u!114 &6223891697608085562
@@ -740,10 +745,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6223891697608085566}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
