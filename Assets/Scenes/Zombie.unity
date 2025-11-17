@@ -119,6 +119,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &29409520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 29409521}
+  m_Layer: 0
+  m_Name: Spawn_2_b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &29409521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29409520}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.24, y: 0, z: -16.71}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1136504597
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,6 +362,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1673751867}
   m_SourcePrefab: {fileID: 100100000, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
+--- !u!1 &1882574790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1882574791}
+  m_Layer: 0
+  m_Name: Spawn_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1882574791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882574790}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.94, y: 0, z: -18.93}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2086431495
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,14 +422,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7bf51356b83d450c9d71834147dad9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieSpawner
-  zombiePrefab: {fileID: 1673751866}
-  maxZombies: 10
-  spawnRadius: 20
-  spawnInterval: 5
-  fixedZombiesPrefabs:
-  - {fileID: 1134484993998496, guid: da241a1c1c2f4b344926c84ef25128ac, type: 3}
   fixedSpawnPoints:
   - {fileID: 1815132935}
+  - {fileID: 1882574791}
+  - {fileID: 29409521}
+  fixedZombiesPrefabs:
+  - {fileID: 1134484993998496, guid: da241a1c1c2f4b344926c84ef25128ac, type: 3}
+  - {fileID: 1075024190843592, guid: ea757c1578e17134b85ac65be02c4b19, type: 3}
+  - {fileID: 1075024190843592, guid: ea757c1578e17134b85ac65be02c4b19, type: 3}
+  randomZombiePrefabs:
+  - {fileID: 1164828658887116, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+  - {fileID: 1229489993529932, guid: 56339bb877068954cbd9a6c3bacb4826, type: 3}
+  - {fileID: 1876492869514370, guid: eb1c725db5a403a40bd409a9bea29cb4, type: 3}
+  - {fileID: 1164828658887116, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+  - {fileID: 1581986130515946, guid: 3c17e5f77af5ac54d991cf6c5d87082b, type: 3}
+  - {fileID: 1454428107089030, guid: b1b874e26e62db949baeec17a89ca9eb, type: 3}
+  - {fileID: 1865598692286518, guid: c07ec1075acf8bc42a7f0ef5e239291d, type: 3}
+  - {fileID: 1916796579201672, guid: 5de68a7f859a40a47bf17802c25007c3, type: 3}
+  - {fileID: 1055470696967520, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
+  - {fileID: 1164828658887116, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+  - {fileID: 1164828658887116, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+  - {fileID: 1164828658887116, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+  - {fileID: 1164828658887116, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+  - {fileID: 1055338902904486, guid: e0e167f92e65a254da5ef2b62ad5e710, type: 3}
+  - {fileID: 1186368985647942, guid: f91c7ce3a32256e4eb15f8b3e6191a7c, type: 3}
+  - {fileID: 1164828658887116, guid: 6cb63163261c5a84a8a7410cf0775135, type: 3}
+  maxRandomZombies: 10
+  spawnRadius: 20
+  spawnInterval: 5
   exclusionRadius: 5
   maxSpawnAttempts: 10
   player: {fileID: 0}
@@ -394,3 +476,5 @@ SceneRoots:
   - {fileID: 1136504599}
   - {fileID: 2086431497}
   - {fileID: 1815132935}
+  - {fileID: 1882574791}
+  - {fileID: 29409521}
