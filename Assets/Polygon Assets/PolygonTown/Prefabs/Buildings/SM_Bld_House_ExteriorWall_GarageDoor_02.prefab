@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 511577330704863646}
   - component: {fileID: 8057746176484188004}
   - component: {fileID: 5828348151232318228}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: SM_Bld_House_Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}

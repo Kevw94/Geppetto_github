@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/City.unity
     guid: 2246dab36e809b341be2b6fb8e31e895
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Zombie.unity
     guid: 3dce180d15b3f41b0aaa46b05469a200
   m_configObjects:
