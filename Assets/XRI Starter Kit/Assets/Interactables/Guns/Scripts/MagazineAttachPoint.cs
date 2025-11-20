@@ -15,6 +15,7 @@ namespace MikeNspired.XRIStarterKit
         [SerializeField] private float insertAnimationLength = 0.1f;
         [SerializeField] private AudioSource loadAudio, unloadAudio;
         [SerializeField] private GunType gunType = null;
+        [SerializeField] private Magazine startingMagazine = null;
         [SerializeField] private new Collider collider = null;
         [SerializeField] private bool removeByGrabbing = true;
 
@@ -35,6 +36,7 @@ namespace MikeNspired.XRIStarterKit
             xrGrabInteractable.selectExited.AddListener(_ => SetMagazineGrabbableState());
 
             collider.gameObject.SetActive(false);
+            if (startingMagazine) CreateStartingMagazine();
         }
 
         private void SetMagazineGrabbableState()
