@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿//==============================================================
+//  VERSION COMPLETE MODIFIÉE AVEC GESTION Backpack/Weapon
+//==============================================================
 
+using System.Collections;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
@@ -7,10 +10,6 @@ using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 namespace MikeNspired.XRIStarterKit
 {
-    /// <summary>
-    /// Handles all item logic: spawning a starting item, swapping, disabling in-hand,
-    /// and mesh clone creation/scaling. No animation coroutines for UI icons.
-    /// </summary>
     public class InventorySlotItemHandler : MonoBehaviour
     {
         [Header("Visual Slot Displays")]
@@ -40,13 +39,17 @@ namespace MikeNspired.XRIStarterKit
         private XRInteractionManager interactionManager;
         private bool isBusy;
 
+        private InventoryManager inventoryManager; // ← ajout important
+
 
         private void OnEnable()
         {
             isBusy = false;
+
+            // On récupère l'InventoryManager parent
+            inventoryManager = GetComponentInParent<InventoryManager>();
         }
 
-        
         public void Setup(XRBaseInteractable prefab)
         {
             interactionManager = FindFirstObjectByType<XRInteractionManager>();
@@ -54,25 +57,24 @@ namespace MikeNspired.XRIStarterKit
             if (!boundCenterTransform)
             {
                 boundCenterTransform = new GameObject("Bound Center Transform").transform;
-                boundCenterTransform.SetParent(itemModelHolder,false);
+                boundCenterTransform.SetParent(itemModelHolder);
             }
-            
-            // Create a starting slot item if 'prefab' is assigned
+
             if (prefab)
             {
-                CurrentSlotItem = prefab;
-                CurrentSlotItem.transform.SetParent(transform);        
+                CurrentSlotItem = Instantiate(prefab);
+                CurrentSlotItem.transform.SetParent(transform);
                 CurrentSlotItem.transform.localPosition = Vector3.zero;
                 CurrentSlotItem.transform.localEulerAngles = Vector3.zero;
 
-                CurrentSlotItem.gameObject.SetActive(false);
                 SetupNewMeshClone(CurrentSlotItem);
+                CurrentSlotItem.gameObject.SetActive(false);
                 SnapItemToSlot();
             }
         }
-        
+
         #region Slot Displays
-        
+
         public void SetSlotDisplayInstant()
         {
             if (CurrentSlotItem)
@@ -86,14 +88,13 @@ namespace MikeNspired.XRIStarterKit
                 SlotDisplayToAddItem?.SetActive(true);
             }
         }
-        
+
         private IEnumerator AnimateIcon()
         {
-            // Simple example: fade out one icon, fade in the other
-            if (CurrentSlotItem) // If has item, show "contains item" display
+            if (CurrentSlotItem)
             {
                 slotDisplayWhenContainsItem.gameObject.SetActive(true);
-                yield return null; 
+                yield return null;
                 slotDisplayToAddItem.gameObject.SetActive(false);
             }
             else
@@ -101,9 +102,9 @@ namespace MikeNspired.XRIStarterKit
                 slotDisplayToAddItem.gameObject.SetActive(true);
                 slotDisplayWhenContainsItem.gameObject.SetActive(false);
             }
-            isBusy = false; 
+            isBusy = false;
         }
-        
+
         public IEnumerator AnimateMeshModelOpenOrClose(bool toOne, float duration)
         {
             float timer = 0f;
@@ -120,139 +121,152 @@ namespace MikeNspired.XRIStarterKit
             }
             itemModelHolder.localScale = targetScale;
         }
-        
+
         #endregion
 
+        //==========================================================
+        //   MÉTHODE CENTRALE POUR LA LOGIQUE Backpack/Weapon
+        //==========================================================
 
-        // ─────────────────────────────────────────────────────────────────
-        //  (1) The main entry point to "use" the slot
-        // ─────────────────────────────────────────────────────────────────
-        
-        /// <summary>
-        /// Called by your InventorySlot or "grab" script. 
-        /// If the hand is holding an item, we store (or swap). 
-        /// If the hand is empty, we retrieve from the slot.
-        /// </summary>
+        private bool CanItemGoInThisInventory(InteractableItemData data)
+        {
+            if (data == null) return false;
+
+            if (inventoryManager == null)
+            {
+                Debug.LogWarning("[Inventory] Aucun InventoryManager trouvé dans les parents.");
+                return false;
+            }
+
+            if (inventoryManager.isBackpackInventory)
+            {
+                // INVENTAIRE TYPE BACKPACK
+                return data.canInventory;
+            }
+            else
+            {
+                // INVENTAIRE TYPE WEAPON
+                return data.canWeaponInventory;
+            }
+        }
+
+        //==========================================================
+        //   INTERACTION PRINCIPALE
+        //==========================================================
+
         public void InteractWithSlot(XRBaseInteractor controller)
         {
             if (!controller || isBusy)
                 return;
 
+            // Vérification item en main
+            XRBaseInteractable inHand = GetItemInHand(controller);
+            if (inHand)
+            {
+                var data = inHand.GetComponent<InteractableItemData>();
+                if (!CanItemGoInThisInventory(data))
+                {
+                    Debug.Log($"[Inventory] {inHand.name} refusé : ne peut PAS aller dans cet inventaire.");
+                    return;
+                }
+            }
+
+            // Vérification item dans le slot
+            if (CurrentSlotItem)
+            {
+                var data = CurrentSlotItem.GetComponent<InteractableItemData>();
+                if (!CanItemGoInThisInventory(data))
+                {
+                    Debug.Log($"[Inventory] {CurrentSlotItem.name} refusé : ne peut PAS être retiré ou manipulé.");
+                    return;
+                }
+            }
+
             isBusy = true;
 
-            // Stop any ongoing animations (e.g., if someone spam-clicks)
             if (animateItemToSlotCoroutine != null)
                 StopCoroutine(animateItemToSlotCoroutine);
 
             var itemInHand = GetItemInHand(controller);
 
             if (itemInHand)
-            {
-                // Either place the item in the slot (if empty) or swap (if slot already has item)
                 AddItemToSlot(controller);
-            }
+            else if (CurrentSlotItem)
+                RetrieveItemFromSlot(controller, destroyItemMesh: true);
             else
-            {
-                // Hand is empty -> retrieve from slot (if there's something in the slot)
-                if (CurrentSlotItem)
-                    RetrieveItemFromSlot(controller, destroyItemMesh: true);
-                else
-                    isBusy = false; // No item in slot, do nothing
-            }
+                isBusy = false;
 
             StartCoroutine(AnimateIcon());
         }
 
+        //==========================================================
+        //    AJOUTER ITEM DANS LE SLOT (AVEC SWAP)
+        //==========================================================
 
-        // ─────────────────────────────────────────────────────────────────
-        //  (2) Adding Item To Slot (including swap)
-        // ─────────────────────────────────────────────────────────────────
-
-        /// <summary>
-        /// Takes the item in the user's hand and places it into the slot.
-        /// If the slot already has an item, we first move that old item into the user's hand (swap).
-        /// </summary>
         private void AddItemToSlot(XRBaseInteractor controller)
         {
             var itemHandIsHolding = GetItemInHand(controller);
             if (!itemHandIsHolding)
             {
-                isBusy = false; // nothing in hand
+                isBusy = false;
                 return;
             }
 
-            // If there's already an item in the slot, let's swap:
+            // SWAP si un objet est déjà dans le slot
             if (CurrentSlotItem != null)
             {
-                // Destroy the existing mesh clone for the old slot item
                 if (itemSlotMeshClone)
                     Destroy(itemSlotMeshClone.gameObject);
 
-                // Old slot item becomes the new item in the player's hand:
                 CurrentSlotItem.gameObject.SetActive(true);
                 CurrentSlotItem.transform.SetParent(null);
 
-                // Actually "grab" it next frame
                 StartCoroutine(GrabNewItem(controller, CurrentSlotItem));
 
-                // The slot is now effectively empty for a moment
                 CurrentSlotItem = null;
             }
 
-            // Now place the new item into the slot
             releaseAudio?.Play();
             ReleaseItemFromHand(controller, itemHandIsHolding);
 
-            // Reparent under the slot
             itemHandIsHolding.transform.SetParent(transform);
-            
-            // Re-enable its colliders/triggers if needed
+
             var grabDisable = itemHandIsHolding.GetComponent<OnGrabEnableDisable>();
             grabDisable?.EnableAll();
 
-            // Mark the slot as containing this new item
             CurrentSlotItem = itemHandIsHolding;
 
-            // Disable the real item, build & animate the mesh clone
             SetupNewMeshClone(itemHandIsHolding);
             itemHandIsHolding.gameObject.SetActive(false);
             itemHandIsHolding.transform.localPosition = Vector3.zero;
             itemHandIsHolding.transform.localEulerAngles = Vector3.zero;
 
-            // Animate into place
             animateItemToSlotCoroutine = StartCoroutine(AnimateItemToSlot());
         }
 
-
-        // ─────────────────────────────────────────────────────────────────
-        //  (3) Retrieving / Removing Item From Slot
-        // ─────────────────────────────────────────────────────────────────
+        //==========================================================
+        //       RETIRER ITEM DU SLOT
+        //==========================================================
 
         private void RetrieveItemFromSlot(XRBaseInteractor controller, bool destroyItemMesh)
         {
             if (!CurrentSlotItem) return;
 
-            // Destroy the mesh clone from the slot if desired
             if (itemSlotMeshClone && destroyItemMesh)
                 Destroy(itemSlotMeshClone.gameObject);
 
-            // Enable and remove from slot
             CurrentSlotItem.gameObject.SetActive(true);
             CurrentSlotItem.transform.SetParent(null);
 
-            // Grab it with the hand (delayed by 1 FixedUpdate to avoid rigidbody sync issues)
             StartCoroutine(GrabNewItem(controller, CurrentSlotItem));
-
             grabAudio?.Play();
 
-            // The slot is now empty
             CurrentSlotItem = null;
         }
 
-
-        // ─────────────────────────────────────────────────────────────────
-        //  (4) Utility: Release in-hand item & forcibly grab
-        // ─────────────────────────────────────────────────────────────────
+        //==========================================================
+        //   UTILITAIRES
+        //==========================================================
 
         private static XRBaseInteractable GetItemInHand(XRBaseInteractor controller)
         {
@@ -261,31 +275,20 @@ namespace MikeNspired.XRIStarterKit
             return controller.interactablesSelected[0] as XRBaseInteractable;
         }
 
-        /// <summary>
-        /// Forces the hand to "unselect" the item it is currently holding.
-        /// </summary>
         private void ReleaseItemFromHand(XRBaseInteractor interactor, XRBaseInteractable interactable)
         {
-            if (!interactionManager)
-                return;
-            interactionManager.SelectExit((IXRSelectInteractor)interactor, interactable);
+            interactionManager?.SelectExit((IXRSelectInteractor)interactor, interactable);
         }
 
-        /// <summary>
-        /// Forces the hand to "select" (grab) the given interactable. 
-        /// We wait 1 physics frame to avoid errors with Unity’s XR rig & rigidbodies.
-        /// </summary>
         private IEnumerator GrabNewItem(XRBaseInteractor interactor, XRBaseInteractable interactable)
         {
             yield return new WaitForFixedUpdate();
-            if (interactionManager)
-                interactionManager.SelectEnter((IXRSelectInteractor)interactor, interactable);
+            interactionManager?.SelectEnter((IXRSelectInteractor)interactor, interactable);
         }
 
-
-        // ─────────────────────────────────────────────────────────────────
-        //  (5) Item-to-slot Animation
-        // ─────────────────────────────────────────────────────────────────
+        //==========================================================
+        //       ANIMATIONS & CLONE
+        //==========================================================
 
         private IEnumerator AnimateItemToSlot()
         {
@@ -300,7 +303,7 @@ namespace MikeNspired.XRIStarterKit
                     Quaternion.Lerp(itemStartingTransform.rotation, Quaternion.Euler(0, 90, 0), t);
                 boundCenterTransform.localScale =
                     Vector3.Lerp(itemStartingTransform.scale, goalSizeToFitInSlot, t);
-                
+
                 yield return null;
                 timer += Time.deltaTime;
             }
@@ -314,50 +317,36 @@ namespace MikeNspired.XRIStarterKit
             boundCenterTransform.localRotation = Quaternion.Euler(0, 90, 0);
         }
 
-
-        // ─────────────────────────────────────────────────────────────────
-        //  (6) Creating & Fitting the Mesh Clone
-        // ─────────────────────────────────────────────────────────────────
-
         private void SetupNewMeshClone(XRBaseInteractable newItem)
         {
-            // Destroy old clone if it exists
             if (itemSlotMeshClone)
                 Destroy(itemSlotMeshClone.gameObject);
 
-            // Recreate the "bound center" transform
             CreateBoundsCenter();
 
-            // 1) Clone the real item (meshes only)
             itemSlotMeshClone = GameObjectCloner.DuplicateAndStrip(newItem.gameObject).transform;
 
-            // 2) Put clone under itemModelHolder at the real item’s position
             itemSlotMeshClone.SetParent(itemModelHolder);
             itemSlotMeshClone.SetPositionAndRotation(newItem.transform.position, newItem.transform.rotation);
 
-            // 3) Calculate initial bounds
             var bounds = GetBoundsOfAllMeshes(itemSlotMeshClone);
 
-            // 4) Move boundCenterTransform to bounding box center
             boundCenterTransform.position = bounds.center;
             boundCenterTransform.rotation = newItem.transform.rotation;
 
-            // 5) Then parent the clone under the boundCenterTransform
             itemSlotMeshClone.SetParent(boundCenterTransform);
 
-            // 6) Figure out how much to scale to fit into 'inventorySize'
             inventorySize.enabled = true;
             Vector3 parentSize = inventorySize.bounds.size;
             float ratioX = parentSize.x / bounds.size.x;
             float ratioY = parentSize.y / bounds.size.y;
             float ratioZ = parentSize.z / bounds.size.z;
             float scaleRatio = Mathf.Min(ratioX, ratioY, ratioZ);
-            scaleRatio = Mathf.Min(scaleRatio, 1f); // Only shrink large items, do not enlarge smaller
+            scaleRatio = Mathf.Min(scaleRatio, 1f);
 
             boundCenterTransform.localScale = Vector3.one * scaleRatio;
             inventorySize.enabled = false;
 
-            // 7) Record these as "start" transforms for the Lerp
             itemStartingTransform.SetTransformStruct(
                 newItem.transform.position,
                 newItem.transform.rotation,
@@ -382,7 +371,6 @@ namespace MikeNspired.XRIStarterKit
             var rends = item.GetComponentsInChildren<Renderer>();
             foreach (var rend in rends)
             {
-                // Ignore particles, etc.
                 if (rend.GetComponent<ParticleSystem>()) continue;
 
                 if (bounds.extents == Vector3.zero)

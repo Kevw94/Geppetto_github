@@ -11,7 +11,7 @@ namespace MikeNspired.XRIStarterKit
     /// Handles all item logic: spawning a starting item, swapping, disabling in-hand,
     /// and mesh clone creation/scaling. No animation coroutines for UI icons.
     /// </summary>
-    public class WeaponInventorySlotItemHandler : MonoBehaviour
+    public class InventorySlotItemHandler : MonoBehaviour
     {
         [Header("Visual Slot Displays")]
         [SerializeField] private GameObject slotDisplayWhenContainsItem;
@@ -54,19 +54,19 @@ namespace MikeNspired.XRIStarterKit
             if (!boundCenterTransform)
             {
                 boundCenterTransform = new GameObject("Bound Center Transform").transform;
-                boundCenterTransform.SetParent(itemModelHolder);
+                boundCenterTransform.SetParent(itemModelHolder, false);
             }
 
             // Create a starting slot item if 'prefab' is assigned
             if (prefab)
             {
-                CurrentSlotItem = Instantiate(prefab);
+                CurrentSlotItem = prefab;
                 CurrentSlotItem.transform.SetParent(transform);
                 CurrentSlotItem.transform.localPosition = Vector3.zero;
                 CurrentSlotItem.transform.localEulerAngles = Vector3.zero;
 
-                SetupNewMeshClone(CurrentSlotItem);
                 CurrentSlotItem.gameObject.SetActive(false);
+                SetupNewMeshClone(CurrentSlotItem);
                 SnapItemToSlot();
             }
         }
@@ -137,31 +137,6 @@ namespace MikeNspired.XRIStarterKit
         {
             if (!controller || isBusy)
                 return;
-
-            //DEBUT AJOUT
-            var inHand = GetItemInHand(controller);
-            if (inHand)
-            {
-                var data = inHand.GetComponent<InteractableItemData>();
-                if (data != null && data.canWeaponInventory == false)
-                {
-                    Debug.Log($"[Inventory] {inHand.name} ne peut PAS être mis dans l'inventaire.");
-                    isBusy = false;
-                    return;
-                }
-            }
-
-            if (CurrentSlotItem)
-            {
-                var data = CurrentSlotItem.GetComponent<InteractableItemData>();
-                if (data != null && data.canWeaponInventory == false)
-                {
-                    Debug.Log($"[Inventory] {CurrentSlotItem.name} ne peut PAS être retiré du slot.");
-                    isBusy = false;
-                    return;
-                }
-            }
-            //FIN AJOUT
 
             isBusy = true;
 

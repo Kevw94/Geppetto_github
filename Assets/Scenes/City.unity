@@ -81363,6 +81363,10 @@ PrefabInstance:
       propertyPath: interactionRadius
       value: 0.15
       objectReference: {fileID: 0}
+    - target: {fileID: 6036729535105153682, guid: 49ca4dd25f534bf4b9e1aed8500990ac, type: 3}
+      propertyPath: isBackpackInventory
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7374756598607794154, guid: 49ca4dd25f534bf4b9e1aed8500990ac, type: 3}
       propertyPath: m_SmoothPosition
       value: 1
@@ -98137,9 +98141,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e9e33e45d517e94b98a0ffc2f198427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.InteractableItemData
-  canInventory: 1
+  canInventory: 0
   canDistanceGrab: 1
-  canWeaponInventory: 0
+  canWeaponInventory: 1
 --- !u!114 &1157472955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139356,9 +139360,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1724567269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58dd1bca206bb1043bb478d6ed61b829, type: 3}
+  m_Script: {fileID: 11500000, guid: a2a0aee37f21e70488dd712c3501e9d0, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MikeNspired.XRIStarterKit.WeaponInventoryGrabInteract
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.InventoryGrabInteract
   interactionMethod: 0
   buttonInteractionMode: 3
   leftControllerInput: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
@@ -139373,9 +139377,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1724567269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4dfa4d9516fb1f40a060be08592245c, type: 3}
+  m_Script: {fileID: 11500000, guid: cd2840027d898a2429c81034a0e40c6b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MikeNspired.XRIStarterKit.WeaponInventoryManager
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.InventoryManager
+  isBackpackInventory: 0
   openMenuInputLeftHand: {fileID: 7549162699250721271, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   openMenuInputRightHand: {fileID: -6125895930334955576, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   leftController: {fileID: 651211554}

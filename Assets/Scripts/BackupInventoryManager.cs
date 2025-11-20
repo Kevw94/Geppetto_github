@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit.Interactors.Casters;
 
 namespace MikeNspired.XRIStarterKit
 {
-    public class WeaponInventoryManager : MonoBehaviour
+    public class InventoryManager : MonoBehaviour
     {
         public static event Action<InventorySlot> OnLeftSlotHoverBegan, OnLeftSlotHoverEnded, OnRightSlotHoverBegan, OnRightSlotHoverEnded;
 
@@ -35,9 +35,6 @@ namespace MikeNspired.XRIStarterKit
         private void Awake()
         {
             OnValidate();
-            openMenuInputLeftHand.GetInputAction().performed += _ => ToggleInventoryAtController(false);
-            openMenuInputRightHand.GetInputAction().performed += _ => ToggleInventoryAtController(true);
-
             foreach (var slot in inventorySlots) slot.gameObject.SetActive(false);
         }
 
@@ -71,18 +68,10 @@ namespace MikeNspired.XRIStarterKit
             nextQueryTime = Time.time + queryInterval;
         }
 
-        private void ToggleInventoryAtController(bool isRightHand)
-        {
-            if (isRightHand)
-                TurnOnInventory(rightController.gameObject);
-            else
-                TurnOnInventory(leftController.gameObject);
-        }
-
-        private void TurnOnInventory(GameObject hand)
+        public void TurnOnInventory()
         {
             isActive = !isActive;
-            ToggleInventoryItems(isActive, hand);
+            ToggleInventoryItems(isActive);
             PlayAudio(isActive);
 
             // Clear the active slots if turning off
@@ -117,7 +106,7 @@ namespace MikeNspired.XRIStarterKit
             else disableAudio?.Play();
         }
 
-        private void ToggleInventoryItems(bool state, GameObject hand)
+        private void ToggleInventoryItems(bool state)
         {
             foreach (var slot in inventorySlots)
             {
@@ -127,26 +116,8 @@ namespace MikeNspired.XRIStarterKit
                 {
                     slot.gameObject.SetActive(true);
                     slot.EnableSlot();
-                    SetPositionAndRotation(hand);
                 }
             }
-        }
-
-        private void SetPositionAndRotation(GameObject hand)
-        {
-            transform.position = hand.transform.position;
-            transform.localEulerAngles = Vector3.zero;
-
-            if (lookAtController)
-                SetPosition(hand.transform);
-            else if (Camera.main)
-                transform.LookAt(Camera.main.transform);
-        }
-
-        private void SetPosition(Transform hand)
-        {
-            var handDirection = hand.forward;
-            transform.forward = Vector3.ProjectOnPlane(-handDirection, transform.up);
         }
 
         // 2) Modified 'CheckHandProximity' to fire hover-begin / hover-end events
