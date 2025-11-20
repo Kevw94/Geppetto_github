@@ -15,7 +15,6 @@ namespace MikeNspired.XRIStarterKit
         [SerializeField] private float insertAnimationLength = 0.1f;
         [SerializeField] private AudioSource loadAudio, unloadAudio;
         [SerializeField] private GunType gunType = null;
-        [SerializeField] private Magazine startingMagazine = null;
         [SerializeField] private new Collider collider = null;
         [SerializeField] private bool removeByGrabbing = true;
 
@@ -36,7 +35,6 @@ namespace MikeNspired.XRIStarterKit
             xrGrabInteractable.selectExited.AddListener(_ => SetMagazineGrabbableState());
 
             collider.gameObject.SetActive(false);
-            if (startingMagazine) CreateStartingMagazine();
         }
 
         private void SetMagazineGrabbableState()
@@ -58,10 +56,10 @@ namespace MikeNspired.XRIStarterKit
             // Check if the gun is being held
             isBeingGrabbed = xrGrabInteractable.isSelected;
 
-            // Only enable magazine colliders if we're allowing removal by grabbing 
+            // Only enable magazine colliders if we're allowing removal by grabbing
             // AND the gun is currently selected.
             if (removeByGrabbing && isBeingGrabbed)
-                magazine.EnableCollider(); 
+                magazine.EnableCollider();
             else
                 magazine.DisableCollider();
         }
