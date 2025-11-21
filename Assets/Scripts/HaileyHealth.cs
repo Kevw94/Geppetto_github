@@ -3,34 +3,28 @@ using UnityEngine.UI;
 using System.Collections;
 using TMPro;
 
-[RequireComponent(typeof(VRDeathManager))]
 public class HaileyHealth : MonoBehaviour
 {
-    [Header("Health Parameters")]
+    [Header("Paramètres de vie")]
     public float maxHealth = 100f;
     public float currentHealth;
 
-    [Header("Circular UI Elements")]
+    [Header("UI Circulaire")]
     public Image HP;
     public TextMeshProUGUI HPText;
 
-    [Header("Flash Effect Settings")]
+    [Header("Effet de clignotement")]
     public float lowHealthThreshold = 20f;
     public float flashSpeed = 3f;
     public Color normalColor = Color.green;
     public Color warningColor = new Color(1f, 0.65f, 0f);
     public Color flashColor = Color.red;
 
-    [Header("VR Death Manager")]
-    private VRDeathManager deathManager;
-    private bool isDead = false;
-
     private bool isFlashing = false;
 
     void Start()
     {
-        deathManager = GetComponent<VRDeathManager>();
-        currentHealth = maxHealth;
+        // currentHealth = maxHealth;
         UpdateHealthUI();
     }
 
@@ -112,12 +106,6 @@ public class HaileyHealth : MonoBehaviour
 
     private void Die()
     {
-        if (isDead) return;
-        isDead = true;
-
-        Debug.Log("Hailey is dead");
-
-        if (deathManager != null)
-            deathManager.TriggerDeath();
+        Debug.Log("Le joueur est mort !");
     }
 }

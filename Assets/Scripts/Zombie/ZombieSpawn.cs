@@ -3,21 +3,21 @@ using System.Collections.Generic;
 
 public class ZombieSpawner : MonoBehaviour
 {
-    [Header("Fixed Zombies (spawn only once)")]
+    [Header("Zombies fixes (spawn une seule fois)")]
     public Transform[] fixedSpawnPoints;
     public GameObject[] fixedZombiesPrefabs;
 
-    [Header("Random Zombies (spawn over time)")]
+    [Header("Zombies aléatoires")]
     public GameObject[] randomZombiePrefabs;
     public int maxRandomZombies = 10;
     public float spawnRadius = 20f;
     public float spawnInterval = 5f;
 
-    [Header("Exclusion Around Fixed Spawn Points")]
+    [Header("Exclusion autour des spawns fixes")]
     public float exclusionRadius = 6f;
     public int maxSpawnAttempts = 10;
 
-    [Header("Player Reference")]
+    [Header("Référence du joueur")]
     public Transform player;
 
     private List<GameObject> activeRandomZombies = new List<GameObject>();
