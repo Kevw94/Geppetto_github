@@ -287,12 +287,6 @@ namespace MikeNspired.XRIStarterKit
 
             transform.position = endPos;
             DestroyZombie();
-			if (isMenu)
-            {
-                Debug.Log($"Zombie mort — chargement de la scène city");
-                yield return new WaitForSeconds(1f);
-                // SceneManager.LoadScene("Citiy", LoadSceneMode.Single);
-            }
         }
 
         public void FadeAndDestroy()
@@ -329,6 +323,12 @@ namespace MikeNspired.XRIStarterKit
 		private void DestroyZombie()
         {
             Destroy(gameObject);
+			if (isMenu)
+            {
+                Debug.Log($"Zombie mort — chargement de la scène city");
+                yield return new WaitForSeconds(1f);
+                SceneManager.LoadScene("Citiy", LoadSceneMode.Single);
+            }
         }
 
         #endregion
