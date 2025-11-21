@@ -78,6 +78,7 @@ namespace MikeNspired.XRIStarterKit
         private void CreateStartingMagazine()
         {
             if (magazine) return;
+			startingMagazine.CurrentAmmo = startingMagazine.MaxAmmo;
             SetupNewMagazine(Instantiate(startingMagazine, end.position, end.rotation, transform));
             magazine.DisableCollider();
         }
