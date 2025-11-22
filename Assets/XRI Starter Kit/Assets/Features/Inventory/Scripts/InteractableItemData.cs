@@ -9,5 +9,7 @@ namespace MikeNspired.XRIStarterKit
         public bool canInventory = true;
 
         public bool canDistanceGrab = true;
+
+        public bool canWeaponInventory = false;
     }
 }
