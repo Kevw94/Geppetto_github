@@ -1,53 +1,59 @@
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
+[RequireComponent(typeof(XRBaseInteractable))]
 public class CopperPetting : MonoBehaviour
 {
     [Header("References")]
     public Animator dogAnimator;
-    public AudioSource happySoundSource;
-    public AudioClip happyClip;
+    public AudioSource barkSource;
+    public AudioClip happyClip;             // Son quand Copper est caressé
+    public string tailWagTrigger = "TailWag";
 
-    [Header("Settings")]
-    public string Layer = "PokeOnly";
-    public float happyDuration = 2f;
+    [Header("Debug")]
+    public bool debugLogs = true;
 
-    private bool isBeingPetted = false;
-    private int pokeLayer;
+    private XRBaseInteractable interactable;
 
-    void Start()
+    void Awake()
     {
-        pokeLayer = LayerMask.NameToLayer(Layer);
-        if (pokeLayer == -1)
-            Debug.LogError("Le layer " + Layer + " n'existe pas !");
+        interactable = GetComponent<XRBaseInteractable>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnEnable()
     {
-        if (isBeingPetted) return;
+        interactable.hoverEntered.AddListener(OnPet);  // Déclenche quand une main entre en hover
+        if (debugLogs) Debug.Log("[CopperPetting] Enabled");
+    }
 
-        if (other.gameObject.layer == pokeLayer)
+    void OnDisable()
+    {
+        interactable.hoverEntered.RemoveListener(OnPet);
+        if (debugLogs) Debug.Log("[CopperPetting] Disabled");
+    }
+
+    private void OnPet(HoverEnterEventArgs args)
+    {
+        // Vérifie que la main est bien sur le layer PokeOnly
+        if (((1 << args.interactorObject.transform.gameObject.layer) & LayerMask.GetMask("PokeOnly")) == 0)
         {
-            StartCoroutine(PetRoutine());
+            if (debugLogs) Debug.Log("[CopperPetting] Interactor not on PokeOnly layer");
+            return;
         }
-    }
 
-    private System.Collections.IEnumerator PetRoutine()
-    {
-        isBeingPetted = true;
+        if (debugLogs) Debug.Log($"[CopperPetting] Copper petted by {args.interactorObject.transform.name}");
 
         // Animation happy
-        if (dogAnimator != null)
-            dogAnimator.SetInteger("ActionType_int", 11); // happy
+        if (dogAnimator != null && !string.IsNullOrEmpty(tailWagTrigger))
+        {
+            dogAnimator.SetTrigger(tailWagTrigger);
+        }
 
-        // Son happy
-        if (happySoundSource != null && happyClip != null)
-            happySoundSource.PlayOneShot(happyClip);
-
-        yield return new WaitForSeconds(happyDuration);
-
-        if (dogAnimator != null)
-            dogAnimator.SetInteger("ActionType_int", 0);
-
-        isBeingPetted = false;
+        // Son
+        if (barkSource != null && happyClip != null)
+        {
+            barkSource.PlayOneShot(happyClip);
+        }
     }
 }

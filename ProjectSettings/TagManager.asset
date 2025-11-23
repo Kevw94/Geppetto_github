@@ -7,11 +7,14 @@ TagManager:
   - Key
   - Card
   - Boltcutter
+  - projectile
+  - FetchableObject
+  - PlayerHand
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - CopperFetch
   - Water
   - UI
   - 
