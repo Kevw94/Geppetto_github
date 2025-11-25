@@ -19,12 +19,15 @@ public class HaileyHealth : MonoBehaviour
     public Color normalColor = Color.green;
     public Color warningColor = new Color(1f, 0.65f, 0f);
     public Color flashColor = Color.red;
-
     private bool isFlashing = false;
+
+    [Header("Audio")]
+    public AudioSource TakeDamageAudio;
+    public AudioSource AlmostDeadAudio;
 
     void Start()
     {
-        // currentHealth = maxHealth;
+        //currentHealth = maxHealth;
         UpdateHealthUI();
     }
 
@@ -35,6 +38,7 @@ public class HaileyHealth : MonoBehaviour
         if (currentHealth <= lowHealthThreshold && !isFlashing)
         {
             StartCoroutine(FlashEffect());
+            AlmostDeadAudio.Play();
         }
     }
 
@@ -43,6 +47,7 @@ public class HaileyHealth : MonoBehaviour
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UpdateHealthUI();
+        TakeDamageAudio.Play();
 
         if (currentHealth <= 0)
             Die();
