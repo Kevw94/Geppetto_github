@@ -7,6 +7,7 @@ TagManager:
   - Key
   - Card
   - Boltcutter
+  - projectile
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Door_body
   - 
   - Teleportation_area
-  - 
+  - IgnoreDoorBody
   - 
   - 
   - 

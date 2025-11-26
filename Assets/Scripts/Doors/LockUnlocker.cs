@@ -4,7 +4,7 @@ public class LockUnlocker : MonoBehaviour
 {
     [SerializeField] private DoorsOpening linkedDoor;
     [SerializeField] private AudioSource unlockSound;
-    [SerializeField] private float checkRadius = 0.1f; // distance autour du cadenas
+    [SerializeField] private float checkRadius = 0.1f;
 
     private bool unlocked = false;
 
@@ -12,7 +12,6 @@ public class LockUnlocker : MonoBehaviour
     {
         if (unlocked) return;
 
-        // Vérifie si la clé est dans le rayon
         Collider[] hits = Physics.OverlapSphere(transform.position, checkRadius);
         foreach (Collider col in hits)
         {
@@ -27,37 +26,13 @@ public class LockUnlocker : MonoBehaviour
     {
         unlocked = true;
 
-        // Jouer le son
         if (unlockSound != null)
             unlockSound.Play();
 
-        // Déverrouiller la porte
         if (linkedDoor != null)
-            linkedDoor.LockDoor(false); // je vais expliquer cette fonction
+            linkedDoor.LockDoor(false);
 
-        // Disparaît en 2 secondes
-        StartCoroutine(FadeOutLock());
-
-        // Faire disparaître la clé
         key.SetActive(false);
-    }
-
-    private System.Collections.IEnumerator FadeOutLock()
-    {
-        float duration = 1f;
-        float elapsed = 0f;
-        Vector3 originalScale = transform.localScale;
-
-        while (elapsed < duration)
-        {
-            elapsed += Time.deltaTime;
-            float t = elapsed / duration;
-            transform.localScale = Vector3.Lerp(originalScale, Vector3.zero, t);
-            yield return null;
-        }
-
-        // Désactiver complètement
-        gameObject.SetActive(false);
     }
 
     private void OnDrawGizmosSelected()
