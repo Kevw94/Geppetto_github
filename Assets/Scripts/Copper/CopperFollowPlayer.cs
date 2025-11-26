@@ -25,9 +25,12 @@ public class CopperFollowPlayer : MonoBehaviour
     [Header("States")]
     public bool hasFood = false;
 
-    [Header("Sounds")]
-    public AudioSource bark;
-    public AudioSource breath;
+    [Header("Audio")]
+    public AudioSource barkSource;
+    public AudioClip barkClip;
+    public float barkInterval = 2f;
+
+    private float barkTimer = 0f;
 
     void Start()
     {
@@ -46,21 +49,21 @@ public class CopperFollowPlayer : MonoBehaviour
         if (!hasFood)
         {
             FoodCheck();
-            PlayBarkAnimation();
+            BarkCheck();               // <--- RETOUR DU SYSTÈME ORIGINAL
             LookAtPlayer(force: true);
             return;
         }
 
         FollowPlayer();
         LookAtPlayer();
-        PlayBreathLoop();
     }
 
     void UpdateCopperTarget()
     {
         if (copperTarget == null || player == null) return;
 
-        if (NavMesh.SamplePosition(player.position, out var hit, 5f, NavMesh.AllAreas))
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(player.position, out hit, 5f, NavMesh.AllAreas))
             copperTarget.position = hit.position;
     }
 
@@ -73,33 +76,8 @@ public class CopperFollowPlayer : MonoBehaviour
 
             agent.ResetPath();
             dogAnimator.SetFloat("Movement_f", 0f);
-            dogAnimator.SetInteger("ActionType_int", 0); // idle
-        }
-    }
 
-    void PlayBarkAnimation()
-    {
-        dogAnimator.SetInteger("ActionType_int", 1);
-    }
-
-    void PlayBark()
-    {
-            bark.Play();
-    }
-
-    void PlayBreathLoop()
-    {
-        if (breath == null) return;
-
-        if (dogAnimator.GetInteger("ActionType_int") != 1)
-        {
-            if (!breath.isPlaying)
-                breath.Play();
-        }
-        else
-        {
-            if (breath.isPlaying)
-                breath.Stop();
+            dogAnimator.SetInteger("ActionType_int", 0); // stop barking
         }
     }
 
@@ -138,5 +116,38 @@ public class CopperFollowPlayer : MonoBehaviour
             Quaternion targetRot = Quaternion.LookRotation(dir);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, Time.deltaTime * rotationSpeed);
         }
+    }
+
+    // -------------------------------------------------------
+    // --------- 🔵 SYSTÈME D’ABOIEMENT ORIGINAL -------------
+    // -------------------------------------------------------
+
+    void BarkCheck()
+    {
+        barkTimer -= Time.deltaTime;
+
+        if (barkTimer <= 0f)
+        {
+            PlayBark();
+
+            // Animation d’aboiement EXACTE du script original
+            dogAnimator.SetInteger("ActionType_int", 1);
+
+            // Retour au Idle après 1s
+            Invoke(nameof(ResetBarkAnimation), 1f);
+
+            barkTimer = barkInterval;
+        }
+    }
+
+    void PlayBark()
+    {
+        if (barkSource && barkClip)
+            barkSource.PlayOneShot(barkClip);
+    }
+
+    void ResetBarkAnimation()
+    {
+        dogAnimator.SetInteger("ActionType_int", 0);
     }
 }
