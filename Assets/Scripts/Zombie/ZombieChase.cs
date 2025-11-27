@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.AI;
-using System.Collections;
 
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(Animator))]
@@ -18,12 +17,15 @@ public class ZombieChase : MonoBehaviour
     [Header("Wandering")]
     public float wanderRadius = 6f;
     public float wanderInterval = 3f;
+
+    // Private variables
     private float nextWanderTime = 0f;
 
     private NavMeshAgent agent;
     private Animator animator;
 
     private bool isAttacking = false;
+    private float lastAttackTime = -999f;
 
     void Start()
     {
@@ -33,8 +35,7 @@ public class ZombieChase : MonoBehaviour
         if (player == null)
         {
             Camera mainCam = Camera.main;
-            if (mainCam != null)
-                player = mainCam.transform;
+            if (mainCam != null) player = mainCam.transform;
         }
     }
 
@@ -43,38 +44,40 @@ public class ZombieChase : MonoBehaviour
         if (player == null) return;
 
         float distance = Vector3.Distance(transform.position, player.position);
-        // - CHASE & ATTACK
+
+        // Player detected
         if (distance <= detectionRange)
         {
             agent.SetDestination(player.position);
 
+            // ATTACK
             if (distance <= attackRange)
             {
-                // - ATTACK
                 agent.isStopped = true;
                 FacePlayer();
 
-                if (!isAttacking)
-                    StartCoroutine(AttackRoutine());
+                if (!isAttacking && Time.time >= lastAttackTime + attackCooldown)
+                {
+                    isAttacking = true;
+                    lastAttackTime = Time.time;
+
+                    animator.SetBool("isWalking", false);
+                    animator.SetTrigger("attack");
+
+                    Debug.Log("Zombie attack animation triggered");
+                }
             }
             else
             {
-                // - CHASE
-                if (isAttacking)
-                {
-                    StopCoroutine(nameof(AttackRoutine));
-                    isAttacking = false;
-                }
-
+                // CHASE
                 agent.isStopped = false;
-                animator.ResetTrigger("attack");
                 animator.SetBool("isWalking", true);
+                isAttacking = false;
             }
         }
         else
         {
-            // - WANDER
-
+            // WANDER
             if (Time.time >= nextWanderTime)
             {
                 Vector3 newPos = RandomNavmeshLocation(wanderRadius);
@@ -97,38 +100,40 @@ public class ZombieChase : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * lookSpeed);
     }
 
-    private IEnumerator AttackRoutine()
+    // Called by Animation Event from zombie attack animation
+    public void DealDamage()
     {
-        isAttacking = true;
-        animator.SetBool("isWalking", false);
-        animator.SetTrigger("attack");
+        float distance = Vector3.Distance(transform.position, player.position);
 
-        yield return new WaitForSeconds(attackCooldown);
+        if (distance <= attackRange)
+        {
+            // First search on player
+            HaileyHealth hailey = player.GetComponent<HaileyHealth>();
+
+            // If not found, search in parents (VR case)
+            if (hailey == null)
+                hailey = player.GetComponentInParent<HaileyHealth>();
+
+            if (hailey != null)
+            {
+                hailey.TakeDamage(10f);
+                Debug.Log("🧟 Zombie hit Hailey !");
+            }
+            else
+            {
+                Debug.LogWarning("⚠ DealDamage: HaileyHealth NOT found on player or its parents!");
+            }
+        }
 
         isAttacking = false;
     }
 
-    public void DealDamage()
-    {
-        float distance = Vector3.Distance(transform.position, player.position);
-        if (distance <= attackRange)
-        {
-            Debug.Log("🧟 Zombie hit the player!");
-            // player.GetComponent<PlayerHealth>()?.TakeDamage(10);
-        }
-    }
 
     Vector3 RandomNavmeshLocation(float radius)
     {
-        Vector3 randomDirection = Random.insideUnitSphere * radius;
+        Vector3 randomDirection = Random.insideUnitSphere * radius + transform.position;
 
-        randomDirection += transform.forward * Random.Range(-radius, radius);
-
-        randomDirection += transform.position;
-
-        NavMeshHit hit;
-
-        NavMesh.SamplePosition(randomDirection, out hit, radius, NavMesh.AllAreas);
+        NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, radius, NavMesh.AllAreas);
 
         return hit.position;
     }
