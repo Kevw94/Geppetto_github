@@ -46921,6 +46921,8 @@ MonoBehaviour:
   normalColor: {r: 0.19215688, g: 0.80392164, b: 0.19215688, a: 1}
   warningColor: {r: 1, g: 0.65, b: 0, a: 1}
   flashColor: {r: 1, g: 0, b: 0, a: 1}
+  TakeDamageAudio: {fileID: 0}
+  AlmostDeadAudio: {fileID: 0}
 --- !u!114 &629413104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145951,6 +145953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: --ZOMBIE--
       objectReference: {fileID: 0}
+    - target: {fileID: 3404219897205636078, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ab240c1f7cfe64a71bca9129b30da2ce, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
