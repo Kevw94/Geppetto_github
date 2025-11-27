@@ -46893,6 +46893,7 @@ GameObject:
   - component: {fileID: 629413105}
   - component: {fileID: 629413104}
   - component: {fileID: 629413103}
+  - component: {fileID: 629413106}
   m_Layer: 0
   m_Name: Player-hailey
   m_TagString: Untagged
@@ -46921,8 +46922,6 @@ MonoBehaviour:
   normalColor: {r: 0.19215688, g: 0.80392164, b: 0.19215688, a: 1}
   warningColor: {r: 1, g: 0.65, b: 0, a: 1}
   flashColor: {r: 1, g: 0, b: 0, a: 1}
-  TakeDamageAudio: {fileID: 0}
-  AlmostDeadAudio: {fileID: 0}
 --- !u!114 &629413104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46945,13 +46944,29 @@ Transform:
   m_GameObject: {fileID: 629413102}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.4, y: -3.1, z: 25.72}
+  m_LocalPosition: {x: -22.498, y: -3.1, z: 25.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1455710461}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &629413106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629413102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a9162a2493d4f59af7c5d92910e4f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRDeathManager
+  deathScreen: {fileID: 0}
+  gameOverText: {fileID: 0}
+  fadeDuration: 1.5
+  scriptsToDisableOnDeath: []
 --- !u!1001 &630412184
 PrefabInstance:
   m_ObjectHideFlags: 0
