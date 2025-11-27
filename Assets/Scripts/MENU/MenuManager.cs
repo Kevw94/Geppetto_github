@@ -20,7 +20,8 @@ public class MenuManager : MonoBehaviour
 
 	public void PlayGame()
 	{
-		SceneManager.LoadScene("City", LoadSceneMode.Single);
+		PlayerPrefs.SetString("SceneToLoad", "City");
+		SceneManager.LoadScene("VR_Loading", LoadSceneMode.Single);
 	}
 
 	public void QuitGame()

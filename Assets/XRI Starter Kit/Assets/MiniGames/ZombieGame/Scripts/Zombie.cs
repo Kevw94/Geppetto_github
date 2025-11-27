@@ -299,7 +299,8 @@ namespace MikeNspired.XRIStarterKit
 			if (isMenu)
 			{
 				Debug.Log($"Zombie mortttt passe dans la coroutine — chargement de la scène city");
-				SceneManager.LoadScene("City", LoadSceneMode.Single);
+				PlayerPrefs.SetString("SceneToLoad", "City");
+				SceneManager.LoadScene("VR_Loading", LoadSceneMode.Single);
 				yield break;
 			}
 			yield break;
