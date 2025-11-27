@@ -102,3 +102,18 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+
+# Unity IL2CPP / Build backup folders
+/[Gg]eppetto_build_BackUpThisFolder_ButDontShipItWithYourGame/
+*BackUpThisFolder_ButDontShipItWithYourGame/
+
+
+# Builds
+/[Bb]uild/
+/[Bb]uilds/
+/[Gg]eppetto_build*/
+/[Tt]emp/
+/[Ll]ibrary/
+/[Oo]bj/
+/[Ll]ogs/

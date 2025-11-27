@@ -1,9 +1,10 @@
-﻿// Author MikeNspired. 
+﻿// Author MikeNspired.
 
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using MikeNspired.XRIStarterKit;
 
 namespace MikeNspired.XRIStarterKit
 {
@@ -21,9 +22,10 @@ namespace MikeNspired.XRIStarterKit
         private XRGrabInteractable grabInteractable;
         private Vector3 startingColliderPosition;
         private Rigidbody rb;
-        
+
         public bool IsBeingGrabbed() => isBeingGrabbed;
         public GunType GunType => gunType;
+		private bool ammoAlreadyConsumed = false;
 
         private void Awake()
         {
@@ -34,22 +36,75 @@ namespace MikeNspired.XRIStarterKit
             startingColliderPosition = magazineCollider.transform.localPosition;
 
             RegisterEvents();
-        }
-        
+			// if (ammoManager != null)
+			// {
+			// 	int given;
+			// 	if (ammoManager.TryConsumeAmmo(MaxAmmo, out given))
+			// 	{
+			// 		CurrentAmmo = given;
+			// 		Debug.Log($"Trying to load {MaxAmmo} bullets, given: {given}, remaining total: {ammoManager.GetAmmo()}");
+			// 		// OnAmmoChanged?.Invoke(totalAmmo);
+			// 		if (ammoModels != null)
+			// 			ammoModels.SetActive(CurrentAmmo > 0);
+			// 	}
+			// 	else
+			// 	{
+			// 		CurrentAmmo = 0;
+			// 		if (ammoModels != null)
+			// 			ammoModels.SetActive(false);
+			// 	}
+			// }
+		}
+
         private void RegisterEvents()
         {
             grabInteractable.selectEntered.AddListener(_ => OnGrab());
             grabInteractable.selectExited.AddListener(_ => OnRelease());
         }
 
-        private void OnGrab()
-        {
-            isBeingGrabbed = true;
-           // magazineCollider.isTrigger = false;
-            rigidBody.isKinematic = true;
-        }
+		private void OnGrab()
+		{
+			isBeingGrabbed = true;
+			rigidBody.isKinematic = true;
 
-        private void OnRelease()
+			var interactor = grabInteractable.interactorsSelecting[0];
+			var interactorType = interactor.GetType().Name;
+			Debug.Log($"[MAGAZINE] Grabbed by interactor of type: {interactorType}");
+
+			if (!(interactorType.Contains("Direct") || interactorType.Contains("NearFar")))
+			{
+				Debug.Log("[MAGAZINE] Grab ignored - not from player hand.");
+				return;
+			}
+
+			if (ammoAlreadyConsumed) return;
+
+			var ammoManager = AmmoManagerLocator.Instance;
+			if (ammoManager != null)
+			{
+				int given;
+				if (ammoManager.TryConsumeAmmo(MaxAmmo, out given))
+				{
+					CurrentAmmo = given;
+					ammoAlreadyConsumed = true;
+
+					if (ammoModels != null)
+						ammoModels.SetActive(CurrentAmmo > 0);
+
+					ammoManager.NotifyAmmoChanged(); // Update UI
+				}
+				else
+				{
+					CurrentAmmo = 0;
+					if (ammoModels != null)
+						ammoModels.SetActive(false);
+				}
+			}
+		}
+
+
+
+		private void OnRelease()
         {
             isBeingGrabbed = false;
             ResetToGrabbableObject();
@@ -58,7 +113,7 @@ namespace MikeNspired.XRIStarterKit
         private void OnEnable()
         {
             magazineCollider.transform.localPosition = startingColliderPosition;
-        }
+		}
 
         public void DisableCollider()
         {
@@ -87,7 +142,7 @@ namespace MikeNspired.XRIStarterKit
             rigidBody.isKinematic = true;
             rigidBody.useGravity = true;
             EnableDistanceGrabbing(false);
-        }
+		}
 
         private void EnableDistanceGrabbing(bool state)
         {
@@ -97,17 +152,22 @@ namespace MikeNspired.XRIStarterKit
 
         public bool UseAmmo()
         {
-            if (CurrentAmmo <= 0) 
+            if (CurrentAmmo <= 0)
                 return false;
 
             CurrentAmmo--;
 
-            if (CurrentAmmo <= 0 && ammoModels != null) 
+            if (CurrentAmmo <= 0 && ammoModels != null)
                 ammoModels.SetActive(false);
+			var ammoManager = AmmoManagerLocator.Instance;
+			if (ammoManager != null)
+			{
+				ammoManager.NotifyAmmoChanged();
+			}
 
             return true;
         }
-        
+
         public void ReturnMovedColliders()
         {
             StopAllCoroutines();

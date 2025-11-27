@@ -3,6 +3,7 @@ using System;
 
 using System.Collections;
 using Unity.XR.CoreUtils;
+using UnityEngine.SceneManagement;
 
 namespace MikeNspired.XRIStarterKit
 {
@@ -16,11 +17,8 @@ namespace MikeNspired.XRIStarterKit
         [Tooltip("Sound controller for NPCs.")] [SerializeField]
         private NPCSoundController soundController;
 
-        [Tooltip("Damage text prefab.")] [SerializeField]
-        private DamageText damageText;
-
-        [Tooltip("Spawn point for damage text.")] [SerializeField]
-        private Transform damageTextSpawn;
+		[Header("Menu part")] [Tooltip("Are we in the menu of the game")] [SerializeField]
+		private bool isMenu = false;
 
         [Header("Movement Settings")] [Tooltip("Maximum movement speed of the zombie.")] [SerializeField]
         private float maxSpeed = 1f;
@@ -39,9 +37,6 @@ namespace MikeNspired.XRIStarterKit
 
         [Tooltip("Delay before starting the emerge animation.")] [SerializeField]
         private float startAnimationDelay = 1f;
-
-        [Tooltip("Particle system played on spawn.")] [SerializeField]
-        private ParticleSystem spawnParticles;
 
         [Tooltip("Animator component for controlling animations.")] [SerializeField]
         private Animator animator;
@@ -100,6 +95,9 @@ namespace MikeNspired.XRIStarterKit
             if (isEmerging || isSinking || isDead)
                 return;
 
+			// if (isMenu)
+            //     return;
+
             if (!isAttacking)
                 ChasePlayer();
         }
@@ -134,9 +132,6 @@ namespace MikeNspired.XRIStarterKit
 
             Vector3 startPos = transform.position;
             Vector3 endPos = new Vector3(startPos.x, startPos.y + sinkDistance, startPos.z);
-
-            spawnParticles.transform.SetParent(null);
-            spawnParticles.transform.position = endPos;
             soundController.PlaySpawn();
 
             float elapsed = 0f;
@@ -245,7 +240,7 @@ namespace MikeNspired.XRIStarterKit
 
         #region Death & Damaged
 
-        
+
         public void Die()
         {
             if (isDead) return;
@@ -265,12 +260,11 @@ namespace MikeNspired.XRIStarterKit
         {
             if (isDead) return;
 
-            Instantiate(damageText, damageTextSpawn.position, Quaternion.identity, damageTextSpawn)
-                .SetText(x.ToString("f1"));
-
-
             if (UnityEngine.Random.value <= hitAnimationChance)
+			{
+				Debug.Log("Hit Animation Triggered");
                 animator.SetTrigger(Hit);
+			}
         }
 
         private IEnumerator SinkRoutine()
@@ -294,7 +288,23 @@ namespace MikeNspired.XRIStarterKit
 
             transform.position = endPos;
             DestroyZombie();
+			if (isMenu)
+			{
+				StartCoroutine(LoadCitySceneAfterDelay());
+			}
         }
+
+		private IEnumerator LoadCitySceneAfterDelay()
+		{
+			if (isMenu)
+			{
+				Debug.Log($"Zombie mortttt passe dans la coroutine — chargement de la scène city");
+				SceneManager.LoadScene("City", LoadSceneMode.Single);
+				yield break;
+			}
+			yield break;
+		}
+
 
         public void FadeAndDestroy()
         {
@@ -303,7 +313,7 @@ namespace MikeNspired.XRIStarterKit
         }
 
         private IEnumerator AnimateAndDestroy()
-        {
+		{
             float duration = 2f;
             float elapsed = 0f;
 
@@ -319,9 +329,16 @@ namespace MikeNspired.XRIStarterKit
             DestroyZombie();
         }
 
-        private void DestroyZombie()
+		public void PlayScreamEvent()
+		{
+			if (isDead) return;
+
+			Debug.Log("Zombie Menu Scream Event Triggered!");
+			soundController.PlayScream();
+		}
+
+		private void DestroyZombie()
         {
-            spawnParticles.transform.SetParent(transform);
             Destroy(gameObject);
         }
 

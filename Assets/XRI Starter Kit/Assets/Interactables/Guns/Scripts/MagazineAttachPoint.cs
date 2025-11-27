@@ -58,10 +58,10 @@ namespace MikeNspired.XRIStarterKit
             // Check if the gun is being held
             isBeingGrabbed = xrGrabInteractable.isSelected;
 
-            // Only enable magazine colliders if we're allowing removal by grabbing 
+            // Only enable magazine colliders if we're allowing removal by grabbing
             // AND the gun is currently selected.
             if (removeByGrabbing && isBeingGrabbed)
-                magazine.EnableCollider(); 
+                magazine.EnableCollider();
             else
                 magazine.DisableCollider();
         }
@@ -78,6 +78,7 @@ namespace MikeNspired.XRIStarterKit
         private void CreateStartingMagazine()
         {
             if (magazine) return;
+			startingMagazine.CurrentAmmo = startingMagazine.MaxAmmo;
             SetupNewMagazine(Instantiate(startingMagazine, end.position, end.rotation, transform));
             magazine.DisableCollider();
         }
