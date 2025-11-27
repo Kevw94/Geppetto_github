@@ -1,15 +1,8 @@
 {
-  "name": "EditModeTests",
+  "name": "Scripts",
   "rootNamespace": "",
-  "references": [
-    "Scripts"
-  ],
-  "optionalUnityReferences": [
-    "TestAssemblies"
-  ],
-  "includePlatforms": [
-    "Editor"
-  ],
+  "references": [],
+  "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": false,
   "overrideReferences": false,
