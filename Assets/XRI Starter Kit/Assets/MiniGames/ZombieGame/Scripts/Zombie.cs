@@ -3,6 +3,7 @@ using System;
 
 using System.Collections;
 using Unity.XR.CoreUtils;
+using UnityEngine.SceneManagement;
 
 namespace MikeNspired.XRIStarterKit
 {
@@ -287,7 +288,23 @@ namespace MikeNspired.XRIStarterKit
 
             transform.position = endPos;
             DestroyZombie();
+			if (isMenu)
+			{
+				StartCoroutine(LoadCitySceneAfterDelay());
+			}
         }
+
+		private IEnumerator LoadCitySceneAfterDelay()
+		{
+			if (isMenu)
+			{
+				Debug.Log($"Zombie mortttt passe dans la coroutine — chargement de la scène city");
+				SceneManager.LoadScene("City", LoadSceneMode.Single);
+				yield break;
+			}
+			yield break;
+		}
+
 
         public void FadeAndDestroy()
         {
@@ -323,12 +340,6 @@ namespace MikeNspired.XRIStarterKit
 		private void DestroyZombie()
         {
             Destroy(gameObject);
-			if (isMenu)
-            {
-                Debug.Log($"Zombie mort — chargement de la scène city");
-                yield return new WaitForSeconds(1f);
-                SceneManager.LoadScene("Citiy", LoadSceneMode.Single);
-            }
         }
 
         #endregion
