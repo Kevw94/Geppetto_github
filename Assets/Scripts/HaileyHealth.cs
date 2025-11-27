@@ -3,31 +3,34 @@ using UnityEngine.UI;
 using System.Collections;
 using TMPro;
 
+[RequireComponent(typeof(VRDeathManager))]
 public class HaileyHealth : MonoBehaviour
 {
-    [Header("Paramètres de vie")]
+    [Header("Health Parameters")]
     public float maxHealth = 100f;
     public float currentHealth;
 
-    [Header("UI Circulaire")]
+    [Header("Circular UI Elements")]
     public Image HP;
     public TextMeshProUGUI HPText;
 
-    [Header("Effet de clignotement")]
+    [Header("Flash Effect Settings")]
     public float lowHealthThreshold = 20f;
     public float flashSpeed = 3f;
     public Color normalColor = Color.green;
     public Color warningColor = new Color(1f, 0.65f, 0f);
     public Color flashColor = Color.red;
-    private bool isFlashing = false;
 
-    [Header("Audio")]
-    public AudioSource TakeDamageAudio;
-    public AudioSource AlmostDeadAudio;
+    [Header("VR Death Manager")]
+    private VRDeathManager deathManager;
+    private bool isDead = false;
+
+    private bool isFlashing = false;
 
     void Start()
     {
-        //currentHealth = maxHealth;
+        deathManager = GetComponent<VRDeathManager>();
+        currentHealth = maxHealth;
         UpdateHealthUI();
     }
 
@@ -38,7 +41,6 @@ public class HaileyHealth : MonoBehaviour
         if (currentHealth <= lowHealthThreshold && !isFlashing)
         {
             StartCoroutine(FlashEffect());
-            AlmostDeadAudio.Play();
         }
     }
 
@@ -47,7 +49,6 @@ public class HaileyHealth : MonoBehaviour
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UpdateHealthUI();
-        TakeDamageAudio.Play();
 
         if (currentHealth <= 0)
             Die();
@@ -111,6 +112,12 @@ public class HaileyHealth : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Le joueur est mort !");
+        if (isDead) return;
+        isDead = true;
+
+        Debug.Log("Hailey is dead");
+
+        if (deathManager != null)
+            deathManager.TriggerDeath();
     }
 }
