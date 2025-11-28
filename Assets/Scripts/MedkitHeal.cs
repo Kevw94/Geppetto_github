@@ -1,61 +1,73 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MedkitHeal : MonoBehaviour
+public class Medkit : MonoBehaviour
 {
-    [Header("Paramètres du kit de soin")]
+    [Header("Healing Settings")]
     public float healAmount = 25f;
-    public float useDuration = 2f;
+    public float healDuration = 2f;
 
-    [Header("Audio")]
-    public AudioSource useSound;
-
-    [Header("Référence du joueur")]
-    public HaileyHealth playerHealth;
-
-    [Header("Input (nom du bouton)")]
-    public string healButton = "JoystickButton1";
-    // B sur Oculus / VR
+    [Header("FX")]
+    public ParticleSystem healFX;
+    public AudioSource healLoopSound;
 
     private bool isHealing = false;
+    private HaileyHealth hailey;
+    private bool healCompleted = false;
 
-    void Update()
+    private void Start()
     {
-        if (playerHealth == null) return;
+        hailey = FindAnyObjectByType<HaileyHealth>();
+    }
 
-        // Si le joueur maintient et qu'on n'est pas déjà en train de soigner
-        if (Input.GetButton(healButton) && !isHealing)
+    public void StartHealing()
+    {
+        if (!isHealing && hailey != null)
+            StartCoroutine(HealProcess());
+    }
+
+    public void StopHealing()
+    {
+        isHealing = false;
+
+        if (healFX != null)
+            healFX.Stop();
+
+        if (healLoopSound != null)
+            healLoopSound.Stop();
+
+        if (healCompleted)
         {
-            StartCoroutine(HealRoutine());
+            Destroy(gameObject);
         }
     }
 
-    private IEnumerator HealRoutine()
+    private IEnumerator HealProcess()
     {
         isHealing = true;
+        healCompleted = false; // reset
+
+        if (healFX != null)
+            healFX.Play();
+
+        if (healLoopSound != null)
+            healLoopSound.Play();
+
         float timer = 0f;
 
-        if (useSound != null)
-            useSound.Play();
-
-        while (timer < useDuration)
+        while (timer < healDuration && isHealing)
         {
-            // Annule si le joueur lâche le bouton
-            if (!Input.GetButton(healButton))
-            {
-                Debug.Log("Soin annulé !");
-                isHealing = false;
-                yield break;
-            }
-
             timer += Time.deltaTime;
             yield return null;
         }
 
-        // Applique le soin
-        playerHealth.Heal(healAmount);
-        Debug.Log("Soin réussi ! +" + healAmount + " HP");
+        if (isHealing)
+        {
+            hailey.Heal(healAmount);
+            healCompleted = true; // ← ici on indique que le heal s'est terminé
+        }
 
-        Destroy(gameObject); // Le medkit se détruit
+        StopHealing();
     }
+
 }
