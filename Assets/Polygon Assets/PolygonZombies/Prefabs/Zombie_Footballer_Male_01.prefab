@@ -7782,7 +7782,10 @@ GameObject:
   - component: {fileID: 4319231604384948}
   - component: {fileID: 95057615463316896}
   - component: {fileID: 2831063494697002622}
-  - component: {fileID: 2527697824041747594}
+  - component: {fileID: 4536872736746189138}
+  - component: {fileID: 2831747081878360377}
+  - component: {fileID: 6180845242305463027}
+  - component: {fileID: 298282943335360621}
   m_Layer: 0
   m_Name: Zombie_Footballer_Male_01
   m_TagString: Untagged
@@ -7900,7 +7903,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &2527697824041747594
+--- !u!114 &4536872736746189138
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7909,16 +7912,77 @@ MonoBehaviour:
   m_GameObject: {fileID: 1916796579201672}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c95d05595db74405836d474e3918b14, type: 3}
+  m_Script: {fileID: 11500000, guid: da2853eae5655464db1654f9ef12c8a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZombieChase
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.EnemyHealth
+  maxHealth: 40
+  damageCooldown: 0.1
+--- !u!114 &2831747081878360377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916796579201672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aea598b584f42f1af94bebdf5c9efe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.ImpactSurfaceType
+  impactType: 1
+  shouldReparent: 1
+--- !u!114 &6180845242305463027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916796579201672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a2b651f97114149b15e43d2c8ea6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.NPCSoundController
+  footstepAudio: {fileID: 0}
+  vocalAudio: {fileID: 0}
+  painAudio: {fileID: 0}
+  impactAudio: {fileID: 0}
+  spawnAudio: {fileID: 0}
+  screamAudio: {fileID: 0}
+  deathAudio: {fileID: 0}
+  enableRandomVocal: 0
+  minTimeBetweenVocal: 5
+  maxTimeBetweenVocal: 10
+--- !u!114 &298282943335360621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916796579201672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6525f8c01311947448c2c1a8dc4c3996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Zombies
+  isMenu: 0
+  enemyHealth: {fileID: 4536872736746189138}
+  soundController: {fileID: 6180845242305463027}
+  dissolveRenderer: {fileID: 137730707857717740}
+  animator: {fileID: 95057615463316896}
+  agent: {fileID: 2831063494697002622}
   player: {fileID: 0}
   detectionRange: 15
   attackRange: 2
-  lookSpeed: 5
   attackCooldown: 1.5
   wanderRadius: 6
   wanderInterval: 3
+  emergeDuration: 2
+  sinkDuration: 2
+  sinkDistance: 2
+  startAnimationDelay: 1
+  screamChance: 0.05
+  hitAnimationChance: 0.1
 --- !u!1 &1957055157889940
 GameObject:
   m_ObjectHideFlags: 0

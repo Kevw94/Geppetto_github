@@ -83798,6 +83798,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4626011644291960, guid: 3def6ebd6b5a38c4abed4fded567f968, type: 3}
   m_PrefabInstance: {fileID: 1188990589}
   m_PrefabAsset: {fileID: 0}
+--- !u!137 &1189853196 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3423735006992658096, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+  m_PrefabInstance: {fileID: 6174816124031466789}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1190875669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -125942,6 +125947,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 491949342}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1829885166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3344370420155960470, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+  m_PrefabInstance: {fileID: 6174816124031466789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1829885169 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4929758895890438704, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+  m_PrefabInstance: {fileID: 6174816124031466789}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829885166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a2b651f97114149b15e43d2c8ea6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.NPCSoundController
+--- !u!114 &1829885171 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6574264277077880730, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+  m_PrefabInstance: {fileID: 6174816124031466789}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829885166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2853eae5655464db1654f9ef12c8a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.EnemyHealth
+--- !u!95 &1829885172 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3404219897205636078, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+  m_PrefabInstance: {fileID: 6174816124031466789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1829885173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829885166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6525f8c01311947448c2c1a8dc4c3996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Zombies
+  isMenu: 0
+  enemyHealth: {fileID: 1829885171}
+  soundController: {fileID: 1829885169}
+  dissolveRenderer: {fileID: 1189853196}
+  animator: {fileID: 1829885172}
+  agent: {fileID: 0}
+  player: {fileID: 0}
+  detectionRange: 15
+  attackRange: 2
+  attackCooldown: 1.5
+  wanderRadius: 6
+  wanderInterval: 3
+  emergeDuration: 2
+  sinkDuration: 2
+  sinkDistance: 2
+  startAnimationDelay: 1
+  screamChance: 0.05
+  hitAnimationChance: 0.1
 --- !u!1001 &1830379431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -146180,6 +146247,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1262323215262170227, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355357249054942352, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2514678426950311224, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2991506587841710153, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
       propertyPath: m_Name
       value: Zombie
@@ -146227,7 +146306,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3344370420155960470, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1829885173}
   m_SourcePrefab: {fileID: 100100000, guid: db03285ecc04a43a19f0058434dcc62c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
