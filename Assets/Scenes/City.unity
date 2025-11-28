@@ -90613,6 +90613,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7374756598607794154, guid: 49ca4dd25f534bf4b9e1aed8500990ac, type: 3}
+      propertyPath: m_UseDynamicAttach
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374756598607794154, guid: 49ca4dd25f534bf4b9e1aed8500990ac, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 9
       objectReference: {fileID: 0}
