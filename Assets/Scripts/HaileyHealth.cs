@@ -21,11 +21,16 @@ public class HaileyHealth : MonoBehaviour
     public Color warningColor = new Color(1f, 0.65f, 0f);
     public Color flashColor = Color.red;
 
+    [Header("Audio")]
+    public AudioSource damageSound;
+    public AudioSource lowHealthLoop;
+
     [Header("VR Death Manager")]
     private VRDeathManager deathManager;
     private bool isDead = false;
-
     private bool isFlashing = false;
+    private bool isLowHealthSoundPlaying = false;
+
 
     void Start()
     {
@@ -42,6 +47,23 @@ public class HaileyHealth : MonoBehaviour
         {
             StartCoroutine(FlashEffect());
         }
+
+        if (currentHealth <= lowHealthThreshold && !isLowHealthSoundPlaying)
+        {
+            if (lowHealthLoop != null)
+            {
+                lowHealthLoop.loop = true;
+                lowHealthLoop.Play();
+            }
+            isLowHealthSoundPlaying = true;
+        }
+        else if (currentHealth > lowHealthThreshold && isLowHealthSoundPlaying)
+        {
+            if (lowHealthLoop != null)
+                lowHealthLoop.Stop();
+
+            isLowHealthSoundPlaying = false;
+        }
     }
 
     public void TakeDamage(float amount)
@@ -49,6 +71,9 @@ public class HaileyHealth : MonoBehaviour
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UpdateHealthUI();
+
+        if (damageSound != null)
+            damageSound.Play();
 
         if (currentHealth <= 0)
             Die();
@@ -59,6 +84,13 @@ public class HaileyHealth : MonoBehaviour
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UpdateHealthUI();
+
+        if (currentHealth > lowHealthThreshold && isLowHealthSoundPlaying)
+        {
+            if (lowHealthLoop != null)
+                lowHealthLoop.Stop();
+            isLowHealthSoundPlaying = false;
+        }
     }
 
     private void UpdateHealthUI()
