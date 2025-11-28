@@ -1,52 +1,38 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using Unity.XR.CoreUtils;
-using System.Collections;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class MenuManager : MonoBehaviour
 {
-	public GameObject playButton;
+    public GameObject playButton;
     public GameObject quitButton;
-	public GameObject returnButton;
-	public GameObject commandsButton;
-	public GameObject commandsPanel;
-	private void Start()
-	{
-	}
-	private void Update()
-	{
-	}
+    public GameObject returnButton;
+    public GameObject commandsButton;
+    public GameObject commandsPanel;
 
-	public void PlayGame()
-	{
-		PlayerPrefs.SetString("SceneToLoad", "City");
-		SceneManager.LoadScene("VR_Loading", LoadSceneMode.Single);
-	}
+    public AudioSource ButtonPressed;
 
-	public void QuitGame()
-	{
-		Debug.Log("Quit game");
-		Application.Quit();
-	}
+    public void PlayGame()
+    {
+        ButtonPressed.Play();
+        PlayerPrefs.SetString("SceneToLoad", "City");
+        SceneManager.LoadScene("LoadingScreen", LoadSceneMode.Single);
+    }
 
-	public void ShowCommands()
-	{
-		Debug.Log("Show Commands");
-		if (playButton != null) playButton.SetActive(false);
-        if (quitButton != null) quitButton.SetActive(false);
-		if (returnButton != null) returnButton.SetActive(true);
-		if (commandsPanel != null) commandsPanel.SetActive(true);
-		if (commandsButton != null) commandsButton.SetActive(false);
+    public void QuitGame()
+    {
+        ButtonPressed.Play();
+        Application.Quit();
+    }
 
-	}
+    public void ShowCommands()
+    {
+        ButtonPressed.Play();
+        commandsPanel.SetActive(true);
+    }
 
-	public void ReturnToMenu()
-	{
-		playButton.SetActive(true);
-		quitButton.SetActive(true);
-		returnButton.SetActive(false);
-		commandsPanel.SetActive(false);
-		commandsButton.SetActive(true);
-	}
+    public void ReturnToMenu()
+    {
+        ButtonPressed.Play();
+        commandsPanel.SetActive(false);
+    }
 }

@@ -17,7 +17,7 @@ public class AmmoDisplayUI : MonoBehaviour
 
     private void UpdateAmmo(int newAmount)
     {
-        ammoText.text = $"Ammo: {newAmount}";
+        ammoText.text = $"{newAmount}";
     }
 
     private void OnDestroy()
