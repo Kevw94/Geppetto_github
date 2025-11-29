@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class CopperFollowPlayer : MonoBehaviour
 {
@@ -28,6 +29,11 @@ public class CopperFollowPlayer : MonoBehaviour
     [Header("Sounds")]
     public AudioSource bark;
     public AudioSource breath;
+    public AudioSource happy;
+
+    [Header("FX")]
+    public GameObject HappyFX;
+    public float HappyFXDuration = 2f;
 
     void Start()
     {
@@ -49,6 +55,9 @@ public class CopperFollowPlayer : MonoBehaviour
             PlayBarkAnimation();
             LookAtPlayer(force: true);
             return;
+        } else
+        {
+            dogAnimator.SetInteger("ActionType_int", 0);
         }
 
         FollowPlayer();
@@ -69,28 +78,42 @@ public class CopperFollowPlayer : MonoBehaviour
         if (Vector3.Distance(transform.position, foodBag.position) < calmDistance)
         {
             hasFood = true;
+            bark.Stop();
+            dogAnimator.SetInteger("ActionType_int", 0);
+
+            happy.Play();
             foodBag.gameObject.SetActive(false);
 
             agent.ResetPath();
             dogAnimator.SetFloat("Movement_f", 0f);
-            dogAnimator.SetInteger("ActionType_int", 0); // idle
+
+            if (HappyFX != null)
+                StartCoroutine(ShowFoodFX());
         }
     }
+
+
+    private IEnumerator ShowFoodFX()
+    {
+        HappyFX.SetActive(true);
+        yield return new WaitForSeconds(HappyFXDuration);
+        HappyFX.SetActive(false);
+    }
+
 
     void PlayBarkAnimation()
     {
         dogAnimator.SetInteger("ActionType_int", 1);
     }
 
-    void PlayBark()
+    public void PlayBark()
     {
             bark.Play();
     }
 
+
     void PlayBreathLoop()
     {
-        if (breath == null) return;
-
         if (dogAnimator.GetInteger("ActionType_int") != 1)
         {
             if (!breath.isPlaying)
@@ -101,6 +124,7 @@ public class CopperFollowPlayer : MonoBehaviour
             if (breath.isPlaying)
                 breath.Stop();
         }
+
     }
 
     void FollowPlayer()
