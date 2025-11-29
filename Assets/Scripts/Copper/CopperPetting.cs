@@ -1,59 +1,52 @@
 ﻿using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
-[RequireComponent(typeof(XRBaseInteractable))]
 public class CopperPetting : MonoBehaviour
 {
-    [Header("References")]
-    public Animator dogAnimator;
-    public AudioSource barkSource;
-    public AudioClip happyClip;             // Son quand Copper est caressé
-    public string tailWagTrigger = "TailWag";
+    [Header("Petting FX")]
+    public ParticleSystem petParticles;
+    public AudioSource petSound;
+    public float cooldown = 1f;
 
-    [Header("Debug")]
-    public bool debugLogs = true;
-
+    private bool canPet = true;
     private XRBaseInteractable interactable;
 
-    void Awake()
+    private void Awake()
     {
         interactable = GetComponent<XRBaseInteractable>();
+        interactable.hoverEntered.AddListener(OnHandHover);
     }
 
-    void OnEnable()
+    private void OnDestroy()
     {
-        interactable.hoverEntered.AddListener(OnPet);  // Déclenche quand une main entre en hover
-        if (debugLogs) Debug.Log("[CopperPetting] Enabled");
+        interactable.hoverEntered.RemoveListener(OnHandHover);
     }
 
-    void OnDisable()
+    private void OnHandHover(HoverEnterEventArgs args)
     {
-        interactable.hoverEntered.RemoveListener(OnPet);
-        if (debugLogs) Debug.Log("[CopperPetting] Disabled");
+        if (!canPet) return;
+        if (!(args.interactorObject is XRDirectInteractor)) return;
+
+        PlayParticles();
     }
 
-    private void OnPet(HoverEnterEventArgs args)
+    private void PlayParticles()
     {
-        // Vérifie que la main est bien sur le layer PokeOnly
-        if (((1 << args.interactorObject.transform.gameObject.layer) & LayerMask.GetMask("PokeOnly")) == 0)
-        {
-            if (debugLogs) Debug.Log("[CopperPetting] Interactor not on PokeOnly layer");
-            return;
-        }
+        if (petParticles != null)
+            petParticles.Play();
 
-        if (debugLogs) Debug.Log($"[CopperPetting] Copper petted by {args.interactorObject.transform.name}");
+        if (petSound != null)
+            petSound.Play();
 
-        // Animation happy
-        if (dogAnimator != null && !string.IsNullOrEmpty(tailWagTrigger))
-        {
-            dogAnimator.SetTrigger(tailWagTrigger);
-        }
+        StartCoroutine(PetCooldown());
+    }
 
-        // Son
-        if (barkSource != null && happyClip != null)
-        {
-            barkSource.PlayOneShot(happyClip);
-        }
+    private System.Collections.IEnumerator PetCooldown()
+    {
+        canPet = false;
+        yield return new WaitForSeconds(cooldown);
+        canPet = true;
     }
 }
