@@ -95395,7 +95395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e78a0af3fbe0204ab01a987458032ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeypadDoorLock
-  correctCode: 1589
+  correctCode: 0609
   doorToUnlock: {fileID: 802643982}
   redSphere: {fileID: 1167462180}
   greenSphere: {fileID: 824287727}
