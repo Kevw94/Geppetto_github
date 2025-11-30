@@ -112,8 +112,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.73536706, y: 3.9427848, z: 0.2000002}
-  m_Center: {x: -0.3676833, y: 0.92860746, z: 0.10000001}
+  m_Size: {x: 0.63137424, y: 3.9427848, z: 0.2000002}
+  m_Center: {x: -0.31568688, y: 0.92860746, z: 0.10000001}
 --- !u!65 &65189520900930484
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -133,8 +133,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6930094, y: 3.9427848, z: 0.2000002}
-  m_Center: {x: -2.1534953, y: 0.92860746, z: 0.10000001}
+  m_Size: {x: 0.6209004, y: 3.9427848, z: 0.2000002}
+  m_Center: {x: -2.18955, y: 0.92860746, z: 0.10000001}
 --- !u!1001 &9130350471459604920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -193,6 +193,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4781992175852160, guid: b1177e18354fd6d47a8cefb32959d8aa, type: 3}
       propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195500316079482653, guid: b1177e18354fd6d47a8cefb32959d8aa, type: 3}
+      propertyPath: m_CollisionDetection
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:

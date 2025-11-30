@@ -5,6 +5,7 @@ using MikeNspired.XRIStarterKit;
 public class AmmoSocketHandler : MonoBehaviour
 {
     public PlayerAmmoManager ammoManager;
+    public AudioSource refuelAmmoSound;
     private UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor socket;
 
     private void Awake()
@@ -18,6 +19,9 @@ public class AmmoSocketHandler : MonoBehaviour
         var pack = args.interactableObject.transform.GetComponent<AmmoPack>();
         if (pack != null)
         {
+            if (refuelAmmoSound != null)
+                refuelAmmoSound.Play();
+
             ammoManager.AddAmmo(pack.ammoCount);
             // Désactiver l’objet pack
             args.interactableObject.transform.gameObject.SetActive(false);
