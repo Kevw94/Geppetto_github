@@ -272,7 +272,8 @@ public class Zombies : MonoBehaviour, IEnemy
         if (isMenu)
         {
             Debug.Log("Zombie mort dans le MENU → chargement scène City");
-            SceneManager.LoadScene("City", LoadSceneMode.Single);
+            PlayerPrefs.SetString("SceneToLoad", "City");
+            SceneManager.LoadScene("LoadingScreen", LoadSceneMode.Single);
             yield break;
         }
 

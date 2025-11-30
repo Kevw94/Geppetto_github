@@ -180,7 +180,7 @@ Transform:
   m_GameObject: {fileID: 2396783295268489810}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7904403, y: 0.026983134, z: -0.3971856, w: 0.46553156}
-  m_LocalPosition: {x: 5.7910957, y: 13.31953, z: -5.2075024}
+  m_LocalPosition: {x: 5.85, y: 14.3, z: -5.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -874,7 +874,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6560757275551350611}
   m_LocalRotation: {x: -0.7904403, y: 0.026983134, z: -0.3971856, w: 0.46553156}
-  m_LocalPosition: {x: 0, y: 0, z: -6.65}
+  m_LocalPosition: {x: 0, y: 0, z: -7.35}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -882,7 +882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.52, y: 12.14}
+  m_AnchoredPosition: {x: 6.58, y: 13.12}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1679537755447323053
@@ -1241,15 +1241,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4465094797090432, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.78
+      value: 5.84
       objectReference: {fileID: 0}
     - target: {fileID: 4465094797090432, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.23
+      value: 14.21
       objectReference: {fileID: 0}
     - target: {fileID: 4465094797090432, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.15
+      value: -5.85
       objectReference: {fileID: 0}
     - target: {fileID: 4465094797090432, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1295,7 +1295,11 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1637153145597526659, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
+    - {fileID: 4606765269365349765, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
+    - {fileID: 9097437225282825413, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
+    - {fileID: 3297267309943502262, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1310,7 +1314,7 @@ PrefabInstance:
       addedObject: {fileID: 4929758895890438704}
     - targetCorrespondingSourceObject: {fileID: 1055470696967520, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2514678426950311224}
+      addedObject: {fileID: 234429533544375399}
     - targetCorrespondingSourceObject: {fileID: 1191111374297342, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5522903535280764348}
@@ -1432,7 +1436,7 @@ MonoBehaviour:
   enableRandomVocal: 0
   minTimeBetweenVocal: 5
   maxTimeBetweenVocal: 10
---- !u!114 &2514678426950311224
+--- !u!114 &234429533544375399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1441,23 +1445,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 3344370420155960470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f46ec8e4824b4182bbfaf6c6b56ae328, type: 3}
+  m_Script: {fileID: 11500000, guid: 6525f8c01311947448c2c1a8dc4c3996, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.Zombie
+  m_EditorClassIdentifier: Assembly-CSharp::Zombies
+  isMenu: 1
   enemyHealth: {fileID: 6574264277077880730}
   soundController: {fileID: 4929758895890438704}
-  isMenu: 1
-  maxSpeed: 0
-  timeToMaxSpeed: 2
-  emergeDuration: 1.1
-  sinkDuration: 5
-  sinkDistance: 2
-  startAnimationDelay: 0.2
+  dissolveRenderer: {fileID: 3423735006992658096}
   animator: {fileID: 3404219897205636078}
-  mRenderer: {fileID: 3423735006992658096}
-  attackRange: 0.5
+  agent: {fileID: 0}
+  player: {fileID: 0}
+  detectionRange: 15
+  attackRange: 2
+  attackCooldown: 1.5
+  wanderRadius: 6
+  wanderInterval: 3
+  emergeDuration: 2
+  sinkDuration: 2
+  sinkDistance: 2
+  startAnimationDelay: 1
   screamChance: 0.05
-  hitAnimationChance: 1
+  hitAnimationChance: 0.1
 --- !u!1 &3345130782358008884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1797037014291906, guid: bb116383f6f80bf4d90cb48aeca8e8bf, type: 3}
