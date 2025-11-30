@@ -4,15 +4,15 @@ using UnityEngine;
 public class KeypadDoorLock_Central : MonoBehaviour
 {
     [Header("Code et saisie")]
-    [SerializeField] private string correctCode = "1589";
+    [SerializeField] private string correctCode = "0609";
     private string currentCode = "";
 
     [Header("Porte")]
     [SerializeField] private DoorsOpening doorToUnlock;
 
     [Header("Sphères LED")]
-    [SerializeField] private GameObject redSphere;   // devient rouge ON/OFF
-    [SerializeField] private GameObject greenSphere; // devient verte ON/OFF
+    [SerializeField] private GameObject redSphere;
+    [SerializeField] private GameObject greenSphere;
 
     [Header("Sons")]
     [SerializeField] private AudioSource digitBeep;
@@ -24,41 +24,32 @@ public class KeypadDoorLock_Central : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("=== Keypad Setup Start ===");
 
-        // On désactive les LED au début
         if (redSphere != null) redSphere.SetActive(false);
         if (greenSphere != null) greenSphere.SetActive(false);
 
         foreach (var quad in digitQuads)
         {
-            Debug.Log("Préparation du quad : " + quad.name);
 
-            // Ajout collider si besoin
             if (!quad.TryGetComponent(out Collider col))
             {
                 col = quad.AddComponent<BoxCollider>();
-                Debug.LogWarning("BoxCollider ajouté automatiquement à " + quad.name);
             }
 
             col.isTrigger = true;
 
-            // Ajout / récupération du trigger
             if (!quad.TryGetComponent(out KeypadQuadTrigger trig))
             {
                 trig = quad.AddComponent<KeypadQuadTrigger>();
-                Debug.Log($"KeypadQuadTrigger ajouté à {quad.name}");
             }
 
             trig.Init(this, quad.name);
         }
 
-        Debug.Log("=== Keypad Setup Complete ===");
     }
 
     public void PressDigit(string digit)
     {
-        Debug.Log("DIGIT PRESSÉ : " + digit);
 
         digitBeep?.Play();
 
@@ -68,7 +59,6 @@ public class KeypadDoorLock_Central : MonoBehaviour
         {
             if (currentCode == correctCode)
             {
-                Debug.Log("CODE CORRECT !");
                 successBeep?.Play();
 
                 if (greenSphere != null) greenSphere.SetActive(true);
@@ -78,7 +68,6 @@ public class KeypadDoorLock_Central : MonoBehaviour
             }
             else
             {
-                Debug.Log("CODE FAUX !");
                 failBeep?.Play();
 
                 if (redSphere != null) redSphere.SetActive(true);
