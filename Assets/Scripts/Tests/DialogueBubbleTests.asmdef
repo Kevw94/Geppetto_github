@@ -1,0 +1,45 @@
+{
+    "name": "DialogueBubbleTests",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.TextMeshPro",
+        "Scripts",
+        "MikeNspiredXRIStarterKitr.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Android",
+        "iOS",
+        "LinuxStandalone64",
+        "macOSStandalone",
+        "macOSStandaloneServer",
+        "PS4",
+        "PS5",
+        "Switch",
+        "WebGL",
+        "WindowsStandalone32",
+        "WindowsStandalone64",
+        "XboxOne",
+        "EmbeddedLinux",
+        "CloudRendering",
+        "GameCoreScarlett",
+        "GameCoreXboxOne",
+        "tvOS",
+        "VisionOS",
+        "WSA",
+        "QNX",
+        "Kepler",
+        "ReservedCFE"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
